@@ -1,0 +1,72 @@
+---
+---
+
+@charset "utf-8";
+
+$brand-primary: #cc1051;
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "bootstrap";
+@import "../_components/font-awesome/scss/font-awesome";
+
+body {
+    min-height: 100em;
+    padding-top: 70px;
+}
+
+.navbar-default {
+    background-color: $body-bg;
+}
+
+.header-jumbotron {
+    padding-bottom: 2em;
+
+    .vertical-center {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 25em;
+    }
+
+    img {
+        width: 60%;
+        height: 60%;
+        margin: 0 auto;
+    }
+
+    & + .row {
+        background-image: url(/img/mock1.jpg);
+        min-height: 40em;
+        background-size: cover;
+        -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0, 50% 35%);
+        clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0, 50% 35%);
+
+        div[class^="col"] {
+            padding-top: 24em;
+        }
+    }
+}
+
+.btn-circle.btn-lg {
+    width: 7em;
+    height: 7em;
+    padding: 10px 16px;
+    border-radius: 3.5em;
+    padding-top: 2.5em;
+}
+
+// Last 2 rows
+.row:nth-last-child(-n+2) {
+	background-color: $brand-primary;
+    color: $body-bg;
+}
+
+// Last row
+.row:nth-last-child(2) {
+  -webkit-clip-path: polygon(0 30%, 0 100%, 100% 100%, 100% 30%, 50% 0);
+  clip-path: polygon(0 30%, 0 100%, 100% 100%, 100% 30%, 50% 0);	
+  min-height: 25em;
+  padding-top: 10em;
+}

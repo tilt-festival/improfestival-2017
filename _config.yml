@@ -1,0 +1,10 @@
+title: The Fourth International Improv Festival Tilt
+email: tilt@improfestival.ee
+description: >
+  The fourth international improv festival Tilt will happen in October 20 - 22 in Tallinn, Estonia
+baseurl: ""
+url: "http://localhost:4000"
+
+exclude: ["Gemfile","Gemfile.lock", "Dockerfile", "README.md",".travis.yml", "vendor", "node_modules"]
+
+markdown: kramdown

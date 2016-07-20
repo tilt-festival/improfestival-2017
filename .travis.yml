@@ -1,0 +1,29 @@
+sudo: required
+services:
+  - docker
+language: ruby
+rvm:
+  - 2.2
+node_js:
+  - 4.1
+
+before_install:
+  - bundle install
+  - npm install -g bower
+  - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
+  - bower install
+
+script:
+  - bundle exec jekyll build
+  - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH | tr / - ; fi`
+  - docker build -t improvjaa/improfestival-2016:$TAG .
+  - docker push improvjaa/improfestival:$TAG
+  - docker rmi improvjaa/improfestival-2016:$TAG
+
+after_script:
+  - docker logout
+
+notifications:
+  email:
+    recipients:
+      - alert@westfall.sqroot.eu
