@@ -15,6 +15,10 @@ before_install:
 
 script:
   - bundle exec jekyll build
+
+  - bundle exec htmlproofer --allow-hash-href --check-external-hash --check-favicon --check-html  _site
+  - bundle exec scss-lint _sass 
+
   - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH | tr / - ; fi`
   - docker build -t improvjaa/improfestival-2016:$TAG .
   - docker push improvjaa/improfestival:$TAG
@@ -26,4 +30,4 @@ after_script:
 notifications:
   email:
     recipients:
-      - alert@westfall.sqroot.eu
+      - ando@sqroot.eu

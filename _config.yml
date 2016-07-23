@@ -8,3 +8,7 @@ url: "http://localhost:4000"
 exclude: ["Gemfile","Gemfile.lock", "Dockerfile", "README.md",".travis.yml", "vendor", "node_modules"]
 
 markdown: kramdown
+
+social:
+  twitter: https://twitter.com/TILT_Improfest
+  facebook: https://www.facebook.com/tilt.improfestival

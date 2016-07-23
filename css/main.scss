@@ -18,7 +18,13 @@ body {
 
 .navbar-default {
     background-color: $body-bg;
+
+    .navbar-nav > li > a {
+        color: $text-color;
+        font-weight: bold;
+    }
 }
+
 
 .header-jumbotron {
     padding-bottom: 2em;
@@ -27,7 +33,7 @@ body {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        min-height: 25em;
+        min-height: 20em;
     }
 
     img {
@@ -46,6 +52,12 @@ body {
         div[class^="col"] {
             padding-top: 24em;
         }
+
+        div[class^="col"]:first-child {
+          a:hover {
+              color: $body-bg;
+          }
+        }
     }
 }
 
@@ -63,10 +75,14 @@ body {
     color: $body-bg;
 }
 
-// Last row
 .row:nth-last-child(2) {
   -webkit-clip-path: polygon(0 30%, 0 100%, 100% 100%, 100% 30%, 50% 0);
   clip-path: polygon(0 30%, 0 100%, 100% 100%, 100% 30%, 50% 0);	
-  min-height: 25em;
+  min-height: 20em;
   padding-top: 10em;
+}
+
+// Last footer row
+.row:last-child {
+    padding-bottom: 4em;
 }
