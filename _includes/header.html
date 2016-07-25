@@ -19,6 +19,17 @@
           <li><a href="#">Venues</a></li>
            <li><a href="#">Tickets</a></li>
            <li><a href="#">About Tilt</a></li>
+           <li>
+           
+{% if site.lang == "en" %}
+  {% capture link_et %}{{ site.baseurl_root }}et{{ page.url}}{% endcapture %}
+  <a href="{{ link_et }}" >{% t global.estonian %}</a>
+{% else %}
+  {% capture link_en %}{{ site.baseurl_root }}{{ page.url  }}{% endcapture %}
+  <a href="{{ link_en }}" >{% t global.english %}</a>
+{% endif %}
+           <a href="#">Est</a>
+           </li>
           </ul>
         </div>
       </div>
