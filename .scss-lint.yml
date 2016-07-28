@@ -1,0 +1,5 @@
+linters:
+  SelectorDepth:
+    max_depth: 4
+  NestingDepth:
+    max_depth: 4

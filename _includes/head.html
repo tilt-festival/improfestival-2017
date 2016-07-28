@@ -6,6 +6,6 @@
   <title>{% t global.title %}</title>
   <meta name="description" content="{% t global.description %}">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  {% css main %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>

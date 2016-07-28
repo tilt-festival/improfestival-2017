@@ -1,0 +1,74 @@
+
+body {
+  min-height: 100em;
+  padding-top: 70px;
+}
+
+.navbar-default {
+  background-color: $body-bg;
+
+  .navbar-nav > li > a {
+    color: $text-color;
+    font-weight: bold;
+  }
+}
+
+
+.header-jumbotron {
+  padding-bottom: 2em;
+
+  .vertical-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 20em;
+  }
+
+  img {
+    height: 60%;
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  + .row {
+    background-image: url(image_path('mock1.jpg'));
+    background-size: cover;
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0, 50% 35%);
+    min-height: 40em;
+
+    [class^="col"] {
+      padding-top: 24em;
+    }
+
+    [class^="col"]:first-child {
+      a:hover {
+        color: $body-bg;
+      }
+    }
+  }
+}
+
+.btn-circle.btn-lg {
+  border-radius: 3.5em;
+  height: 7em;
+  padding: 10px 16px;
+  padding-top: 2.5em;
+  width: 7em;
+}
+
+// Last 2 rows
+.row:nth-last-child(-n+2) {
+  background-color: $brand-primary;
+  color: $body-bg;
+}
+
+.row:nth-last-child(2) {
+  clip-path: polygon(0 30%, 0 100%, 100% 100%, 100% 30%, 50% 0);  
+  min-height: 20em;
+  padding-top: 10em;
+}
+
+// Last footer row
+.row:last-child {
+  padding-bottom: 4em;
+}
