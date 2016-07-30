@@ -34,18 +34,25 @@ body {
     background-image: url(image_path('mock1.jpg'));
     background-size: cover;
     clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0, 50% 35%);
-    min-height: 40em;
+    min-height: 50em;
+  }
+}
 
-    [class^="col"] {
-      padding-top: 24em;
+.row.social {
+    min-height: 20em;
+    background-color: $gray-light;
+
+    [class^="col-"] {
+      padding: 10em 5em;
     }
 
-    [class^="col"]:first-child {
-      a:hover {
-        color: $body-bg;
+    ul {
+      list-style: none;
+      padding-left: 0;
+      li {
+        font-size: 3em;
       }
     }
-  }
 }
 
 .btn-circle.btn-lg {
@@ -67,6 +74,13 @@ body {
   min-height: 20em;
   padding-top: 10em;
 }
+
+.row:nth-last-child(3) {
+    background-image: url(image_path('mock2.jpg'));
+    background-size: cover;
+    min-height: 50em;
+    margin-bottom: -10em;
+  }
 
 // Last footer row
 .row:last-child {

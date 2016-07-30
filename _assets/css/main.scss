@@ -1,7 +1,13 @@
 
 @charset 'utf-8';
 
-$brand-primary: #cc1051;
+$brand-primary: #A43A5A;
+$brand-success:         #A3CAB4;
+$brand-info:            #364883;
+$brand-warning:         #E8B329;
+$brand-danger:          #D1752F;
+$gray-light:            #CCC;
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import 'bootstrap';
