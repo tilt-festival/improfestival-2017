@@ -6,6 +6,7 @@ body {
 
 .navbar-default {
   background-color: $body-bg;
+  border-bottom: 0;
 
   .navbar-nav > li > a {
     color: $text-color;
@@ -25,15 +26,15 @@ body {
   }
 
   img {
-    height: 60%;
-    margin: 0 auto;
-    width: 60%;
+    height: 50%;
+    margin: 2em auto 0;
+    width: 50%;
   }
 
   + .row {
     background-image: url(image_path('mock1.jpg'));
     background-size: cover;
-    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0, 50% 35%);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0, 50% 20%);
     min-height: 50em;
   }
 }
@@ -44,6 +45,18 @@ body {
 
   [class^="col-"] {
     padding: 5em 2em;
+  }
+  
+  .btn-circle {
+    margin-right: 1em;
+  }
+
+  [href*="facebook"] {
+    color: $facebook-blue;
+  }
+
+  [href*="twitter"] {
+    color: $twitter-blue;
   }
 
   ul {
@@ -79,7 +92,7 @@ body {
 .row:nth-last-child(3) {
   background-image: url(image_path('mock2.jpg'));
   background-size: cover;
-  margin-bottom: -10em;
+  margin-bottom: -9em;
   min-height: 50em;
 }
 

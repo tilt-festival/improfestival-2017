@@ -16,11 +16,10 @@ assets:
   autoprefixer:
     browsers: ["last 2 versions","> 5%","IE 9"]
   cache_type: memory
-  #assets:
-  #  - "_assets/css"
-  #  - "_assets/img"
   sources:  
     - "_assets/bower/font-awesome/fonts"
+    - "_assets/bower/bootstrap-sass/assets/javascripts"
+    - "_assets/bower/jquery/dist"
 
 social:
   twitter: https://twitter.com/TILT_Improfest
