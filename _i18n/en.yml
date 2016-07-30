@@ -5,5 +5,16 @@ global:
   title_short: The 4th International Improv Festival
   english: Eng
   estonian: Est
+menu:
+  toggle: Toggle Menu
+  performers: Performers
+  schedule: Schedule
+  venues: Venues
+  tickets: Tickets
+  about: About Tilt
+titles:
+  days_count: 3 days
+  performances_count: 13 performers
+  workshops_count: 9 workshops
 footer:
   more_info: For more info, please contact tilt@improfestival.ee

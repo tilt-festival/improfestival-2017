@@ -39,20 +39,21 @@ body {
 }
 
 .row.social {
-    min-height: 20em;
-    background-color: $gray-light;
+  background-color: $gray-light;
+  min-height: 10em;
 
-    [class^="col-"] {
-      padding: 10em 5em;
-    }
+  [class^="col-"] {
+    padding: 5em 2em;
+  }
 
-    ul {
-      list-style: none;
-      padding-left: 0;
-      li {
-        font-size: 3em;
-      }
+  ul {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      font-size: 3em;
     }
+  }
 }
 
 .btn-circle.btn-lg {
@@ -76,11 +77,11 @@ body {
 }
 
 .row:nth-last-child(3) {
-    background-image: url(image_path('mock2.jpg'));
-    background-size: cover;
-    min-height: 50em;
-    margin-bottom: -10em;
-  }
+  background-image: url(image_path('mock2.jpg'));
+  background-size: cover;
+  margin-bottom: -10em;
+  min-height: 50em;
+}
 
 // Last footer row
 .row:last-child {
