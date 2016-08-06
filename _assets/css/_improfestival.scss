@@ -43,7 +43,8 @@ body {
   }
 }
 
-.row.social {
+// Generic row with a gray background
+.row.gray {
   background-color: $gray-light;
   min-height: 10em;
 
@@ -54,7 +55,11 @@ body {
   .btn-circle {
     margin-right: 1em;
   }
+}
 
+// Row with social icons and "bullet points"
+.row.social {
+  
   [href*="facebook"] {
     color: $facebook-blue;
   }
