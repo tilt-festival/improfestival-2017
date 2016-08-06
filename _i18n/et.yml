@@ -13,6 +13,8 @@ menu:
   venues: Asukohad
   tickets: Piletid
   about: Festivalist
+  sponsors: Sponsorid
+  team: Korraldajad
 titles:
   days_count: 3 päeva
   performances_count: 13 esinejat
@@ -23,6 +25,11 @@ content:
   here: siit
   rahel_quote: 'Cat ipsum dolor sit amet, tiger. Donskoy. Tiger tiger british shorthair yet mouser siamese but lion. Mouser. Tom munchkin. Kitty malkin.'
   member_of_team: korraldaja
+
+stats:
+  total_years: 4 aastat
+  total_performances: 68 etendust
+  total_workshops: 25 töötuba
 
 footer:
   more_info: Ĺisainformatsiooni saab e-maililt tilt@improfestival.ee

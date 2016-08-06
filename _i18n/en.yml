@@ -13,6 +13,14 @@ menu:
   venues: Venues
   tickets: Tickets
   about: About Tilt
+  sponsors: Sponsors
+  team: Meet the Team
+
+stats:
+  total_years: 4 years
+  total_performances: 68 performances
+  total_workshops: 25 workshops
+
 titles:
   days_count: 3 days
   performances_count: 13 performers
