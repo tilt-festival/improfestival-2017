@@ -3,6 +3,10 @@
   clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0, 50% $amount);
 }
 
+@mixin clip-up($amount: 20%) {
+  clip-path: polygon(0 $amount, 0 100%, 100% 100%, 100% $amount, 50% 0);
+}
+
 body {
   min-height: 100em;
   padding-top: 70px;
@@ -93,7 +97,7 @@ body {
 }
 
 .row:nth-last-child(2) {
-  clip-path: polygon(0 30%, 0 100%, 100% 100%, 100% 30%, 50% 0);  
+  @include clip-up(30%);
   min-height: 20em;
   padding-top: 10em;
 }
@@ -108,6 +112,20 @@ body {
 // Last footer row
 .row:last-child {
   padding-bottom: 4em;
+}
+
+
+blockquote {
+  border-left: 0;
+  font-size: 2em;
+  footer {
+    color: $gray-darker;
+  }
+}
+
+
+.row.tilt-quote {
+  clip-path: polygon(50% 0%, 100% 10%, 100% 100%, 50% 90%, 0 100%, 0% 10%);
 }
 
 .col-schedule {

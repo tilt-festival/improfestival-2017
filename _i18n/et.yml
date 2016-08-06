@@ -9,13 +9,20 @@ menu:
   toggle: Menüü
   performers: Esinejad
   schedule: Kava
+  workshops: Töötoad
   venues: Asukohad
   tickets: Piletid
   about: Festivalist
 titles:
   days_count: 3 päeva
   performances_count: 13 esinejat
-  workshops_count: 9 töötuba
+  workshops_count: 9 töötubac
+content:
+  get_ticket: Osta festivali pass
+  get_one_day_pass: Osta ühe päeva pilet
+  here: siit
+  rahel_quote: 'Cat ipsum dolor sit amet, tiger. Donskoy. Tiger tiger british shorthair yet mouser siamese but lion. Mouser. Tom munchkin. Kitty malkin.'
+  member_of_team: korraldaja
 
 footer:
   more_info: Ĺisainformatsiooni saab e-maililt tilt@improfestival.ee

@@ -43,7 +43,6 @@ layout: default
 
 
 <div class="row"><div class="col-lg-12">
-
 <h1>{%t menu.performers %}</h1>
 </div></div>
 
@@ -55,7 +54,7 @@ layout: default
 
 	<div class="col-xs-12 col-md-4 col-lg-2 col-schedule">
 		<h2 class="text-center">{{ performer.name }} / {{ performer.country}}</h2>
-		<img src="https://placekitten.com/600/800" alt="{{ performer.name }}" class="img-responsive center-block" />
+		<img src="https://placekitten.com/g/600/800" alt="{{ performer.name }}" class="img-responsive center-block" />
 	</div>
 
 {% if index == 'six' %}
@@ -74,12 +73,14 @@ layout: default
 <a href="#" class="btn btn-lg btn-circle btn-primary">{% t menu.about %}</a>
 </div>
 <div class="col-sm-8 col-lg-8">
-<p class="lead">Get a festival ticket <a href="#">here <i class="fa fa-chevron-right" aria-hidden="true"></i></a></p>
-<p class="lead">Get a 1-day pass <a href="#">here <i class="fa fa-chevron-right" aria-hidden="true"></i></a></p>
+<p class="lead">{% t content.get_ticket %} <a href="#">{% t content.here %} <i class="fa fa-chevron-right" aria-hidden="true"></i></a></p>
+<p class="lead">{% t content.get_one_day_pass %} <a href="#">{% t content.here %} <i class="fa fa-chevron-right" aria-hidden="true"></i></a></p>
 </div>
 </div>
 
-<h1>Workshops</h1>
+<div class="row"><div class="col-lg-12">
+<h1>{% t menu.workshops %}</h1>
+</div></div>
 
 <div class="row">
 {% for workshop in site.data.workshops %}
@@ -87,7 +88,7 @@ layout: default
 
 	<div class="col-xs-12 col-md-4 col-lg-2 col-schedule">
 		<h2 class="text-center">{{ workshop.title }} - {{ workshop.instructor }} / {{ workshop.country}}</h2>
-		<img src="https://placekitten.com/600/800" alt="{{ workshop.instructor }}" class="img-responsive center-block" />
+		<img src="https://placekitten.com/g/600/800" alt="{{ workshop.instructor }}" class="img-responsive center-block" />
 	</div>
 
 {% if index == 'six' %}
@@ -102,7 +103,7 @@ layout: default
 
 
 
-<div class="row gray">
+<div class="row gray tilt-quote">
 <div class="col-sm-4 col-lg-4">
 <a href="#" class="btn btn-lg btn-circle btn-warning">{% t menu.schedule %}</a>
 <a href="#" class="btn btn-lg btn-circle btn-info">{% t menu.tickets %}</a>
@@ -112,12 +113,29 @@ layout: default
 <div class="col-sm-8 col-lg-8">
 
 <blockquote>
-	<p>Participating in Tilt has changed my life all over. Each year I am so grateful to be part of this epic. This baby here truly is my firstbon child.</p>
-	<img src="https://placekitten.com/400/400" alt="Rahel Otsa" class="img-responsive img-circle pull-right img-circle" />
-	<footer><cite>Rahel Otsa</cite>, a member of the team</footer>
+	<p>{% t content.rahel_quote %}</p>
+	<img src="https://placekitten.com/g/400/400" alt="Rahel Otsa" class="img-responsive img-circle pull-right img-circle" />
+	<footer><cite>Rahel Otsa</cite>, {% t content.member_of_team %}</footer>
 </blockquote>
 
 </div>
 </div>
 
+<div class="row">
+	<div class="col-lg-12">
+<h1>{% t menu.schedule %}</h1>
 
+<div class="table-responsive">
+<table class="table">
+	{% for item in site.data.performers %}
+		<tr>
+			<td>{{ item.start }} - {{ item.end }}</td>
+			<td>{{ item.name }}</td>
+			<td><a href="#">①</a></td>
+			<td><a href="#">T</a></td>
+		</tr>
+	{% endfor %}
+</table>
+</div>
+	</div>
+</div>
