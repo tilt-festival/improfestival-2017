@@ -1,4 +1,8 @@
 
+@mixin clip-down($amount: 20%) {
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0, 50% $amount);
+}
+
 body {
   min-height: 100em;
   padding-top: 70px;
@@ -34,8 +38,8 @@ body {
   + .row {
     background-image: url(image_path('mock1.jpg'));
     background-size: cover;
-    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0, 50% 20%);
     min-height: 50em;
+    @include clip-down;
   }
 }
 
@@ -99,4 +103,11 @@ body {
 // Last footer row
 .row:last-child {
   padding-bottom: 4em;
+}
+
+.col-schedule {
+
+  img {
+    @include clip-down(5%);
+  }
 }
