@@ -40,10 +40,10 @@ body {
   }
 
   + .row {
+    @include clip-down;
     background-image: url(image_path('mock1.jpg'));
     background-size: cover;
     min-height: 50em;
-    @include clip-down;
   }
 }
 
@@ -118,6 +118,7 @@ body {
 blockquote {
   border-left: 0;
   font-size: 2em;
+
   footer {
     color: $gray-darker;
   }
