@@ -52,7 +52,7 @@ layout: default
 
 
 <div class="row">
-    {% for performer in site.data.performers %}
+    {% for performer in site.data.performances %}
     {% capture index %}{% cycle 'one', 'two', 'three', 'four', 'five', 'six' %}{% endcapture %}
 
     <div class="col-xs-12 col-md-4 col-lg-2 col-schedule">
@@ -134,7 +134,7 @@ layout: default
 
         <div class="table-responsive">
             <table class="table">
-                {% for item in site.data.performers %}
+                {% for item in site.data.performances %}
                 <tr>
                     <td>{{ item.start }} - {{ item.end }}</td>
                     <td>{{ item.name }}</td>
