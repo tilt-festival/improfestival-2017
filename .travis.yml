@@ -9,15 +9,9 @@ node_js:
 
 before_install:
   - bundle install
-  - npm install -g bower yamljs
+  - npm install -g bower
   - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
   - bower install
-
-before_script:
-  # Convert show and workshop listings into web-usable JSON files
-  - mkdir data
-  - yaml2json _data/performances.yaml > data/performances.json
-  - yaml2json _data/workshops.yaml > data/workshops.json
 
 script:
   - JEKYLL_ENV=production bundle exec jekyll build

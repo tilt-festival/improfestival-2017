@@ -91,13 +91,27 @@ layout: default
 </div>
 
 <div class="row">
-    {% for workshop in site.data.workshops %}
+    {% for workshop in site.workshops %}
     {% capture index %}{% cycle 'one', 'two', 'three', 'four', 'five', 'six' %}{% endcapture %}
 
     <div class="col-xs-12 col-md-4 col-lg-2 col-schedule">
         <h2 class="text-center">{{ workshop.title }} - {{ workshop.instructor }} / {{ workshop.country}}</h2>
-        <img src="https://placekitten.com/g/600/800" alt="{{ workshop.instructor }}"
+        <img src="{{ workshop.image }}" alt="{{ workshop.instructor }}"
              class="img-responsive center-block"/>
+
+        <button class="snipcart-add-item"
+                data-item-name="{{ workshop.title }}"
+                data-item-id="{{ workshop.path | remove: '_workshops/' | remove: '.md' }}"
+                data-item-image="{{ workshop.image }}"
+                data-item-url="{{ site.url }}"
+                data-item-max-quantity="1"
+                data-item-stackable="false"
+                data-item-shippable="false"
+                data-item-price="{{ workshop.price }}">
+            Take workshop
+        </button>
+
+
     </div>
 
     {% if index == 'six' %}
