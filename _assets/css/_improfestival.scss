@@ -66,18 +66,62 @@ body {
   
   [href*="facebook"] {
     color: $facebook-blue;
+
+    :hover {
+      color: darken($facebook-blue, 20%);
+    }
   }
 
   [href*="twitter"] {
     color: $twitter-blue;
+
+    :hover {
+      color: darken($twitter-blue, 20%);
+    }
   }
 
+  [href*="instagram"] {
+    color: $gray-darker;
+
+    :hover {
+      color: darken($gray-darker, 20%);
+    }
+  }
+
+  [href*="youtube"] {
+    color: $youtube-red;
+
+    :hover {
+      color: darken($youtube-red, 20%);
+    }
+  }
   ul {
     list-style: none;
     padding-left: 0;
 
     li {
       font-size: 3em;
+    }
+  }
+}
+
+.modal-header {
+  border-bottom: 0;
+}
+
+.modal-body {
+  padding: 0 2em 2em 2em;
+}
+button {
+  &.close {
+    padding: .5em;
+    opacity: .7;
+    background-color: $youtube-red;
+    color: $body-bg;
+
+    &:hover {
+      opacity: 1;
+      color: $body-bg;
     }
   }
 }
@@ -91,18 +135,19 @@ body {
 }
 
 // Last 2 rows
-.row:nth-last-child(-n+2) {
+.row.footer-dates,
+.row.footer-contact {
   background-color: $brand-primary;
   color: $body-bg;
 }
 
-.row:nth-last-child(2) {
+.row.footer-dates {
   @include clip-up(30%);
   min-height: 20em;
   padding-top: 10em;
 }
 
-.row:nth-last-child(3) {
+.row.footer-bg {
   background-image: url(image_path('mock2.jpg'));
   background-size: cover;
   margin-bottom: -9em;
@@ -110,7 +155,7 @@ body {
 }
 
 // Last footer row
-.row:last-child {
+.row.footer-contact {
   padding-bottom: 4em;
 }
 
@@ -124,7 +169,10 @@ blockquote {
   }
 }
 
-
+.row-buffer-top {
+  margin-top: 2em;
+  padding-bottom: 2em;
+}
 .row.tilt-quote {
   clip-path: polygon(50% 0%, 100% 10%, 100% 100%, 50% 90%, 0 100%, 0% 10%);
 }
@@ -132,7 +180,11 @@ blockquote {
 .col-schedule {
 
   img {
-    @include clip-down(5%);
+    @include clip-down(10%);
+  }
+
+  a {
+   color: $text-color;
   }
 }
 

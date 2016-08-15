@@ -15,6 +15,7 @@ menu:
   about: Festivalist
   sponsors: Sponsorid
   team: Korraldajad
+  close: Sulge
 titles:
   days_count: 3 päeva
   performances_count: 13 esinejat
@@ -25,6 +26,7 @@ content:
   here: siit
   rahel_quote: 'Cat ipsum dolor sit amet, tiger. Donskoy. Tiger tiger british shorthair yet mouser siamese but lion. Mouser. Tom munchkin. Kitty malkin.'
   member_of_team: korraldaja
+  buy_ticket: Osta Pilet
 
 stats:
   total_years: 4 aastat

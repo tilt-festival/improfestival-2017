@@ -15,6 +15,7 @@ menu:
   about: About Tilt
   sponsors: Sponsors
   team: Meet the Team
+  close: Close
 
 stats:
   total_years: 4 years
@@ -31,5 +32,6 @@ content:
   here: here
   rahel_quote: 'Participating in Tilt has changed my life all over. Each year I am so grateful to be part of this epic. This baby here truly is my firstbon child.'
   member_of_team: a member of the team
+  buy_ticket: Buy Ticket
 footer:
   more_info: For more info, please contact tilt@improfestival.ee

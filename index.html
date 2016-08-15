@@ -21,53 +21,10 @@ layout: default
     <div class="col-lg-12">&nbsp;</div>
 </div>
 
-<div class="row gray social">
-    <div class="col-sm-2 col-lg-3">
-        <a href="{{ site.social.facebook }}" target="_blank" class="btn btn-lg"><i
-                class="fa fa-facebook-square fa-5x"></i></a>
-        <a href="{{ site.social.twitter }}" target="_blank" class="btn btn-lg"><i
-                class="fa fa-twitter-square fa-5x"></i></a>
-        <a href="{{ site.social.ical }}" target="_blank" class="btn btn-lg"><i class="fa fa-calendar fa-5x"></i></a>
-    </div>
-    <div class="col-sm-4 col-lg-5">
-        <ul class="list-unstyled">
-            <li>{% t titles.days_count %}</li>
-            <li>{% t titles.performances_count %}</li>
-            <li>{% t titles.workshops_count %}</li>
-        </ul>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-        <a href="#" class="btn btn-lg btn-circle btn-success">{% t menu.performers %}</a>
-        <a href="#" class="btn btn-lg btn-circle btn-danger">{% t menu.schedule %}</a>
-        <a href="#" class="btn btn-lg btn-circle btn-warning">{% t menu.tickets %}</a>
-    </div>
-</div>
+{% include sections/social.html %}
 
 
-<div class="row">
-    <div class="col-lg-12">
-        <h1>{%t menu.performers %}</h1>
-    </div>
-</div>
-
-
-<div class="row">
-    {% for performer in site.data.performances %}
-    {% capture index %}{% cycle 'one', 'two', 'three', 'four', 'five', 'six' %}{% endcapture %}
-
-    <div class="col-xs-12 col-md-4 col-lg-2 col-schedule">
-        <h2 class="text-center">{{ performer.name }} / {{ performer.country}}</h2>
-        <img src="https://placekitten.com/g/600/800" alt="{{ performer.name }}" class="img-responsive center-block"/>
-    </div>
-
-    {% if index == 'six' %}
-</div>
-<div class="row">
-    {% endif %}
-
-    {% endfor %}
-</div>
-
+{% include sections/performances.html %}
 
 <div class="row gray">
     <div class="col-sm-4 col-lg-4">
@@ -84,44 +41,7 @@ layout: default
     </div>
 </div>
 
-<div class="row">
-    <div class="col-lg-12">
-        <h1>{% t menu.workshops %}</h1>
-    </div>
-</div>
-
-<div class="row">
-    {% for workshop in site.workshops %}
-    {% capture index %}{% cycle 'one', 'two', 'three', 'four', 'five', 'six' %}{% endcapture %}
-
-    <div class="col-xs-12 col-md-4 col-lg-2 col-schedule">
-        <h2 class="text-center">{{ workshop.title }} - {{ workshop.instructor }} / {{ workshop.country}}</h2>
-        <img src="{{ workshop.image }}" alt="{{ workshop.instructor }}"
-             class="img-responsive center-block"/>
-
-        <button class="snipcart-add-item"
-                data-item-name="{{ workshop.title }}"
-                data-item-id="{{ workshop.path | remove: '_workshops/' | remove: '.md' }}"
-                data-item-image="{{ workshop.image }}"
-                data-item-url="{{ site.url }}"
-                data-item-max-quantity="1"
-                data-item-stackable="false"
-                data-item-shippable="false"
-                data-item-price="{{ workshop.price }}">
-            Take workshop
-        </button>
-
-
-    </div>
-
-    {% if index == 'six' %}
-</div>
-<div class="row">
-    {% endif %}
-
-    {% endfor %}
-</div>
-
+{% include sections/workshops.html %}
 
 <div class="row gray tilt-quote">
     <div class="col-sm-4 col-lg-4">
@@ -142,72 +62,10 @@ layout: default
     </div>
 </div>
 
-<div class="row">
-    <div class="col-lg-12">
-        <h1>{% t menu.schedule %}</h1>
+{% include sections/schedule.html %}
+{% include sections/map.html %}
+{% include sections/tickets.html %}
 
-        <div class="table-responsive">
-            <table class="table">
-                {% for item in site.data.performances %}
-                <tr>
-                    <td>{{ item.start }} - {{ item.end }}</td>
-                    <td>{{ item.name }}</td>
-                    <td><a href="#">①</a></td>
-                    <td><a href="#">T</a></td>
-                </tr>
-                {% endfor %}
-            </table>
-        </div>
-    </div>
-</div>
-
-
-<div class="row">
-    <div class="col-lg-12">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe frameborder="0" class="google-map"
-                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJI85H_Z2UkkYRZx02RG2bMqk&key=AIzaSyD6Kzhc_8zfrM_HZ_OKRtRi4V80yWltY0o"
-                    allowfullscreen></iframe>
-        </div>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-lg-12">
-        <h1>{% t menu.tickets %}</h1>
-
-        <p>Cat ipsum dolor sit amet, intrigued by the shower and licks your face. Paw at your fat belly use lap as
-            chair. Who's the baby sleep on keyboard. Gnaw the corn cob. Leave fur on owners clothes flee in terror at
-            cucumber discovered on floor kitty power! sleep on keyboard, and fall asleep on the washing machine for rub
-            face on owner, licks your face. Asdflkjaertvlkjasntvkjn (sits on keyboard) shove bum in owner's face like
-            camera lens attack dog, run away and pretend to be victim yet refuse to drink water except out of someone's
-            glass. Eat owner's food scratch the furniture spread kitty litter all over house yet tuxedo cats always
-            looking dapper. Loves cheeseburgers. Lie on your belly and purr when you are asleep missing until dinner
-            time lay on arms while you're using the keyboard lick butt and make a weird face lies down but climb a tree,
-            wait for a fireman jump to fireman then scratch his face pelt around the house and up and down stairs
-            chasing phantoms. Meowzer! sleep nap swat at dog. Eat the fat cats food scamper. The dog smells bad find
-            something else more interesting, stare at ceiling chase imaginary bugs then cats take over the world curl
-            into a furry donut. Sniff other cat's butt and hang jaw half open thereafter. Thug cat leave fur on owners
-            clothes sweet beast stare out the window thinking longingly about tuna brine yet present belly, scratch hand
-            when stroked play riveting piece on synthesizer keyboard. Hopped up on catnip cough furball sleep on dog
-            bed, force dog to sleep on floor lick yarn hanging out of own butt leave hair everywhere lounge in doorway.
-            Meowing non stop for food i am the best and human give me attention meow find something else more
-            interesting sleep nap but eat owner's food. Human is washing you why halp oh the horror flee scratch hiss
-            bite sit in box. Stretch chase imaginary bugs get video posted to internet for chasing red dot my left donut
-            is missing, as is my right chase after silly colored fish toys around the house for run outside as soon as
-            door open. Poop in litter box, scratch the walls. The dog smells bad put toy mouse in food bowl run out of
-            litter box at full speed i like big cats and i can not lie. Swat at dog pee in the shoe. Gnaw the corn cob
-            stare at ceiling kick up litter drink water out of the faucet and paw at your fat belly for leave dead
-            animals as gifts, but you call this cat food?. Shake treat bag fall over dead (not really but gets sypathy)
-            when in doubt, wash sun bathe bathe private parts with tongue then lick owner's face for meowing non stop
-            for food so meowing non stop for food.</p>
-        <p class="lead">{% t content.get_ticket %} <a href="#">{% t content.here %} <i class="fa fa-chevron-right"
-                                                                                       aria-hidden="true"></i></a></p>
-        <p class="lead">{% t content.get_one_day_pass %} <a href="#">{% t content.here %} <i class="fa fa-chevron-right"
-                                                                                             aria-hidden="true"></i></a>
-        </p>
-    </div>
-</div>
 
 
 <div class="row gray tilt-quote">
@@ -230,55 +88,7 @@ layout: default
     </div>
 </div>
 
-<div class="row">
-    <div class="col-lg-12">
-        <h1>{% t menu.sponsors %}</h1>
-        <p>Cat ipsum dolor sit amet, intrigued by the shower and licks your face. Paw at your fat belly use lap as
-            chair. Who's the baby sleep on keyboard. Gnaw the corn cob. Leave fur on owners clothes flee in terror at
-            cucumber discovered on floor kitty power! sleep on keyboard, and fall asleep on the washing machine for rub
-            face on owner, licks your face. Asdflkjaertvlkjasntvkjn (sits on keyboard) shove bum in owner's face like
-            camera lens attack dog, run away and pretend to be victim yet refuse to drink water except out of someone's
-            glass. Eat owner's food scratch the furniture spread kitty litter all over house yet tuxedo cats always
-            looking dapper. Loves cheeseburgers. Lie on your belly and purr when you are asleep missing until dinner
-            time lay on arms while you're using the keyboard lick butt and make a weird face lies down but climb a tree,
-            wait for a fireman jump to fireman then scratch his face pelt around the house and up and down stairs
-            chasing phantoms. Meowzer! sleep nap swat at dog. Eat the fat cats food scamper. The dog smells bad find
-            something else more interesting, stare at ceiling chase imaginary bugs then cats take over the world curl
-            into a furry donut. Sniff other cat's butt and hang jaw half open thereafter. Thug cat leave fur on owners
-            clothes sweet beast stare out the window thinking longingly about tuna brine yet present belly, scratch hand
-            when stroked play riveting piece on synthesizer keyboard. Hopped up on catnip cough furball sleep on dog
-            bed, force dog to sleep on floor lick yarn hanging out of own butt leave hair everywhere lounge in doorway.
-            Meowing non stop for food i am the best and human give me attention meow find something else more
-            interesting sleep nap but eat owner's food. Human is washing you why halp oh the horror flee scratch hiss
-            bite sit in box. Stretch chase imaginary bugs get video posted to internet for chasing red dot my left donut
-            is missing, as is my right chase after silly colored fish toys around the house for run outside as soon as
-            door open. Poop in litter box, scratch the walls. The dog smells bad put toy mouse in food bowl run out of
-            litter box at full speed i like big cats and i can not lie. Swat at dog pee in the shoe. Gnaw the corn cob
-            stare at ceiling kick up litter drink water out of the faucet and paw at your fat belly for leave dead
-            animals as gifts, but you call this cat food?. Shake treat bag fall over dead (not really but gets sypathy)
-            when in doubt, wash sun bathe bathe private parts with tongue then lick owner's face for meowing non stop
-            for food so meowing non stop for food. </p>
-
-        <img src="https://placekitten.com/g/300/300" alt="sponsor"
-             class="img-circle"/>
-        <img src="https://placekitten.com/g/300/300" alt="sponsor"
-             class="img-circle"/>
-        <img src="https://placekitten.com/g/300/300" alt="sponsor"
-             class="img-circle"/>
-        <img src="https://placekitten.com/g/300/300" alt="sponsor"
-             class="img-circle"/>
-        <img src="https://placekitten.com/g/300/300" alt="sponsor"
-             class="img-circle"/>
-        <img src="https://placekitten.com/g/300/300" alt="sponsor"
-             class="img-circle"/>
-        <img src="https://placekitten.com/g/300/300" alt="sponsor"
-             class="img-circle"/>
-        <img src="https://placekitten.com/g/300/300" alt="sponsor"
-             class="img-circle"/>
-        <img src="https://placekitten.com/g/300/300" alt="sponsor"
-             class="img-circle"/>
-    </div>
-</div>
+{% include sections/sponsors.html %}
 
 <div class="row">
     <div class="col-lg-12">
@@ -305,24 +115,11 @@ layout: default
     </div>
 </div>
 
+{% include sections/team.html %}
 
-<div class="row">
-    <div class="col-lg-12">
-        <h1>{% t menu.team %}</h1>
 
-        {% for staff in site.data.team %}
-        <div class="media">
-            <div class="media-left">
-                <a href="#">
-                    <img class="media-object" src="https://placekitten.com/g/250/250" alt="sponsor" />
-                </a>
-            </div>
-            <div class="media-body">
-                <h4 class="media-heading">{{ staff.name }}</h4>
-                <p>{{ staff.about }}</p>
-            </div>
-        </div>
-        {% endfor %}
 
-    </div>
-</div>
+<!-- Modals -->
+{% for performer in site.performances %}
+    {% include modals/performance.html %}
+{% endfor %}

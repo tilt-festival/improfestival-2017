@@ -1,0 +1,19 @@
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1>{% t menu.schedule %}</h1>
+
+        <div class="table-responsive">
+            <table class="table">
+                {% for item in site.data.performances %}
+                <tr>
+                    <td>{{ item.start }} - {{ item.end }}</td>
+                    <td>{{ item.name }}</td>
+                    <td><a href="#">①</a></td>
+                    <td><a href="#">T</a></td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+</div>

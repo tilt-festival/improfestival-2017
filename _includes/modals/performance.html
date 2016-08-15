@@ -1,0 +1,34 @@
+<div class="modal fade" id="modal-{{ performer.slug }}" tabindex="-1" role="dialog" aria-labelledby="modal-title-{{ performer.slug }}">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="{% t menu.close %}"><span aria-hidden="true">&times;</span></button>
+                <h1 class="modal-title" id="modal-title-{{ performer-slug }}">{% t menu.performers %}</h1>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h2 class="text-center">{{ performer.name }}<br />{{ performer.country}}</h2>
+                    </div>
+                    <div class="col-lg-8">
+                        <h2 class="text-right">{{ performer.date | date_to_string }} at {{ performer.start }} in {{ performer.venue }}</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="{{ performer.image }}" alt="{{ performer.name }}" class="img-responsive img-thumbnail center-block"/>
+                    </div>
+                    <div class="col-lg-8 text-justify">
+                        {{ performer.content }}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8"></div>
+                    <div class="col-lg-4">
+                        <a href="#" class="btn btn-lg btn-circle btn-info pull-right">{% t content.buy_ticket %}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
