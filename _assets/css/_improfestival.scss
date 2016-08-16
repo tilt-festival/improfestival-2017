@@ -95,6 +95,7 @@ body {
       color: darken($youtube-red, 20%);
     }
   }
+
   ul {
     list-style: none;
     padding-left: 0;
@@ -110,18 +111,19 @@ body {
 }
 
 .modal-body {
-  padding: 0 2em 2em 2em;
+  padding: 0 2em 2em;
 }
+
 button {
   &.close {
-    padding: .5em;
-    opacity: .7;
     background-color: $youtube-red;
     color: $body-bg;
+    opacity: .7;
+    padding: .5em;
 
     &:hover {
-      opacity: 1;
       color: $body-bg;
+      opacity: 1;
     }
   }
 }
@@ -173,6 +175,7 @@ blockquote {
   margin-top: 2em;
   padding-bottom: 2em;
 }
+
 .row.tilt-quote {
   clip-path: polygon(50% 0%, 100% 10%, 100% 100%, 50% 90%, 0 100%, 0% 10%);
 }
@@ -184,7 +187,7 @@ blockquote {
   }
 
   a {
-   color: $text-color;
+    color: $text-color;
   }
 }
 
