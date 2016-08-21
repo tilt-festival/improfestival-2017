@@ -182,12 +182,16 @@ blockquote {
 
 .table-tickets {
   tbody {
-  tr {
-  td {
-    border-top: 0;
+    tr {
+      td {
+        border-top: 0;
+      }
+    }
   }
-  }
-  }
+}
+
+.img-grayscale {
+  filter: grayscale(100%);
 }
 
 .col-schedule {

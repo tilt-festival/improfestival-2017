@@ -26,6 +26,8 @@ assets:
     - "_assets/bower/bootstrap-sass/assets/javascripts"
     - "_assets/bower/jquery/dist"
     - "_assets/bower"
+  features:
+   automatic_img_size: false
 
 social:
   twitter: https://twitter.com/TILT_Improfest
