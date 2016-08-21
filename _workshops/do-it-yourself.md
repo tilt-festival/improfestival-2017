@@ -1,10 +1,10 @@
 ---
-start: 15.00
-end: 18.00
+start: 2016-10-20 15:00
+end: 2016-10-20 18:00
 date: 2016-10-20
-title: Do-It-Yourself
+title: workshops.titles.do_it_yourself
 country: grc
-instructor: Menelaos Prokos
+name: Menelaos Prokos
 image: https://placekitten.com/g/200/300
 price: 20
 ---

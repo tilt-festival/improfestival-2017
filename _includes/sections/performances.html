@@ -8,17 +8,16 @@
     {% for performer in site.performances %}
     {% capture index %}{% cycle 'one', 'two', 'three', 'four', 'five', 'six' %}{% endcapture %}
 
-    <div class="col-xs-12 col-md-4 col-lg-2 col-schedule">
-        <h2 class="text-center">
+    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 col-schedule">
+        <h3 style="min-height: 3.2em" class="text-center">
             <a href="#" data-toggle="modal" data-target="#modal-{{ performer.slug }}">{{ performer.name }}
                 <br />
-                {{ performer.country}}</a>
-        </h2>
+                {{ performer.country | upcase }}</a>
+        </h3>
         <a href="#" data-toggle="modal" data-target="#modal-{{ performer.slug }}">
             <img src="https://placekitten.com/g/800/600" alt="{{ performer.name }}" class="img-responsive center-block"/>
         </a>
     </div>
-
     {% if index == 'six' %}
 </div>
 <div class="row row-buffer-top">

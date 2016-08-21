@@ -1,7 +1,8 @@
 ---
-start: 21.15
-end: 21.45
+start: 2016-10-21 21:15
+end: 2016-10-21 21:45
 name: Phil Lunn
+title: performances.titles.phil_lunn
 country: gbr
 tickets:
   - 8

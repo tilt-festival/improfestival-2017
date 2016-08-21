@@ -1,0 +1,43 @@
+<div class="modal fade" id="modal-{{ workshop.slug }}" tabindex="-1" role="dialog" aria-labelledby="modal-title-{{ workshop.slug }}">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="{% t menu.close %}"><span aria-hidden="true">&times;</span></button>
+                <h1 class="modal-title" id="modal-title-{{ workshop.slug }}">{% t menu.workshops %}</h1>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h2 class="text-center">{{ workshop.title }}<br />{{ workshop.country}}</h2>
+                    </div>
+                    <div class="col-lg-8">
+                        <h2 class="text-right">{{ workshop.date | date_to_string }} at {{ workshop.start }}</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="{{ workshop.image }}" alt="{{ workshop.title }}" class="img-responsive img-thumbnail center-block"/>
+                    </div>
+                    <div class="col-lg-8 text-justify">
+                        {{ workshop.content }}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8"></div>
+                    <div class="col-lg-4">
+                        <button class="snipcart-add-item btn btn-lg btn-circle btn-info pull-right"
+                                data-item-name="{{ workshop.title }}"
+                                data-item-id="{{ workshop.path | remove: '_workshops/' | remove: '.md' }}"
+                                data-item-image="{{ workshop.image }}"
+                                data-item-url="{{ site.url }}"
+                                data-item-max-quantity="1"
+                                data-item-stackable="false"
+                                data-item-shippable="false"
+                                data-dismiss="modal"
+                                data-item-price="{{ workshop.price }}">{% t content.buy_ticket %}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

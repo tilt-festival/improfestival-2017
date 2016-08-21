@@ -1,7 +1,8 @@
 ---
-start: 20.30
-end: 21.15
+start: 2016-10-20 20:30
+end: 2016-10-20 21:15
 name: Mischler, Meijer & More
+title: performances.titles.mischler_meijer_more
 country: nld
 tickets:
   - 10

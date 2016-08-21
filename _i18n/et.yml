@@ -27,11 +27,38 @@ content:
   rahel_quote: 'Cat ipsum dolor sit amet, tiger. Donskoy. Tiger tiger british shorthair yet mouser siamese but lion. Mouser. Tom munchkin. Kitty malkin.'
   member_of_team: korraldaja
   buy_ticket: Osta Pilet
+  read_more: Loe edasi
 
 stats:
   total_years: 4 aastat
   total_performances: 68 etendust
   total_workshops: 25 töötuba
+
+workshops:
+  titles:
+    50_characters_in_3_hours: 50 Characters in 3 Hours
+    comic_devices: Comic Devices
+    do_it_yourself: Do-It-Yourself
+    game_of_thrones_on_stage: 'Game of Thrones: On Stage'
+    gender_laboratory: Gender Laboratory
+    physical_improv: Physical Improv
+    silence_is_golden: Silence Is Golden
+    we_dont_need_no_language: We Don't Need No Language
+
+performances:
+  titles:
+    eesti_improteater: Impromuusikal
+    improbanden: Salajased Pihtimused
+    improteater_impeerium: Matused
+    improvisers_of_tilt: Sõnamulin
+    jaa_improteater: Kontakt
+    kogu_moos: Kollaž
+    lamabati: Igapäevane Nõiakunst
+    mischler_meijer_more: Tagasi Olevikku
+    phil_lunn: Phil Lunn on...
+    ruutu10: Tänased Uudised
+    scent_id: Stockholmi Sündroom
+    trickle_improv: Tasakaalust Väljas
 
 footer:
   more_info: Ĺisainformatsiooni saab e-maililt tilt@improfestival.ee

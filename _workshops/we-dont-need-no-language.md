@@ -1,10 +1,10 @@
 ---
-start: 10.00
-end: 14.00
+start: 2016-10-21 10:00
+end: 2016-10-21 14:00
 date: 2016-10-21
-title: We don't need no language 
+title: workshops.titles.we_dont_need_no_language 
 country: reu
-instructor: Keng-Sam Chane Chick Té
+name: Keng-Sam Chane Chick Té
 image: https://placekitten.com/g/200/300
 price: 20
 ---

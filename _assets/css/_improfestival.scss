@@ -180,6 +180,16 @@ blockquote {
   clip-path: polygon(50% 0%, 100% 10%, 100% 100%, 50% 90%, 0 100%, 0% 10%);
 }
 
+.table-tickets {
+  tbody {
+  tr {
+  td {
+    border-top: 0;
+  }
+  }
+  }
+}
+
 .col-schedule {
 
   img {

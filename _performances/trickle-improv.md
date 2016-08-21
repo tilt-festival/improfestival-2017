@@ -1,7 +1,8 @@
 ---
-start: 20.30
-end: 21.00
-name: Trickle improv
+start: 2016-10-21 20:30
+end: 2016-10-21 21:00
+name: Trickle Improv
+title: performances.titles.trickle_improv
 country: bel
 tickets:
   - 8

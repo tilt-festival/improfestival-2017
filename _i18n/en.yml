@@ -22,6 +22,31 @@ stats:
   total_performances: 68 performances
   total_workshops: 25 workshops
 
+workshops:
+  titles:
+    50_characters_in_3_hours: 50 Characters in 3 Hours
+    comic_devices: Comic Devices
+    do_it_yourself: Do-It-Yourself
+    game_of_thrones_on_stage: 'Game of Thrones: On Stage'
+    gender_laboratory: Gender Laboratory
+    physical_improv: Physical Improv
+    silence_is_golden: Silence Is Golden
+    we_dont_need_no_language: We Don't Need No Language
+performances:
+  titles:
+    eesti_improteater: Improv musical
+    improbanden: Secret Confessions
+    improteater_impeerium: Funerals
+    improvisers_of_tilt: Gromeleu
+    jaa_improteater: Contact
+    kogu_moos: Collage
+    lamabati: Everyday Magic
+    mischler_meijer_more: Back to the Present
+    phil_lunn: Phil Lunn is...
+    ruutu10: Todays News
+    scent_id: Stockholm Syndrome
+    trickle_improv: Off Balance
+
 titles:
   days_count: 3 days
   performances_count: 13 performers
@@ -33,5 +58,6 @@ content:
   rahel_quote: 'Participating in Tilt has changed my life all over. Each year I am so grateful to be part of this epic. This baby here truly is my firstbon child.'
   member_of_team: a member of the team
   buy_ticket: Buy Ticket
+  read_more: Read more
 footer:
   more_info: For more info, please contact tilt@improfestival.ee
