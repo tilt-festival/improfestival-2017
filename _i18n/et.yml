@@ -12,7 +12,6 @@ menu:
   workshops: Töötoad
   venues: Asukohad
   tickets: Piletid
-  about: Festivalist
   sponsors: Sponsorid
   team: Korraldajad
   close: Sulge
@@ -24,8 +23,6 @@ content:
   get_ticket: Osta festivali pass
   get_one_day_pass: Osta ühe päeva pilet
   here: siit
-  rahel_quote: 'Cat ipsum dolor sit amet, tiger. Donskoy. Tiger tiger british shorthair yet mouser siamese but lion. Mouser. Tom munchkin. Kitty malkin.'
-  member_of_team: korraldaja
   buy_ticket: Osta Pilet
   read_more: Loe edasi
 

@@ -1,7 +1,6 @@
-
 <div class="row">
     <div class="col-lg-12">
-        <h1>{% t menu.workshops %}</h1>
+        <h1 id="workshops">{% t menu.workshops %}</h1>
     </div>
 </div>
 
@@ -10,14 +9,14 @@
     {% capture index %}{% cycle 'one', 'two', 'three', 'four', 'five', 'six' %}{% endcapture %}
 
     <div class="col-xs-12 col-md-4 col-lg-2 col-schedule">
-        <h2 class="text-center">
+        <h4 class="text-center">
             <a href="#" data-toggle="modal" data-target="#modal-{{ workshop.slug }}">
-                {{ workshop.name }}<br />{{ workshop.instructor }} <br /> {{ workshop.country | upcase }}</a>
-        </h2>
+                {{ workshop.name }}<br/>{% t workshop.title %} <br/> {{ workshop.country | upcase }}</a>
+        </h4>
 
         <a href="#" data-toggle="modal" data-target="#modal-{{ workshop.slug }}">
             <img src="{{ workshop.image }}" alt="{{ workshop.name }}"
-             class="img-responsive center-block"/></a>
+                 class="img-responsive center-block"/></a>
     </div>
 
     {% if index == 'six' %}

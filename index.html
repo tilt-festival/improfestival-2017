@@ -27,40 +27,23 @@ layout: default
 {% include sections/performances.html %}
 
 <div class="row gray">
-    <div class="col-sm-4 col-lg-4">
-        <a href="#" class="btn btn-lg btn-circle btn-warning">{% t menu.schedule %}</a>
-        <a href="#" class="btn btn-lg btn-circle btn-info">{% t menu.tickets %}</a>
-        <a href="#" class="btn btn-lg btn-circle btn-primary">{% t menu.about %}</a>
+    <div class="col-sm-4 col-lg-6">
+        <a href="#schedule" class="btn btn-lg btn-circle btn-warning">{% t menu.schedule %}</a>
+        <a href="#tickets" class="btn btn-lg btn-circle btn-info">{% t menu.tickets %}</a>
+        <a href="#team" class="btn btn-lg btn-circle btn-primary">{% t menu.team %}</a>
     </div>
-    <div class="col-sm-8 col-lg-8">
-        <p class="lead">{% t content.get_ticket %} <a href="#">{% t content.here %} <i class="fa fa-chevron-right"
+    <div class="col-sm-8 col-lg-6">
+        <p class="lead text-right">{% t content.get_ticket %} <a href="#">{% t content.here %} <i class="fa fa-chevron-right"
                                                                                        aria-hidden="true"></i></a></p>
-        <p class="lead">{% t content.get_one_day_pass %} <a href="#">{% t content.here %} <i class="fa fa-chevron-right"
+        <p class="lead text-right">{% t content.get_one_day_pass %} <a href="#">{% t content.here %} <i class="fa fa-chevron-right"
                                                                                              aria-hidden="true"></i></a>
         </p>
     </div>
 </div>
 
 {% include sections/workshops.html %}
+{% include sections/quotes.html %}
 
-<div class="row gray tilt-quote">
-    <div class="col-sm-4 col-lg-4">
-        <a href="#" class="btn btn-lg btn-circle btn-warning">{% t menu.schedule %}</a>
-        <a href="#" class="btn btn-lg btn-circle btn-info">{% t menu.tickets %}</a>
-        <a href="#" class="btn btn-lg btn-circle btn-danger">{% t menu.performers %}</a>
-        <a href="#" class="btn btn-lg btn-circle btn-primary">{% t menu.about %}</a>
-    </div>
-    <div class="col-sm-8 col-lg-8">
-
-        <blockquote>
-            <p>{% t content.rahel_quote %}</p>
-            <img src="https://placekitten.com/g/400/400" alt="Rahel Otsa"
-                 class="img-responsive img-circle pull-right"/>
-            <footer><cite>Rahel Otsa</cite>, {% t content.member_of_team %}</footer>
-        </blockquote>
-
-    </div>
-</div>
 
 {% include sections/schedule.html %}
 {% include sections/map.html %}
@@ -70,22 +53,21 @@ layout: default
 
 <div class="row gray tilt-quote">
     <div class="col-sm-4 col-lg-4">
-        <a href="#" class="btn btn-lg btn-circle btn-warning">{% t menu.schedule %}</a>
-        <a href="#" class="btn btn-lg btn-circle btn-info">{% t menu.tickets %}</a>
-        <a href="#" class="btn btn-lg btn-circle btn-danger">{% t menu.performers %}</a>
-        <a href="#" class="btn btn-lg btn-circle btn-primary">{% t menu.about %}</a>
+        <a href="#schedule" class="btn btn-lg btn-circle btn-warning">{% t menu.schedule %}</a>
+        <a href="#tickets" class="btn btn-lg btn-circle btn-info">{% t menu.tickets %}</a>
+        <a href="#performers" class="btn btn-lg btn-circle btn-danger">{% t menu.performers %}</a>
+        <a href="#team" class="btn btn-lg btn-circle btn-primary">{% t menu.team %}</a>
     </div>
-    <div class="col-sm-8 col-lg-8">
+    <div class="col-sm-8 col-lg-6">
 
         <blockquote>
             <p>I love Tallinn so much I'm thinking about retiring here and bringing all of my 14 dogs with me. Of course
                 they all would love Tilt, especially if it's about food.</p>
-            <img src="https://placekitten.com/g/500/500" alt="Jane"
-                 class="img-responsive img-circle pull-right"/>
             <footer><cite>Jane</cite>, a true fan</footer>
         </blockquote>
-
     </div>
+    <div class="col-lg-2">      <img src="https://placekitten.com/g/500/500" alt="Jane"
+                                     class="img-responsive img-circle pull-right"/></div>
 </div>
 
 {% include sections/sponsors.html %}
@@ -99,18 +81,20 @@ layout: default
 
 <div class="row gray">
     <div class="col-lg-6">
-        <ul class="list-unstyled">
+        <ul class="list-unstyled lead">
             <li>{% t stats.total_years %}</li>
             <li>{% t stats.total_performances %}</li>
             <li>{% t stats.total_workshops %}</li>
         </ul>
     </div>
     <div class="col-lg-6">
-        <ul class="list-unstyled">
-            <li>2013</li>
-            <li>2014</li>
-            <li>2015</li>
-            <li>{% t menu.team %}</li>
+        <ul class="list-unstyled lead pull-right">
+            <li>
+                <a href="https://2013.improfestival.ee" target="_blank">2013</a>
+            </li>
+            <li><a href="https://2014.improfestival.ee" target="_blank">2014</a></li>
+            <li><a href="https://2015.improfestival.ee" target="_blank">2015</a></li>
+            <li><a href="#team">{% t menu.team %}</a></li>
         </ul>
     </div>
 </div>

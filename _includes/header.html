@@ -1,4 +1,4 @@
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" id="nav-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -11,15 +11,14 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-left">
             <li>
-              <a href="#">{% t menu.performers %}</a>
+              <a href="#performers">{% t menu.performers %}</a>
             </li>
-              <li><a href="#">{% t menu.workshops %}</a></li>
-            <li><a href="#">{% t menu.schedule %}</a></li>
+              <li><a href="#workshops">{% t menu.workshops %}</a></li>
+            <li><a href="#schedule">{% t menu.schedule %}</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-           <li><a href="#">{% t menu.tickets %}</a></li>
-           <li><a href="#">{% t menu.sponsors %}</a></li>
-           <li><a href="#">{% t menu.about %}</a></li>
+           <li><a href="#tickets">{% t menu.tickets %}</a></li>
+           <li><a href="#sponsors">{% t menu.sponsors %}</a></li>
            <li>
            
 {% if site.lang == "en" %}

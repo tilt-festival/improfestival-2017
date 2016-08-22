@@ -12,7 +12,6 @@ menu:
   workshops: Workshops
   venues: Venues
   tickets: Tickets
-  about: About Tilt
   sponsors: Sponsors
   team: Meet the Team
   close: Close
@@ -55,8 +54,6 @@ content:
   get_ticket: Get a festival ticket
   get_one_day_pass: Get a 1-day pass
   here: here
-  rahel_quote: 'Participating in Tilt has changed my life all over. Each year I am so grateful to be part of this epic. This baby here truly is my firstbon child.'
-  member_of_team: a member of the team
   buy_ticket: Buy Ticket
   read_more: Read more
 footer:
