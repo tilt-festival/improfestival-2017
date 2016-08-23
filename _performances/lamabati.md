@@ -7,7 +7,7 @@ country: isr
 tickets:
   - 10
   - 12
-image: https://placekitten.com/g/800/600
+image: performers/lamabati.jpg
 venue: soprus
 ticket_url: 
 date: 2016-10-22

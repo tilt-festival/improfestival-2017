@@ -5,6 +5,6 @@ date: 2016-10-22
 title: workshops.titles.physical_improv
 name: Daniel Renwick
 country: aus/est
-image: https://placekitten.com/g/200/300
+image: workshops/daniel.jpg
 price: 20
 ---

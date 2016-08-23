@@ -5,6 +5,6 @@ date: 2016-10-22
 title: workshops.titles.gender_laboratory
 name: Hila Di Castro
 country: isr
-image: https://placekitten.com/g/200/300
+image: workshops/hila.jpg
 price: 20
 ---

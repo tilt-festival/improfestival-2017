@@ -5,6 +5,6 @@ date: 2016-10-20
 title: workshops.titles.do_it_yourself
 country: grc
 name: Menelaos Prokos
-image: https://placekitten.com/g/200/300
+image: workshops/menelaos-1.jpg
 price: 20
 ---

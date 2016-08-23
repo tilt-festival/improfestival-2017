@@ -16,7 +16,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
-                        <img src="{{ workshop.image }}" alt="{{ workshop.title }}" class="img-responsive img-thumbnail center-block"/>
+                        {% img '{{ workshop.image }}' alt:'{{ workshop.name }}' class:'img-responsive img-thumbnail center-block' %}
                     </div>
                     <div class="col-lg-8 text-justify">
                         {{ workshop.content }}

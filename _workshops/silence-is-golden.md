@@ -5,7 +5,7 @@ date: 2016-10-20
 title: workshops.titles.silence_is_golden    
 country: fin
 name: Kaisa Kokko
-image: https://placekitten.com/g/200/300
+image: workshops/kaisa-1.jpg
 price: 20
 ---
 

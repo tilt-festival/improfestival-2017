@@ -5,6 +5,6 @@ date: 2016-10-22
 title: workshops.titles.comic_devices
 country: usa
 name: Kevin Scott
-image: https://placekitten.com/g/200/300
+image: workshops/kevin.jpg
 price: 20
 ---

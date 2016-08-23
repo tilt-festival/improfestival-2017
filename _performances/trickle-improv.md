@@ -7,7 +7,7 @@ country: bel
 tickets:
   - 8
   - 10
-image: https://placekitten.com/g/800/600
+image: performers/trickle-1.jpg
 venue: soprus
 ticket_url: 
 date: 2016-10-21

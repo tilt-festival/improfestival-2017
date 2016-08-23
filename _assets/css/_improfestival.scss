@@ -24,6 +24,14 @@ body {
   }
 }
 
+.map-container {
+  height: 30em;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+}
 
 .header-jumbotron {
   padding-bottom: 2em;
@@ -160,7 +168,7 @@ button {
   background-image: url(image_path('mock2.jpg'));
   background-size: cover;
   margin-bottom: -9em;
-  min-height: 50em;
+  min-height: 30em;
 }
 
 // Last footer row
@@ -206,8 +214,13 @@ blockquote {
 
 .col-schedule {
 
+  h3 {
+    min-height: 3em;
+  }
+
   img {
     @include clip-down(10%);
+    height: 300px;
   }
 
   a {

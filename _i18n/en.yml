@@ -13,7 +13,7 @@ menu:
   venues: Venues
   tickets: Tickets
   sponsors: Sponsors
-  team: Meet the Team
+  team: Team
   close: Close
 
 stats:
@@ -56,5 +56,6 @@ content:
   here: here
   buy_ticket: Buy Ticket
   read_more: Read more
+  meet_tilt_team: Meet the Tilt Team
 footer:
   more_info: For more info, please contact tilt@improfestival.ee
