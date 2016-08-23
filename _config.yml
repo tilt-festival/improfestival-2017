@@ -12,6 +12,7 @@ sass:
 gems: 
  - jekyll-assets
  - jekyll-multiple-languages-plugin
+ - jekyll-coffeescript
 
 collections:
   - workshops

@@ -13,4 +13,5 @@ gem 'autoprefixer-rails'
 group :jekyll_plugins do
   gem 'jekyll-assets', '~> 2.2.8'
   gem 'jekyll-multiple-languages-plugin', '~>1.4'
+  gem 'jekyll-coffeescript'
 end
