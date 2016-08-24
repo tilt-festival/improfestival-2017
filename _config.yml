@@ -16,6 +16,7 @@ gems:
 
 collections:
   - workshops
+  - team
   - performances
 
 assets:

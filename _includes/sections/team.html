@@ -4,10 +4,10 @@
     </div>
 </div>
 <div class="row">
-    {% for staff in site.data.team %}
+    {% for staff in site.team %}
     <div class="col-lg-2">
-        <a href="#">
-            {% img 'team/{{ staff.image }}' alt:staff.name class:'img-circle img-responsive img-grayscale' %}
+        <a href="#" data-toggle="modal" data-target="#modal-{{ staff.slug }}">
+            {% img '{{ staff.image }}' alt:'{{ staff.name }}' class:'img-circle img-responsive img-grayscale' %}
         </a>
         <h3 class="text-center">{{ staff.name }}</h3>
     </div>
