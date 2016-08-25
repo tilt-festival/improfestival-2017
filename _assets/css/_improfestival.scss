@@ -51,7 +51,7 @@ body {
 
   + .row {
     @include clip-down;
-    background-image: url(image_path('mock1.jpg'));
+    background-image: url(image_path('header.jpg'));
     background-size: cover;
     min-height: 30em;
   }
@@ -165,7 +165,7 @@ button {
 }
 
 .row.footer-bg {
-  background-image: url(image_path('mock2.jpg'));
+  background-image: url(image_path('footer.jpg'));
   background-size: cover;
   margin-bottom: -9em;
   min-height: 30em;
