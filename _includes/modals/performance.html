@@ -11,7 +11,9 @@
                         <h2 class="text-center">{{ performer.name }}<br />{{ performer.country}}</h2>
                     </div>
                     <div class="col-lg-8">
-                        <h2 class="text-right">{{ performer.date | date_to_string }} at {{ performer.start }} in {{ performer.venue }}</h2>
+                        {% assign month = performer.start | date: '%B' | downcase | prepend: "month." %}
+                        <h2 class="text-right">{{ performer.start | date: '%d' }} {% t month %} {% t content.at_oclock %}
+                            {{ performer.start | date: '%H:%M' }} {% t content.in_location %} {{ performer.venue }}</h2>
                     </div>
                 </div>
                 <div class="row">

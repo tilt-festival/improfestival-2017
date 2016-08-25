@@ -8,7 +8,7 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="col-lg-4">
-                        <h2 class="text-center">{{ workshop.title }}<br />{{ workshop.country}}</h2>
+                        <h2 class="text-center">{% t workshop.title %}<br />{{ workshop.country}}</h2>
                     </div>
                     <div class="col-lg-8">
                         <h2 class="text-right">{{ workshop.date | date_to_string }} at {{ workshop.start }}</h2>

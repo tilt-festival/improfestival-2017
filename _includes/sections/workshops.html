@@ -6,20 +6,20 @@
 
 <div class="row">
     {% for workshop in site.workshops %}
-    {% capture index %}{% cycle 'one', 'two', 'three', 'four', 'five', 'six' %}{% endcapture %}
+    {% capture index %}{% cycle 'one', 'two', 'three', 'four' %}{% endcapture %}
 
-    <div class="col-xs-12 col-md-4 col-lg-2 col-schedule">
+    <div class="col-xs-12 col-md-4 col-lg-3 col-schedule">
         <h4 class="text-center">
             <a href="#" data-toggle="modal" data-target="#modal-{{ workshop.slug }}">
                 {{ workshop.name }}<br/>{% t workshop.title %} <br/> {{ workshop.country | upcase }}</a>
         </h4>
 
         <a href="#" data-toggle="modal" data-target="#modal-{{ workshop.slug }}">
-            {% img '{{ workshop.image }}' alt:'{{ workshop.name }}' class:'img-responsive img-thumbnail center-block' %}
+            {% img '{{ workshop.image }}' alt:'{{ workshop.name }}' class:'img-responsive center-block' %}
         </a>
     </div>
 
-    {% if index == 'six' %}
+    {% if index == 'four' %}
 </div>
 <div class="row">
     {% endif %}

@@ -15,6 +15,21 @@ menu:
   sponsors: Sponsorid
   team: Korraldajad
   close: Sulge
+
+month:
+  january: January
+  february: February
+  march: March
+  april: April
+  may: May
+  june: June
+  july: July
+  august: August
+  september: September
+  october: Oktoober
+  november: November
+  december: December
+
 titles:
   days_count: 3 päeva
   performances_count: 13 esinejat
@@ -26,6 +41,8 @@ content:
   buy_ticket: Osta Pilet
   read_more: Loe edasi
   meet_tilt_team: Tilti aitavad korraldada
+  at_oclock: kell
+  in_location: asukohas
 
 stats:
   total_years: 4 aastat
@@ -59,4 +76,4 @@ performances:
     trickle_improv: Tasakaalust Väljas
 
 footer:
-  more_info: Ĺisainformatsiooni saab e-maililt tilt@improfestival.ee
+  more_info: Lisainformatsiooni saab e-maililt tilt@improfestival.ee

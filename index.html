@@ -32,7 +32,7 @@ layout: default
         <a href="#tickets" class="btn btn-lg btn-circle btn-info">{% t menu.tickets %}</a>
         <a href="#team" class="btn btn-lg btn-circle btn-primary">{% t menu.team %}</a>
     </div>
-    <div class="col-sm-8 col-lg-6">
+    <div class="col-sm-8 col-lg-5 col-lg-pull-1">
         <p class="lead text-right">{% t content.get_ticket %} <a href="#">{% t content.here %} <i class="fa fa-chevron-right"
                                                                                        aria-hidden="true"></i></a></p>
         <p class="lead text-right">{% t content.get_one_day_pass %} <a href="#">{% t content.here %} <i class="fa fa-chevron-right"
@@ -42,34 +42,11 @@ layout: default
 </div>
 
 {% include sections/workshops.html %}
-{% include sections/quotes.html %}
-
-
+{% include sections/quotes1.html %}
 {% include sections/schedule.html %}
 {% include sections/map.html %}
 {% include sections/tickets.html %}
-
-
-
-<div class="row gray tilt-quote">
-    <div class="col-sm-4 col-lg-4">
-        <a href="#schedule" class="btn btn-lg btn-circle btn-warning">{% t menu.schedule %}</a>
-        <a href="#tickets" class="btn btn-lg btn-circle btn-info">{% t menu.tickets %}</a>
-        <a href="#performers" class="btn btn-lg btn-circle btn-danger">{% t menu.performers %}</a>
-        <a href="#team" class="btn btn-lg btn-circle btn-primary">{% t menu.team %}</a>
-    </div>
-    <div class="col-sm-8 col-lg-6">
-
-        <blockquote>
-            <p>I love Tallinn so much I'm thinking about retiring here and bringing all of my 14 dogs with me. Of course
-                they all would love Tilt, especially if it's about food.</p>
-            <footer><cite>Jane</cite>, a true fan</footer>
-        </blockquote>
-    </div>
-    <div class="col-lg-2">      <img src="https://placekitten.com/g/500/500" alt="Jane"
-                                     class="img-responsive img-circle pull-right"/></div>
-</div>
-
+{% include sections/quotes2.html %}
 {% include sections/sponsors.html %}
 
 <div class="row">

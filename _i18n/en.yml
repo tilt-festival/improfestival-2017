@@ -21,6 +21,19 @@ stats:
   total_performances: 68 performances
   total_workshops: 25 workshops
 
+month:
+  january: January
+  february: February
+  march: March
+  april: April
+  may: May
+  june: June
+  july: July
+  august: August
+  september: September
+  october: October
+  november: November
+  december: December
 workshops:
   titles:
     50_characters_in_3_hours: 50 Characters in 3 Hours
@@ -57,5 +70,7 @@ content:
   buy_ticket: Buy Ticket
   read_more: Read more
   meet_tilt_team: Meet the Tilt Team
+  at_oclock: at
+  in_location: in
 footer:
   more_info: For more info, please contact tilt@improfestival.ee

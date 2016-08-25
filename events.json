@@ -1,0 +1,5 @@
+---
+---
+{% assign all_events = site.workshops | a_concat: site.performances | sort: 'start' %}
+
+{{ all_events | jsonify }}
