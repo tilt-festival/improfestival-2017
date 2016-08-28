@@ -4,17 +4,18 @@
         <h1 id="performers">{%t menu.performers %}</h1>
     </div>
 </div>
+
 <div class="row">
     {% for performer in site.performances %}
     {% capture index %}{% cycle 'one', 'two', 'three', 'four' %}{% endcapture %}
 
     <div class="col-xs-6 col-sm-4 col-md-2 col-lg-3 col-schedule">
         <h3 class="text-center">
-            <a href="#" data-toggle="modal" data-target="#modal-details" data-remote="{{ performer.url }}">{{ performer.name }}
+            <a href="{{ performer.url }}" data-toggle="modal" data-target="#modal-details">{{ performer.name }}
                 <br />
                 {{ performer.country | upcase }}</a>
         </h3>
-        <a href="#" data-toggle="modal" data-target="#modal-details" data-remote="{{ performer.url }}">
+        <a href="{{ performer.url }}" data-toggle="modal" data-target="#modal-details">
             {% img '{{ performer.image }}' alt:'{{ performer.name }}' class:'img-responsive center-block' %}
         </a>
     </div>

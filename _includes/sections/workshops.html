@@ -10,11 +10,11 @@
 
     <div class="col-xs-12 col-md-4 col-lg-3 col-schedule">
         <h4 class="text-center">
-            <a href="#" data-toggle="modal" data-target="#modal-details" data-remote="{{ workshop.url }}">
+            <a href="{{ workshop.url }}" data-toggle="modal" data-target="#modal-details">
                 {{ workshop.name }}<br/>{% t workshop.title %} <br/> {{ workshop.country | upcase }}</a>
         </h4>
 
-        <a href="#" data-toggle="modal" data-target="#modal-details" data-remote="{{ workshop.url }}">
+        <a href="{{ workshop.url }}" data-toggle="modal" data-target="#modal-details">
             {% img '{{ workshop.image }}' alt:'{{ workshop.name }}' class:'img-responsive center-block' %}
         </a>
     </div>

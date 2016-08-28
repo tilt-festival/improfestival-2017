@@ -28,3 +28,8 @@ $ ->
     offset: -60
     speed: 800
 
+  $('[data-toggle="modal"').on 'click', (e) ->
+    e.preventDefault()
+    url = $(this).attr('href')
+    $('#modal-details').find('.modal-content').load url
+

@@ -5,7 +5,7 @@ $btn-circle-size: 6em;
 }
 
 @mixin clip-up($amount: 20%) {
-  clip-path: polygon(0 $amount, 0 100%, 100% 100%, 100% $amount, 50% 0);
+  clip-path: polygon(0 $amount, 0 101%, 100% 101%, 100% $amount, 50% 0);
 }
 
 body {
@@ -230,8 +230,17 @@ h3 {
 
 .col-schedule {
 
-  h3 {
-    min-height: 3em;
+    h3 {
+      display: table;
+      height: 3em;
+      margin-bottom: .2em;
+      width: 100%;
+
+      a {
+        display: table-cell;
+        text-align: center;
+        vertical-align: bottom;
+      }
   }
 
   img {
