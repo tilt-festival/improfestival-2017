@@ -12,3 +12,5 @@ venue: soprus
 ticket_url: 
 date: 2016-10-21
 ---
+
+{% tf performances/ruutu10.md %}

@@ -13,7 +13,12 @@ venue: soprus
 ticket_url:
 ---
 
-The Collage combines different art forms into one complete improv long-form show. Inspiration is taken from music, films, TV shows, games and theatre.
-Imagine yourself watching a TV-series.... but... you then choose a song blindly from the choice of four differerent songs, which will be performed live and that will inspire the whole show. 
+{% tf performances/kogu-moos.md %}
 
-Kogu Moos is a company of improvisers with very different backgrounds who have joined their love and efforts towards improv to discover together the staircases of life, cheerful and dark, naive and ironic, romantic and realistic... As in case of themselves, they embrace also in improv it's diversity and the collaboration of it's different sides. 
+<a href="http://improv.ee/trupid/kogu-moos/" target="_blank" class="btn btn-info">
+    <i class="fa fa-external-link"></i> improv.ee/trupid/kogu-moos
+</a>
+
+<a href="http://www.facebook.com/KoguMoos" target="_blank" class="btn btn-info">
+    <i class="fa fa-facebook"></i> facebook.com/KoguMoos
+</a>
