@@ -7,4 +7,7 @@ name: Rod Ben Zeev
 country: ndl
 image: workshops/rod.jpg
 price: 20
+venue: soprus
 ---
+
+Workshop info here

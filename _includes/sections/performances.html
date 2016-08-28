@@ -10,11 +10,11 @@
 
     <div class="col-xs-6 col-sm-4 col-md-2 col-lg-3 col-schedule">
         <h3 class="text-center">
-            <a href="#" data-toggle="modal" data-target="#modal-{{ performer.slug }}">{{ performer.name }}
+            <a href="#" data-toggle="modal" data-target="#modal-details" data-remote="{{ performer.url }}">{{ performer.name }}
                 <br />
                 {{ performer.country | upcase }}</a>
         </h3>
-        <a href="#" data-toggle="modal" data-target="#modal-{{ performer.slug }}">
+        <a href="#" data-toggle="modal" data-target="#modal-details" data-remote="{{ performer.url }}">
             {% img '{{ performer.image }}' alt:'{{ performer.name }}' class:'img-responsive center-block' %}
         </a>
     </div>

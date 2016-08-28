@@ -7,4 +7,5 @@ name: Hila Di Castro
 country: isr
 image: workshops/hila.jpg
 price: 20
+venue: soprus
 ---

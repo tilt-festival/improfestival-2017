@@ -7,4 +7,5 @@ country: reu
 name: Keng-Sam Chane Chick Té
 image: workshops/keng-1.jpg
 price: 20
+venue: soprus
 ---

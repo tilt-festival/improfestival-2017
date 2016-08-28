@@ -14,10 +14,30 @@ gems:
  - jekyll-multiple-languages-plugin
  - jekyll-coffeescript
 
+defaults:
+  - scope:
+      path: ""
+      type: team
+    values:
+      layout: team
+  - scope:
+      path: ""
+      type: workshops
+    values:
+      layout: workshop
+  - scope:
+      path: ""
+      type: performances
+    values:
+      layout: performance
+
 collections:
-  - workshops
-  - team
-  - performances
+  workshops:
+    output: true
+  team:
+    output: true
+  performances:
+    output: true
 
 assets:
   autoprefixer:

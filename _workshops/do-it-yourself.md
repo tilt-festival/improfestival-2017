@@ -7,4 +7,5 @@ country: grc
 name: Menelaos Prokos
 image: workshops/menelaos-1.jpg
 price: 20
+venue: soprus
 ---

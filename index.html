@@ -79,16 +79,9 @@ layout: default
 {% include sections/team.html %}
 
 
-
-<!-- Modals -->
-{% for performer in site.performances %}
-    {% include modals/performance.html %}
-{% endfor %}
-
-{% for workshop in site.workshops %}
-    {% include modals/workshop.html %}
-{% endfor %}
-
-{% for staff in site.team %}
-    {% include modals/staff.html %}
-{% endfor %}
+<div class="modal fade" id="modal-details" tabindex="-1" role="dialog" aria-labelledby="modal-details-title">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+        </div>
+    </div>
+</div>

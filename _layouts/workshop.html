@@ -1,3 +1,6 @@
+---
+layout: empty
+---
 <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-label="{% t menu.close %}"><span
             aria-hidden="true">&times;</span></button>
@@ -6,7 +9,7 @@
 <div class="modal-body">
     <div class="row">
         <div class="col-lg-4">
-            <h2 class="text-center">{{ page.name }}<br/>{{ page.country}}</h2>
+            <h2 class="text-center">{% t page.title %}<br/>{{ page.country}}</h2>
         </div>
         <div class="col-lg-8">
             {% assign month = page.start | date: '%B' | downcase | prepend: "month." %}
@@ -16,8 +19,7 @@
     </div>
     <div class="row">
         <div class="col-lg-4">
-            {% img '{{ page.image }}' alt:'{{ page.name }}' class:'img-responsive img-thumbnail center-block'
-            %}
+            {% img '{{ page.image }}' alt:'{{ page.name }}' class:'img-responsive img-thumbnail center-block' %}
         </div>
         <div class="col-lg-8 text-justify">
             {{ page.content }}
@@ -26,7 +28,17 @@
     <div class="row">
         <div class="col-lg-8"></div>
         <div class="col-lg-4">
-            <a href="#" class="btn btn-lg btn-circle btn-info pull-right">{% t content.buy_ticket %}</a>
+            <button class="snipcart-add-item btn btn-lg btn-circle btn-info pull-right"
+                    data-item-name="{{ page.title }}"
+                    data-item-id="{{ page.path | remove: '_pages/' | remove: '.md' }}"
+                    data-item-image="{{ page.image }}"
+                    data-item-url="{{ site.url }}"
+                    data-item-max-quantity="1"
+                    data-item-stackable="false"
+                    data-item-shippable="false"
+                    data-dismiss="modal"
+                    data-item-price="{{ page.price }}">{% t content.buy_ticket %}
+            </button>
         </div>
     </div>
 </div>

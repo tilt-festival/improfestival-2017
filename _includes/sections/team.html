@@ -6,7 +6,7 @@
 <div class="row">
     {% for staff in site.team %}
     <div class="col-lg-2">
-        <a href="#" data-toggle="modal" data-target="#modal-{{ staff.slug }}">
+        <a href="#" data-toggle="modal" data-target="#modal-details" data-remote="{{ staff.url }}">
             {% img '{{ staff.image }}' alt:'{{ staff.name }}' class:'img-circle img-responsive img-grayscale' %}
         </a>
         <h3 class="text-center">{{ staff.name }}</h3>

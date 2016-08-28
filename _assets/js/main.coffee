@@ -27,3 +27,4 @@ $ ->
   $('a[href^="#"]').smoothScroll
     offset: -60
     speed: 800
+

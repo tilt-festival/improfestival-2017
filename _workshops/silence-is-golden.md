@@ -7,6 +7,7 @@ country: fin
 name: Kaisa Kokko
 image: workshops/kaisa-1.jpg
 price: 20
+venue: soprus
 ---
 
 English

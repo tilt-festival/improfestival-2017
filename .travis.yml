@@ -15,7 +15,7 @@ before_install:
 
 script:
   - real-favicon generate _assets/img/faviconDescription.json /dev/null .
-  - JEKYLL_ENV=production bundle exec jekyll build
+  - JEKYLL_ENV=production bundle exec jekyll build --future
 
   - bundle exec htmlproofer --allow-hash-href --disable-external --check-html  _site
   - bundle exec scss-lint _assets/css
