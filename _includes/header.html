@@ -23,10 +23,10 @@
            
 {% if site.lang == "en" %}
   {% capture link_et %}{{ site.baseurl_root }}et{{ page.url}}{% endcapture %}
-  <a href="{{ link_et }}" >{% t global.estonian %}</a>
+  <a href="{{ link_et }}">{% t global.estonian %}</a>
 {% else %}
   {% capture link_en %}{{ site.baseurl_root }}{{ page.url  }}{% endcapture %}
-  <a href="{{ link_en }}" >{% t global.english %}</a>
+  <a href="{{ link_en }}">{% t global.english %}</a>
 {% endif %}
            </li>
           </ul>
