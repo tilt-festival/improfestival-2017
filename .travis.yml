@@ -9,17 +9,17 @@ node_js:
 
 before_install:
   - bundle install
-  - npm install -g bower
+  - npm install -g bower cli-real-favicon
   - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
   - bower install
 
 script:
+  - real-favicon generate _assets/img/faviconDescription.json /dev/null .
   - JEKYLL_ENV=production bundle exec jekyll build
 
   - bundle exec htmlproofer --allow-hash-href --disable-external --check-html  _site
   - bundle exec scss-lint _assets/css
-  - bundle exec yaml-lint _data
-  - bundle exec yaml-lint _data _i18n/*.yml .travis.yml _config.yml
+  - bundle exec yaml-lint _i18n/*.yml .travis.yml _config.yml
 
   - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH | tr / - ; fi`
   - docker build -t improvjaa/improfestival-2016:$TAG .
