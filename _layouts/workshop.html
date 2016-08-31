@@ -29,9 +29,9 @@ layout: empty
         <div class="col-lg-8"></div>
         <div class="col-lg-4">
             <button class="snipcart-add-item btn btn-lg btn-circle btn-info pull-right"
-                    data-item-name="{{ page.title }}"
+                    data-item-name="{% t page.title %}"
                     data-item-id="{{ page.path | remove: '_pages/' | remove: '.md' }}"
-                    data-item-image="{{ page.image }}"
+                    data-item-image="/assets/{{ page.image }}"
                     data-item-url="{{ site.url }}"
                     data-item-max-quantity="1"
                     data-item-stackable="false"
