@@ -30,6 +30,17 @@ $ ->
 
   $('[data-toggle="modal"').on 'click', (e) ->
     e.preventDefault()
-    url = $(this).attr('href')
+    url = $(this).data('href') ? $(this).attr('href')
     $('#modal-details').find('.modal-content').load url
 
+
+  $('.row-equal-height [class^="col-"]').matchHeight()
+
+  $('.table-tickets tr').hover ->
+    image = $(this).data 'image'
+    url = $(this).find('a').attr 'href'
+
+    row = $(this).closest('.row').find('.col-day-info')
+
+    row.find('img').attr 'src', "/assets/#{image}"
+    row.find('a').attr 'href', url

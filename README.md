@@ -6,7 +6,14 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/improvjaa/improfestival-2016.svg?maxAge=2592000)](https://hub.docker.com/r/improvjaa/improfestival-2016/)
 [![GitHub release](https://img.shields.io/github/release/improv-jaa/improfestival-2016.svg?maxAge=2592000)](https://github.com/improv-jaa/improfestival-2016/releases)
 
-This is the homepage for the 3rd international improv festival Tilt (2016).
+This is the homepage for the 4th international improv festival Tilt (2016).
+
+## Managing Content
+
+### Performances and Workshops
+
+Performance (workshop) details (ticket prices, locations) can be edited from files in `_performances/` (`_workshops`) folder. One file per performance.
+Translated body of the event is in `_i18n/<lang>/performances/` folder. 
 
 ## Requirements
 
@@ -21,6 +28,12 @@ docker run -p 80:80 improvjaa/improfestival-2016
 ```
 
 This will start a Nginx webserver image listening on port 80.
+
+## Development
+
+* Install Jekyll: `gem install jekyll`
+* Install gems: `bundle install`
+* Run Jekyll server: `bundle exec jekyll serve`
 
 ## Authors
 

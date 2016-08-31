@@ -5,16 +5,16 @@
     </div>
 </div>
 
-<div class="row">
+<div class="row row-equal-height">
     {% for performer in site.performances %}
     {% capture index %}{% cycle 'one', 'two', 'three', 'four' %}{% endcapture %}
 
     <div class="col-xs-6 col-sm-4 col-md-2 col-lg-3 col-schedule">
-        <h3 class="text-center">
+        <h4 class="text-center">
             <a href="{{ performer.url }}" data-toggle="modal" data-target="#modal-details">{{ performer.name }}
                 <br />
                 {{ performer.country | upcase }}</a>
-        </h3>
+        </h4>
         <a href="{{ performer.url }}" data-toggle="modal" data-target="#modal-details">
             {% img '{{ performer.image }}' alt:'{{ performer.name }}' class:'img-responsive center-block' %}
         </a>

@@ -95,6 +95,14 @@ body {
     }
   }
 
+  [href*="ical"] {
+    color: $google-calendar-blue;
+
+    :hover {
+      color: darken($google-calendar-blue, 20%);
+    }
+  }
+
   [href*="instagram"] {
     color: $gray-darker;
 
@@ -203,6 +211,8 @@ blockquote {
 .table-tickets {
   tbody {
     tr {
+      cursor: pointer;
+
       td {
         border-top: 0;
       }
@@ -228,12 +238,21 @@ h3 {
   }
 }
 
+.col-day-info {
+
+  img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+}
+
 .col-schedule {
 
-  h3 {
+  h4 {
     display: table;
     height: 3em;
-    margin-bottom: .2em;
+    margin-top: 1em;
     width: 100%;
 
     a {
@@ -246,6 +265,8 @@ h3 {
   img {
     @include clip-down(10%);
     height: 20em;
+    object-fit: cover;
+    width: 100%;
   }
 
   a {
