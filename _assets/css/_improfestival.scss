@@ -95,7 +95,7 @@ body {
     }
   }
 
-  [href*="ical"] {
+  [href$="ics"] {
     color: $google-calendar-blue;
 
     :hover {

@@ -1,0 +1,22 @@
+---
+---
+{% assign all_events = site.workshops | a_concat: site.performances | sort: 'start' %}
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//{{ site.url }}//Tilt Festival 2016//EN
+METHOD:PUBLISH
+{% for event in all_events %}BEGIN:VEVENT
+UID:{{ event.id }}
+ORGANIZER;CN="Tilt Festival":MAILTO:info@improfestival.ee
+LOCATION:{{ event.venue }}
+SUMMARY:{% t event.title %}
+DESCRIPTION:{{ event.content | strip_newlines }}
+URL:{{ site.url }}
+CLASS:PUBLIC
+DTSTART:{{ event.start | date: "%Y%m%dT%H%M%S" }}
+DTEND:{{ event.end | date: "%Y%m%dT%H%M%S" }}
+DTSTAMP:{{ event.start | date: "%Y%m%dT%H%M%S" }}
+END:VEVENT
+{% endfor %}
+END:VCALENDAR
+

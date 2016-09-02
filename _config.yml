@@ -1,8 +1,9 @@
 
 email: tilt@improfestival.ee
 baseurl: ""
-url: "http://localhost:4000"
+url: "http://improfestival-2016-maria.static-homepages.dd299b78.svc.dockerapp.io:10069"
 languages: ["en", "et"]
+timezone: "Europe/Tallinn"
 exclude_from_localizations: ["assets"]
 exclude: ["Gemfile", ".bundle", ".sass-cache", ".asset-cache", "Gemfile.lock", "Dockerfile", "README.md",".travis.yml", "vendor", "node_modules", "bower.json"]
 
@@ -54,6 +55,6 @@ assets:
 social:
   twitter: https://twitter.com/TILT_Improfest
   facebook: https://www.facebook.com/tilt.improfestival
-  ical: https://improfestival.ee/schedule.ical
+  ical: /schedule.ics
   instagram: https://instagram.com/tilt_improfestival
   youtube: https://www.youtube.com/channel/UC7gOmWdcrS_He1XZnj1VjBQ
