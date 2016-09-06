@@ -13,10 +13,8 @@ SUMMARY:{% t event.title %}
 DESCRIPTION:{{ event.content | strip_newlines }}
 URL:{{ site.url }}
 CLASS:PUBLIC
-DTSTART:{{ event.start | date: "%Y%m%dT%H%M%S" }}
-DTEND:{{ event.end | date: "%Y%m%dT%H%M%S" }}
+DTSTART:{{ event.start | to_utc }}
+DTEND:{{ event.end | to_utc }}
 DTSTAMP:{{ event.start | date: "%Y%m%dT%H%M%S" }}
-END:VEVENT
-{% endfor %}
+END:VEVENT{% endfor %}
 END:VCALENDAR
-

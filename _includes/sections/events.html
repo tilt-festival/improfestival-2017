@@ -9,7 +9,7 @@
                     <td>
                         <strong>{{ event.start | date: '%H:%M' }} - {{ event.end | date: '%H:%M' }}</strong>
                     </td>
-                    <td>
+                    <td class="hidden-xs">
                         {% if event.collection == 'workshops' %}
                         {% t content.workshop %}
                         {% else %}
@@ -29,7 +29,7 @@
         </div>
     </div>
 
-    <div class="col-lg-3 col-lg-offset-1 col-day-info">
+    <div class="col-lg-3 col-lg-offset-1 col-day-info hidden-xs">
         <a data-toggle="modal" data-target="#modal-details" href="{{ day_events.items[0].url }}">
             {% img '{{ day_events.items[0].image }}' alt:'Image of a performer' class:'img-responsive' %}
         </a>

@@ -46,6 +46,7 @@ assets:
   cache_type: memory
   sources:  
     - "_assets/bower/font-awesome/fonts"
+    - "_assets/bower/open-sans-fontface/fonts"
     - "_assets/bower/bootstrap-sass/assets/javascripts"
     - "_assets/bower/jquery/dist"
     - "_assets/bower"

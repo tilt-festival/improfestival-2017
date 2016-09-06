@@ -1,4 +1,3 @@
-$btn-circle-size: 6em;
 
 @mixin clip-down($amount: 20%) {
   clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0, 50% $amount);
@@ -6,6 +5,13 @@ $btn-circle-size: 6em;
 
 @mixin clip-up($amount: 20%) {
   clip-path: polygon(0 $amount, 0 101%, 100% 101%, 100% $amount, 50% 0);
+}
+
+@mixin btn-circle($size: 6em) {
+  border-radius: $size/2;
+  min-height: $size;
+  padding: $size/3 0 10px;
+  min-width: $size;
 }
 
 body {
@@ -35,21 +41,24 @@ body {
 .header-jumbotron {
   padding-bottom: 2em;
 
+  h2,
+  h4 {
+    text-align: center;
+  }
+
   .vertical-center {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 20em;
   }
 
   img {
     height: 50%;
-    margin: 2em auto 0;
+    margin: 0 auto;
     width: 50%;
   }
 
   + .row {
-    @include clip-down;
     background-image: url(image_path('header.jpg'));
     background-size: cover;
     min-height: 30em;
@@ -78,6 +87,9 @@ body {
 
 // Row with social icons and "bullet points"
 .row.social {
+  @include clip-down(10%);
+  background-image: url(image_path('header.jpg'));
+  background-size: cover;
 
   [href*="facebook"] {
     color: $facebook-blue;
@@ -137,6 +149,10 @@ body {
   padding: 0 2em 2em;
 }
 
+.highlights {
+  text-align: center;
+}
+
 button {
   &.close {
     background-color: $youtube-red;
@@ -151,11 +167,8 @@ button {
   }
 }
 
-.btn-circle.btn-lg {
-  border-radius: $btn-circle-size/2;
-  height: $btn-circle-size;
-  padding: $btn-circle-size/3 0 10px;
-  width: $btn-circle-size;
+.btn-circle {
+  @include btn-circle(6em);
 }
 
 // Last 2 rows
@@ -196,12 +209,13 @@ blockquote {
 }
 
 .row-buffer-top {
-  margin-top: 2em;
-  padding-bottom: 2em;
+  margin-top: 0;
+  padding-bottom: 0;
 }
 
 .row.clip-downward {
-  clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+  clip-path: polygon(50% 5%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+  margin-top: 1em;
 }
 
 .row.clip-roof {
@@ -251,7 +265,7 @@ h3 {
 
   h4 {
     display: table;
-    height: 3em;
+    height: 4em;
     margin-top: 1em;
     width: 100%;
 
@@ -264,7 +278,7 @@ h3 {
 
   img {
     @include clip-down(10%);
-    height: 20em;
+    height: 10em;
     object-fit: cover;
     width: 100%;
   }
@@ -286,4 +300,45 @@ h3 {
 
 .carousel {
   height: 20em;
+}
+
+@media (min-width: $screen-md-min) {
+  .header-jumbotron {
+    + .row {
+      @include clip-down(20%);
+    }
+  }
+
+  .btn-circle.btn-lg {
+    @include btn-circle(6em);
+  }
+
+  .col-schedule {
+    img {
+      height: 20em;
+    }
+  }
+
+
+  .row-buffer-top {
+    margin-top: 2em;
+    padding-bottom: 2em;
+  }
+}
+@media (min-width: $screen-lg-min) {
+
+  .row.clip-downward {
+    clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+  }
+
+  .header-jumbotron {
+
+    .vertical-center {
+      min-height: 20em;
+    }
+
+    img {
+      margin: 2em auto 0;
+    }
+  }
 }

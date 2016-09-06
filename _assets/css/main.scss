@@ -14,14 +14,35 @@ $google-calendar-blue: #373ad7;
 $facebook-blue: #3b5998;
 $youtube-red: #b31217;
 
-$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+@mixin fontdef($font-type:'Regular') {
+  src: url(asset_path('#{$font-type}/OpenSans-#{$font-type}.eot')) format('embedded-opentype'),
+    url(asset_path('#{$font-type}/OpenSans-#{$font-type}.woff2')) format('woff2'),
+    url(asset_path('#{$font-type}/OpenSans-#{$font-type}.woff')) format('woff'),
+    url(asset_path('#{$font-type}/OpenSans-#{$font-type}.tff')) format('truetype'),
+    url(asset_path('#{$font-type}/OpenSans-#{$font-type}.svg')) format('svg');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  @include fontdef('Regular');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  @include fontdef('Semibold');
+  font-weight: 500;
+  font-style: normal;
+}
+
+$font-family-sans-serif: 'Open Sans', sans-serif;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import 'bootstrap';
 @import '../bower/font-awesome/scss/font-awesome';
 
-
-//$fa-font-path: 'fonts';
 
 @font-face {
   font-family: 'FontAwesome';
