@@ -147,16 +147,20 @@ body {
 
 .modal-body {
 
-  padding: 0 $modal-inner-padding $modal-inner-padding $modal-inner-padding;
+  padding: 0 $modal-inner-padding $modal-inner-padding;
 
   .btn-buy {
+    @include button-size($padding-large-vertical, $padding-large-horizontal, $font-size-large, $line-height-large, $btn-border-radius-large);
     display: block;
     width: 100%;
-    @include button-size($padding-large-vertical, $padding-large-horizontal, $font-size-large, $line-height-large, $btn-border-radius-large);
   }
 
   img {
+    display: block;
+    height: 20em;
     object-fit: cover;
+    object-position: top center;
+    width: 100%;
   }
 
   .lead {
@@ -169,15 +173,14 @@ body {
 }
 
 .row.highlights {
-  text-align: center;
   clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
-  padding-top: 3em;
-
   min-height: 3em;
+  padding-top: 3em;
+  text-align: center;
 
-    [class^="col-"] {
-      padding: 0 0;
-    }
+  [class^="col-"] {
+    padding: 0;
+  }
 }
 
 button {

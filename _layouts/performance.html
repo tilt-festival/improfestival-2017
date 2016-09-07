@@ -1,7 +1,7 @@
 <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-label="{% t menu.close %}"><span
             aria-hidden="true">&times;</span></button>
-    <h3 class="modal-title" id="modal-details-title">{{ page.name }} ({{ page.country | upcase }})</h3>
+    <h3 class="modal-title" id="modal-details-title">{{ page.name }}{% if page.country %} ({{ page.country | upcase }}){% endif %}</h3>
 </div>
 <div class="modal-body">
     <div class="row">
@@ -11,7 +11,7 @@
     </div>
     <div class="row">
         <div class="col-lg-12 no-padding">
-            {% img '{{ page.image }}' alt:'{{ page.name }}' class:'img-responsive center-block'
+            {% img '{{ page.image }}' alt:'{{ page.name }}'
             %}
         </div>
     </div>
