@@ -8,7 +8,7 @@ tickets:
   - 12
 image: performers/tilt.jpg
 venue: soprus
-ticket_url: 
+ticket_url: '#'
 date: 2016-10-21
 ---
 

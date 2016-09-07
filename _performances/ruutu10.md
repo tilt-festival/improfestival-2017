@@ -9,7 +9,7 @@ tickets:
   - 8
 image: performers/ruutu-10.jpg
 venue: soprus
-ticket_url: 
+ticket_url: '#'
 date: 2016-10-21
 ---
 

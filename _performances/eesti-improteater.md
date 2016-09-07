@@ -9,7 +9,7 @@ tickets:
   - 8
 image: performers/improteater.jpg
 venue: soprus
-ticket_url: 
+ticket_url: '#'
 date: 2016-10-20
 ---
 

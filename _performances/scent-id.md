@@ -9,7 +9,7 @@ tickets:
   - 12
 image: performers/scent-1.jpg
 venue: soprus
-ticket_url: 
+ticket_url: '#'
 date: 2016-10-20
 ---
 

@@ -9,7 +9,7 @@ tickets:
   - 10
 image: performers/improbanden.jpg
 venue: soprus
-ticket_url: 
+ticket_url: '#'
 date: 2016-10-22
 ---
 

@@ -328,6 +328,10 @@ blockquote {
   height: 20em;
 }
 
+@media (min-width: $screen-sm-min) {
+
+}
+
 @media (min-width: $screen-md-min) {
   .header-jumbotron {
     + .row {

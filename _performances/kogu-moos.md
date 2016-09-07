@@ -10,7 +10,7 @@ tickets:
   - 8
 image: performers/moos.jpg
 venue: soprus
-ticket_url:
+ticket_url: '#'
 ---
 
 {% tf performances/kogu-moos.md %}
