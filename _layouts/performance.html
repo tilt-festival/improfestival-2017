@@ -1,32 +1,33 @@
 <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-label="{% t menu.close %}"><span
             aria-hidden="true">&times;</span></button>
-    <h1 class="modal-title" id="modal-details-title">{{ page.name }}</h1>
+    <h3 class="modal-title" id="modal-details-title">{{ page.name }} ({{ page.country | upcase }})</h3>
 </div>
 <div class="modal-body">
     <div class="row">
-        <div class="col-lg-4">
-            <h2 class="text-center">{{ page.name }}<br/>{{ page.country}}</h2>
-        </div>
-        <div class="col-lg-8">
-            {% assign month = page.start | date: '%B' | downcase | prepend: "month." %}
-            <h2 class="text-right">{{ page.start | date: '%d' }} {% t month %} {% t content.at_oclock %}
-                {{ page.start | date: '%H:%M' }} {% t content.in_location %} {{ page.venue }}</h2>
+        <div class="col-lg-12">
+            <p class="lead">“{% t page.title %}”</p>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-4">
-            {% img '{{ page.image }}' alt:'{{ page.name }}' class:'img-responsive img-thumbnail center-block'
+        <div class="col-lg-12 no-padding">
+            {% img '{{ page.image }}' alt:'{{ page.name }}' class:'img-responsive center-block'
             %}
         </div>
-        <div class="col-lg-8 text-justify">
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+        {% assign month = page.start | date: '%B' | downcase | prepend: "month." %}
+            <p class="lead">{{ page.start | date: '%d' }} {% t month %} {% t content.at_oclock %}
+                {{ page.start | date: '%H:%M' }} {% t content.in_location %} {{ page.venue }}</p>
+        </div>
+        <div class="col-lg-12 text-justify">
             {{ page.content }}
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-8"></div>
-        <div class="col-lg-4">
-            <a href="#" class="btn btn-lg btn-circle btn-info pull-right">{% t content.buy_ticket %}</a>
+        <div class="col-lg-12">
+            <a href="{{ page.ticket_url }}" target="_blank" class="btn btn-buy btn-info">{% t content.buy_ticket %}</a>
         </div>
     </div>
 </div>
