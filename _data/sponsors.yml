@@ -1,0 +1,15 @@
+- name: Hasartmängumaksu Nõukogu
+  logo: sponsors/hmn.png
+  url: http://www.hmn.ee/
+
+- name: City Motors
+  logo: sponsors/citymotors.png
+  url: http://www.citymotors.ee/
+
+- name: Eesti Kultuurikapital
+  logo: sponsors/kulka.png
+  url: http://www.kulka.ee/
+
+- name: Public TV
+  logo: sponsors/tv.png
+  url: http://www.publictv.ee/
