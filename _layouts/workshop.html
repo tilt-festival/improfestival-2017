@@ -31,7 +31,7 @@
             <button class="snipcart-add-item btn btn-buy btn-info"
                     data-item-name="{% t page.title %}"
                     data-item-id="{{ page.id }}"
-                    data-item-image="/assets/{{ page.image }}"
+                    data-item-image="{{ page.image | asset_path }}"
                     data-item-url="{{ site.url }}"
                     data-item-max-quantity="1"
                     data-item-stackable="false"
