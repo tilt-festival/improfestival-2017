@@ -42,5 +42,5 @@ $ ->
 
     row = $(this).closest('.row').find('.col-day-info')
 
-    row.find('img').attr 'src', "/assets/#{image}"
+    row.find('img').attr 'src', image
     row.find('a').attr 'href', url

@@ -5,7 +5,7 @@
         <div class="table-responsive">
             <table class="table table-tickets table-hover table-condensed">
                 {% for event in day_events.items %}
-                <tr data-image="{{ event.image }}" data-toggle="modal" data-target="#modal-details" data-href="{{ event.url }}">
+                <tr data-image="{{ event.image | asset_path }}" data-toggle="modal" data-target="#modal-details" data-href="{{ event.url }}">
                     <td>
                         <strong>{{ event.start | date: '%H:%M' }} - {{ event.end | date: '%H:%M' }}</strong>
                     </td>

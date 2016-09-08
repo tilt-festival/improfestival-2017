@@ -44,6 +44,7 @@ assets:
   autoprefixer:
     browsers: ["last 2 versions","> 5%","IE 9"]
   cache_type: memory
+  digest: true
   sources:  
     - "_assets/bower/font-awesome/fonts"
     - "_assets/bower/open-sans-fontface/fonts"
