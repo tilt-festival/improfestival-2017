@@ -28,16 +28,8 @@
     </div>
     <div class="row">
         <div class="col-lg-12">
-            <button class="snipcart-add-item btn btn-buy btn-info"
-                    data-item-name="{% t page.title %}"
-                    data-item-id="{{ page.id }}"
-                    data-item-image="{{ page.image | asset_path }}"
-                    data-item-url="{{ site.url }}{{ page.url }}"
-                    data-item-max-quantity="1"
-                    data-item-stackable="false"
-                    data-item-shippable="false"
-                    data-dismiss="modal"
-                    data-item-price="{{ page.price }}">{% t content.buy_ticket %}
+            <button class="btn btn-buy btn-info"
+                    >{% t content.buy_ticket %}
             </button>
         </div>
     </div>

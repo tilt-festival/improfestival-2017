@@ -17,8 +17,6 @@
   "dependencies": {
     "bootstrap-sass": "^3.3.6",
     "font-awesome": "^4.6",
-    "snipcart-js":"https://cdn.snipcart.com/scripts/2.0/snipcart.js",
-    "snipcart-css": "https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css",
     "jquery-smooth-scroll":"^1.7",
     "matchHeight": "^0.7",
     "open-sans-fontface": "^1.4"
