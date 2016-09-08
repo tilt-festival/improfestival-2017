@@ -1,0 +1,47 @@
+.snip-layout {
+
+  .snip-header,
+  .snip-footer {
+    background: $brand-info;
+  }
+
+  .snip-footer__copyright {
+    color: $body-bg;
+  }
+
+  .snip-header__total {
+    background: $gray-base;
+  }
+
+  .snip-btn {
+    background-color: $brand-warning;
+    color: $body-bg;
+
+    &:hover {
+      background-color: darken($brand-warning, 20%);
+      color: $body-bg;
+    }
+  }
+  .snip-step__item {
+    background: $gray-light;
+  }
+
+  .snip-btn--highlight {
+    background: $brand-success;
+    color: $body-bg;
+
+    &:hover {
+      background: darken($brand-success, 20%);
+    }
+  }
+
+  .snip-product__thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .snip-form__error {
+    background: $brand-primary;
+  }
+}

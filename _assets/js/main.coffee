@@ -31,7 +31,7 @@ $ ->
   $('[data-toggle="modal"').on 'click', (e) ->
     e.preventDefault()
     url = $(this).data('href') ? $(this).attr('href')
-    $('#modal-details').find('.modal-content').load url
+    $('#modal-details').find('.modal-content').html('').load url
 
 
   $('.row-equal-height [class^="col-"]').matchHeight()
