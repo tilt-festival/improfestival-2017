@@ -1,9 +1,9 @@
 window.initMap = ->
   map = new google.maps.Map $('.map')[0],
     center:
-      lat: 59.435406
-      lng: 24.745213
-    zoom: 17
+      lat: 59.436292
+      lng: 24.746169
+    zoom: 16
 
   new google.maps.Marker
     position:
@@ -13,6 +13,15 @@ window.initMap = ->
     title: 'Sõprus'
     label: '1'
 
+  new google.maps.Marker
+    position:
+      lat: 59.437209
+      lng: 24.747384
+    map: map
+    title: 'Tallinna Rahvaülikooli Teatrikeskus'
+    label: '2'
+
+  # Sõprus
   new google.maps.Circle
     strokeColor: '#a43a5a'
     fillOpacity: 0
@@ -21,6 +30,17 @@ window.initMap = ->
     center:
       lat: 59.435154
       lng: 24.745211
+    radius: 20
+
+  # Rahvaülikool
+  new google.maps.Circle
+    strokeColor: '#a43a5a'
+    fillOpacity: 0
+    strokeWeight: 4
+    map: map
+    center:
+      lat: 59.437209
+      lng: 24.747384
     radius: 20
 
 $ ->
