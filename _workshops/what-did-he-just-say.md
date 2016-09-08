@@ -7,7 +7,7 @@ country: est
 name: Ando Roots
 image: workshops/ando.jpg
 price: 1
-venue: N/A
+venue: vene
 ---
 
 How often have we seen and done a scene where people just talk, talk, talk, often without listening and missing important details and subtext.

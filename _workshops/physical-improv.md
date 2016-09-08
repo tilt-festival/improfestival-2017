@@ -7,5 +7,5 @@ name: Daniel Renwick
 country: aus/est
 image: workshops/daniel.jpg
 price: 20
-venue: soprus
+venue: vene
 ---

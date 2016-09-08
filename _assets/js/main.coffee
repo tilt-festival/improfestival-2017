@@ -44,4 +44,3 @@ $ ->
 
     row.find('img').attr 'src', "/assets/#{image}"
     row.find('a').attr 'href', url
-

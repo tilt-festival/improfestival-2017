@@ -7,5 +7,5 @@ name: Nicole Mischler
 country: nld
 image: workshops/nicole.jpg
 price: 20
-venue: soprus
+venue: vene
 ---

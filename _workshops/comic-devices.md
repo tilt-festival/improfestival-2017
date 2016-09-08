@@ -7,5 +7,5 @@ country: usa
 name: Kevin Scott
 image: workshops/kevin.jpg
 price: 20
-venue: soprus
+venue: vene
 ---
