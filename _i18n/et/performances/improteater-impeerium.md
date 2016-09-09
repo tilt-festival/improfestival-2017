@@ -6,6 +6,6 @@ Lavastus viib pealtvaatajad ja näiteseltskonna tõsisematele radadele. Iga inim
 Improteater IMPEERIUM kasvas välja 2014. aastal esimesest professionaalsest improtrupist Eestis. Trupil on improkogemust juba seitse aastat. Liikmed on kutselised näitlejad, kes lisaks Impeeriumile kuuluvad teiste Eesti teatrite draamatruppidesse või tegutsevad vabakutselistena erinevates teatri-, tele- ja filmiprojektides. Peale näitlejate on Impeeriumis ka andekad muusikud ning suurepärased valguskunstnikud, kes aitavad levitada improarmastust Eestis.
 Imperaalid naerutavad publikut kahevaatuseliste etendustega, pakuvad elevust tellimusesinemistel ja äratavad huviliste fantaasiat koolitustel. Impros ei tea keegi, mis juhtuma hakkab, kuid kõik on võimalik! Seepärast armastab trupp improt igal kujul.
 
-http://www.improimpeerium.ee<br>
-https://www.facebook.com/improimpeerium<br>
-https://www.instagram.com/improteater_impeerium/
+http://www.improimpeerium.ee <br>
+https://www.facebook.com/improimpeerium <br>
+https://www.instagram.com/improteater_impeerium/ <br>
