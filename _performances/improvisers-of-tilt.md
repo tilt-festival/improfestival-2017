@@ -6,7 +6,7 @@ title: performances.titles.improvisers_of_tilt
 tickets:
   - 10
   - 12
-image: performers/tilt.jpg
+image: Tilt 4. Logo. Tiltijad.jpg
 venue: soprus
 ticket_url: '#'
 date: 2016-10-21
