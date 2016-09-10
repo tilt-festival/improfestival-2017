@@ -72,7 +72,8 @@ performances:
     ruutu10: http://www.piletilevi.ee/eng/tickets/festival/teater/neljas-rahvusvaheline-improteatrite-festival-tilt-esitleb-ruutu10-est-tanased-uudised-todays-news-196109/
     scent_id: http://www.piletilevi.ee/eng/tickets/festival/teater/neljas-rahvusvaheline-improteatrite-festival-tilt-esitleb-scent-id-swe-stockholmi-sundroom-stockholm-syndrome-196106/
     trickle_improv: http://www.piletilevi.ee/eng/tickets/festival/teater/neljas-rahvusvaheline-improteatrite-festival-tilt-esitleb-trickle-improv-bel-tasakaalust-valjas-off-balance-196115/
-
+  in_eng: in English
+  in_est: in Estonian
 titles:
   days_count: 3 days
   performances_count: 13 performers

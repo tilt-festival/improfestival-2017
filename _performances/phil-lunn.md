@@ -4,6 +4,7 @@ end: 2016-10-21 21:45
 name: Phil Lunn
 title: performances.titles.phil_lunn
 country: gbr
+language: eng
 image: performers/phil-1.jpg
 venue: soprus
 ticket_url: performances.ticket_links.phil_lunn

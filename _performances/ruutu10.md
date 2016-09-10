@@ -4,6 +4,7 @@ end: 2016-10-21 19:30
 name: Ruutu10
 title: performances.titles.ruutu10
 country: est
+language: eng
 image: performers/ruutu-10.jpg
 venue: soprus
 ticket_url: performances.ticket_links.ruutu10
