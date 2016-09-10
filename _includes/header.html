@@ -21,12 +21,12 @@
            <li><a href="#sponsors">{% t menu.sponsors %}</a></li>
            <li>
            
-{% if site.lang == "en" %}
-  {% capture link_et %}{{ site.baseurl_root }}et{{ page.url}}{% endcapture %}
-  <a href="{{ link_et }}">{% t global.estonian %}</a>
-{% else %}
-  {% capture link_en %}{{ site.baseurl_root }}{{ page.url  }}{% endcapture %}
+{% if site.lang == "ee" %}
+  {% capture link_en %}{{ site.baseurl_root }}en{{ page.url}}{% endcapture %}
   <a href="{{ link_en }}">{% t global.english %}</a>
+{% else %}
+  {% capture link_ee %}{{ site.baseurl_root }}{{ page.url  }}{% endcapture %}
+  <a href="{{ link_ee }}">{% t global.estonian %}</a>
 {% endif %}
            </li>
           </ul>

@@ -8,6 +8,6 @@
         <loc>{{ site.url }}/</loc>
     </url>
     <url>
-        <loc>{{ site.url}}/et/</loc>
+        <loc>{{ site.url}}/ee/</loc>
     </url>
 </urlset>
