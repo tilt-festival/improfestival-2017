@@ -8,4 +8,4 @@ Ruutu10 on komöödiatrupp, mis usub naeru vabastavasse jõudu. Nad on õppinud 
 - [ruutu10.ee](http://ruutu10.ee)
 - [facebook.com/ruutu10](https://www.facebook.com/ruutu10/)
 - [youtube.com/user/naervabastab](https://www.youtube.com/user/naervabastab)
-- [instagram.com/ruutu10eesti/](https://www.instagram.com/ruutu10eesti/)
+- [instagram.com/ruutu10eesti](https://www.instagram.com/ruutu10eesti/)
