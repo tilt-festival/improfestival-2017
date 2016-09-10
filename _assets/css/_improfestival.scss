@@ -60,7 +60,7 @@ body {
   img {
     height: 80%;
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
   }
 
   + .row {
@@ -273,6 +273,10 @@ blockquote {
 
       td {
         border-top: 0;
+
+      &:first-child {
+        white-space: nowrap;
+      }
       }
     }
   }

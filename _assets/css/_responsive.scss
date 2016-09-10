@@ -14,8 +14,8 @@
   .header-jumbotron {
 
     img {
-      height: 50%;
-      width: 50%;
+      height: 100%;
+      width: 90%;
     }
 
     + .row {
@@ -53,6 +53,8 @@
 
     img {
       margin: 2em auto 0;
+      height: 70%;
+      width: 50%;
     }
   }
 
