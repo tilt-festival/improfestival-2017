@@ -88,5 +88,6 @@ content:
   in_location: in
   workshop: Workshop
   show: Show
+  signup_workshop: Sign up for workshops
 footer:
   more_info: For more info, please contact tilt@improfestival.ee
