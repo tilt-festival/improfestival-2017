@@ -6,7 +6,8 @@
 “Kuramuse rahvuslik aare!” - kena inimene Twitteris<br>
 
 ---
+
 Phil Lunn on improviseerija ja muusik, kes on tegelenud improteatriga juba aastaid kuuludes mitmete nimekate Inglise truppide koosseisu. Samuti tegeleb ta improviseeritud laulmise õpetamisega.<br>
 
 - [philiplunn.uk](http://www.philiplunn.uk)
-- [facebook.com/phil.lunn](www.facebook.com/phil.lunn)
+- [facebook.com/phil.lunn](https://www.facebook.com/phil.lunn)

@@ -7,5 +7,6 @@ An evening with a lady who isn't to be forgotten. Phil Lunn is a cabaret singer 
 
 ---
 Phil Lunn is an improviser and musician who has been improvising for several years in UK with many leading groups. He also teaches improvised singing.<br>
+
 - [philiplunn.uk](http://www.philiplunn.uk)
-- [facebook.com/phil.lunn](www.facebook.com/phil.lunn)
+- [facebook.com/phil.lunn](https://www.facebook.com/phil.lunn)
