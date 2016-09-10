@@ -21,8 +21,8 @@
   <!-- Open Graph-->
   <meta property="og:title" content="{% t global.title %}"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:url" content=" https://improfestival.ee/"/>
-  <meta property="og:image" content="https://improfestival.ee{{ 'header-logo.png' | asset_path }}">
+  <meta property="og:url" content="{{ site.url }}"/>
+  <meta property="og:image" content="{{ site.url }}{{ 'header-logo.png' | asset_path }}">
   <meta property="og:description" content="{% t global.description %}"/>
   <meta property="og:site_name" content="{% t global.title_short %}"/>
 
@@ -31,5 +31,5 @@
   <meta name="twitter:site" content="@{{ site.social.twitter }}">
   <meta name="twitter:title" content="{% t global.title %}">
   <meta name="twitter:description" content="{% t global.description %}">
-  <meta name="twitter:image" content="https://improfestival.ee{{ 'header-logo.png' | asset_path }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ 'header-logo.png' | asset_path }}">
 </head>
