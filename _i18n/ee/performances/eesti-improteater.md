@@ -6,5 +6,6 @@ Laval Eesti Improteatri põhitrupp: Kristel Aaslaid, Rednar Annus, Mart Gabrel, 
 ---
 Eesti esimene improteater.
 
-http://www.improteater.ee
-https://www.facebook.com/improteater/
+- [improteater.ee](http://www.improteater.ee)
+- [facebook.com/improteater/](https://www.facebook.com/improteater/)
+
