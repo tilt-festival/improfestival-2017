@@ -16,7 +16,7 @@ Most of the time we use too much words when improvising. This workshop concentra
 Perfect for: beginning, intermediate and advanced improvisers.
 
 ---
-Kaisa has 12 years of experience in improvisational theater. In addition to her homeland Finland, she has taught and/or performed improv in Estonia, Sweden, England, Italy, Costa Rica, Peru and United States. Her favorite festival experiences include Tilt in Estonia, FiiF in Finland, Seattle International Festival of Improvisation in United States, Slapdash in England and Improfest & Swimp in Sweden. Kaisa is excited to return to Tilt, this time as an instructor!<br><br>
+Kaisa has 12 years of experience in improvisational theater. In addition to her homeland Finland, she has taught and/or performed improv in Estonia, Sweden, England, Italy, Costa Rica, Peru and United States. Her favorite festival experiences include Tilt in Estonia, FiiF in Finland, Seattle International Festival of Improvisation in United States, Slapdash in England and Improfest & Swimp in Sweden. Kaisa is excited to return to Tilt, this time as an instructor!<br>
 
 Kaisa has taught improv for kids, teenagers and adults from different fields of work, study and life all in all. She also does a lot work in the field of applied improv and communication skills. Kaisa specializes in deep and meaningful connections, relationship based grounded scene work and musical improvisation. Kaisa has studied at the iO Chicago and in addition to that, also under some of the greatest improv teachers in the world, such as Randy Dixon, Shawn Kinley and TaraDeFrancisco. Kaisa firmly believes in the healing power of improv and is thrilled to be part of something that will - little by little - change the world! <br>
 
