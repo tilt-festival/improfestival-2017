@@ -27,6 +27,6 @@ He is currently teaching applied improvisation in leadership and design thinking
 2011 Impro Amsterdam<br>
 2010 Impro Amsterdam, San Francisco Improv Festival, Out of Bounds - Austin, Boston Improv Festival<br>
 
-- [rodbenzeev.com](www.rodbenzeev.com)
+- [rodbenzeev.com](http://www.rodbenzeev.com)
 
 
