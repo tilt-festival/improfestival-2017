@@ -5,12 +5,9 @@ date: 2016-10-20
 name: Kogu Moos
 title: performances.titles.kogu_moos
 country: est
-tickets:
-  - 6
-  - 8
 image: performers/moos.jpg
 venue: soprus
-ticket_url: '#'
+ticket_url: performances.ticket_links.kogu_moos
 ---
 
 {% tf performances/kogu-moos.md %}

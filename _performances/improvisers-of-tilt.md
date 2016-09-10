@@ -3,12 +3,9 @@ start: 2016-10-21 22:00
 end: 2016-10-21 23:00
 name: Improvisers of Tilt
 title: performances.titles.improvisers_of_tilt
-tickets:
-  - 10
-  - 12
 image: performers/tilt.jpg
 venue: soprus
-ticket_url: '#'
+ticket_url: performances.ticket_links.improvisers_of_tilt
 date: 2016-10-21
 ---
 

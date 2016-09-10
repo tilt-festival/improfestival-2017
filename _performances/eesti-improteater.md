@@ -4,12 +4,9 @@ end: 2016-10-20 20:15
 name: Eesti Improteater
 title: performances.titles.eesti_improteater
 country: est
-tickets:
-  - 6
-  - 8
 image: performers/improteater.jpg
 venue: soprus
-ticket_url: '#'
+ticket_url: performances.ticket_links.eesti_improteater
 date: 2016-10-20
 ---
 

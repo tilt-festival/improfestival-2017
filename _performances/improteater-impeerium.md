@@ -4,12 +4,9 @@ end: 2016-10-22 19:30
 name: Improteater IMPEERIUM
 title: performances.titles.improteater_impeerium
 country: est
-tickets:
-  - 6
-  - 8
 image: performers/impeerium.jpg
 venue: soprus
-ticket_url: '#'
+ticket_url: performances.ticket_links.improteater_impeerium
 date: 2016-10-22
 ---
 
