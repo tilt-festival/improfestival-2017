@@ -1,6 +1,6 @@
 *Elu enne surma.*<br><br>
 
-Improteater IMPEERIUM toob lavale täispika improviseeritud narratiivi komöödia ja draamalavastuse kujul. Milline on loo struktuur ja ülesehitus, selle määrab loomulikult publik, nagu ühes improviseeritud näitemängus kohane.
+Improteater IMPEERIUM toob lavale täispika improviseeritud narratiivi komöödia ja draamalavastuse kujul. Milline on loo struktuur ja ülesehitus, selle määrab loomulikult publik, nagu ühes improviseeritud näitemängus kohane.<br>
 Lavastus viib pealtvaatajad ja näiteseltskonna tõsisematele radadele. Iga inimene peab paratamatult oma elus kokku puutuma surmaga. Improviseeritud etendus algab matustega kuid teeb siis kannapöörde ja pealtvaatajail on võimalik osa saada lahkunu elust. Loo fookuses on ühe inimese elu oma valikute ja keerdkäikudega.
 
 ---
