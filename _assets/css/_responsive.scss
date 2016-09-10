@@ -1,23 +1,6 @@
 
 @media (min-width: $screen-sm-min) {
 
-  .row.social {
-    [href*="instagram"] {
-      color: $body-bg;
-
-      :hover {
-        color: darken($gray-darker, 20%);
-      }
-    }
-
-    [href*="youtube"] {
-      color: lighten($youtube-red, 10%);
-
-      :hover {
-        color: $youtube-red;
-      }
-    }
-  }
 
 }
 

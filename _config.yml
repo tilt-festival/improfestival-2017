@@ -54,6 +54,16 @@ assets:
   features:
    automatic_img_size: false
 
+extlinks:
+  attributes:
+    rel: nofollow
+    target: _blank
+  rel_exclude:
+    - 2013.improfestival.ee
+    - 2014.improfestival.ee
+    - 2015.improfestival.ee
+    - 2016.improfestival.ee
+
 social:
   twitter: https://twitter.com/TILT_Improfest
   facebook: https://www.facebook.com/tilt.improfestival
