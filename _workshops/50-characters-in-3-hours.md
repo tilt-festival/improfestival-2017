@@ -17,15 +17,15 @@ In this workshop you will learn quick, easy and practical ways to create a disti
 Perfect for: intermediate and advanced improvisers.
 
 ---
-Rod Ben Zeev has been performing, directing and teaching improv for 15 years on five continents in four languages. His favorite improv memories include performing at the Chicago Improv Festival with The Second City and three ladies over the age of 90, spending a month in Vienna dressed as Santa Clause together with The English Lovers, emptying the mini bar with Boom Chicago in Granada and performing in a show, entirely in Turkish, with Istanbul Impro (he doesn't speak Turkish).
-He is currently teaching applied improvisation in leadership and design thinking training at THNK (thnk.org) and starting a program to teach refugees storytelling techniques in The Netherlands. Other festivals where he has taught at include: 
-2016 Impro Amsterdam, Wurzburg, Munich, Gothenburg
-2015 Impro Amsterdam, Big If Barcelona, Israel Improv Championships, Be'er Sheba Improv Festival, MITICO Milan, Avaton Comedy Festival Athens
-2014 Impro Amsterdam, Big If, resident with the Engish Lovers in Vienna christmas show, Israel Improv Championships
-2013 Impro Amsterdam, FIIF, Slapdash London, Israel Improv Championships
-2012 Impro Amsterdam, FIID, Slapdash London, Vancouver International Improv Festival
-2011 Impro Amsterdam
-2010 Impro Amsterdam, San Francisco Improv Festival, Out of Bounds - Austin, Boston Improv Festival
+Rod Ben Zeev has been performing, directing and teaching improv for 15 years on five continents in four languages. His favorite improv memories include performing at the Chicago Improv Festival with The Second City and three ladies over the age of 90, spending a month in Vienna dressed as Santa Clause together with The English Lovers, emptying the mini bar with Boom Chicago in Granada and performing in a show, entirely in Turkish, with Istanbul Impro (he doesn't speak Turkish).<br>
+He is currently teaching applied improvisation in leadership and design thinking training at THNK (thnk.org) and starting a program to teach refugees storytelling techniques in The Netherlands. Other festivals where he has taught at include: <br>
+2016 Impro Amsterdam, Wurzburg, Munich, Gothenburg<br>
+2015 Impro Amsterdam, Big If Barcelona, Israel Improv Championships, Be'er Sheba Improv Festival, MITICO Milan, Avaton Comedy Festival Athens<br>
+2014 Impro Amsterdam, Big If, resident with the Engish Lovers in Vienna christmas show, Israel Improv Championships<br>
+2013 Impro Amsterdam, FIIF, Slapdash London, Israel Improv Championships<br>
+2012 Impro Amsterdam, FIID, Slapdash London, Vancouver International Improv Festival<br>
+2011 Impro Amsterdam<br>
+2010 Impro Amsterdam, San Francisco Improv Festival, Out of Bounds - Austin, Boston Improv Festival<br>
 
 - [rodbenzeev.com](www.rodbenzeev.com)
 
