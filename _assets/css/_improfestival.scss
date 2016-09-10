@@ -274,9 +274,9 @@ blockquote {
       td {
         border-top: 0;
 
-      &:first-child {
-        white-space: nowrap;
-      }
+        &:first-child {
+          white-space: nowrap;
+        }
       }
     }
   }

@@ -5,7 +5,7 @@ window.initMap = ->
       lng: 24.746169
     zoom: 16
 
-  new google.maps.Marker
+  soprus = new google.maps.Marker
     position:
       lat: 59.435283
       lng: 24.745345
@@ -13,13 +13,13 @@ window.initMap = ->
     title: 'Sõprus'
     label: '1'
 
-  new google.maps.Marker
-    position:
-      lat: 59.437209
-      lng: 24.747384
-    map: map
-    title: 'Tallinna Rahvaülikooli Teatrikeskus'
-    label: '2'
+  soprusInfo = new google.maps.InfoWindow
+    content: """
+      <h3>Cinema "Sõprus"</h3>
+      <p class="lead">Vana-Posti 8, Tallinn</p>
+      <p>Performance venue. Entrance from the smaller door to the right of the building.</p>
+"""
+  soprus.addListener 'click', -> soprusInfo.open map, soprus
 
   # Sõprus
   new google.maps.Circle
@@ -43,6 +43,22 @@ window.initMap = ->
       lng: 24.747384
     radius: 20
 
+  vene = new google.maps.Marker
+    position:
+      lat: 59.437209
+      lng: 24.747384
+    map: map
+    title: 'Tallinna Rahvaülikooli Teatrikeskus'
+    label: '2'
+
+  veneInfo = new google.maps.InfoWindow
+    content: """
+      <h3>Tallinna Rahvaülikooli Teatrikeskus</h3>
+      <p class="lead">Vene 6, Tallinn</p>
+      <p>Workshops venue. Come into the tunnel from Vene street. <br />Ring the bell next to the first door on the right.
+      Workshops will take place on the 2nd and 3rd floors.</p>
+"""
+  vene.addListener 'click', -> veneInfo.open map, vene
 
 $ ->
   $('a[href^="#"]').smoothScroll
