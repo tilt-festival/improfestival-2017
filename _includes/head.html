@@ -21,7 +21,7 @@
   <!-- Open Graph-->
   <meta property="og:title" content="{% t global.title %}"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:url" content="{{ site.url }}"/>
+  <meta property="og:url" content="{{ site.url }}/{% if site.lang != site.default_lang %}{{ site.lang }}{% endif %}"/>
   <meta property="og:image" content="{{ site.url }}{{ 'header-logo.png' | asset_path }}">
   <meta property="og:description" content="{% t global.description %}"/>
   <meta property="og:site_name" content="{% t global.title_short %}"/>

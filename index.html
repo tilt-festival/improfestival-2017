@@ -35,7 +35,7 @@ layout: default
         <a href="#tickets" class="btn btn-circle btn-info">{% t menu.tickets %}</a>
         <a href="#team" class="btn btn-circle btn-primary">{% t menu.team %}</a>
     </div>
-    <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-pull-1 hidden-xs">
+    <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-pull-1 hidden-xs hide">
         <p class="lead text-right">{% t content.get_ticket %} <a href="#">{% t content.here %} <i class="fa fa-chevron-right"
                                                                                        aria-hidden="true"></i></a></p>
         <p class="lead text-right">{% t content.get_one_day_pass %} <a href="#">{% t content.here %} <i class="fa fa-chevron-right"
@@ -48,7 +48,11 @@ layout: default
 {% include sections/quotes1.html %}
 {% include sections/schedule.html %}
 {% include sections/map.html %}
+
+{% comment %}
 {% include sections/tickets.html %}
+{% endcomment %}
+
 {% include sections/quotes2.html %}
 {% include sections/sponsors.html %}
 
