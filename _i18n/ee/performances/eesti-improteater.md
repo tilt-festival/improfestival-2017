@@ -8,4 +8,3 @@ Eesti esimene improteater.
 
 - [improteater.ee](http://www.improteater.ee)
 - [facebook.com/improteater](https://www.facebook.com/improteater/)
-
