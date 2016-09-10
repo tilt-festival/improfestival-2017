@@ -1,6 +1,6 @@
 *Laulja ja laulud, kellega saate kohtuda vaid sel õhtul.*<br><br>
 
-Õhtu naisega, keda ei ole võimalik unustada. Phil Lunn on kabareelaulja, kes luuakse vaid üheks etenduseks. Täiesti improviseeritud laulud ja täiesti improviseeritud vestlus, kõik inspireeritud publiku mõtetest.<br>
+Õhtu naisega, keda ei ole võimalik unustada. Phil Lunn on kabareelaulja, kes luuakse vaid üheks etenduseks. Täiesti improviseeritud laulud ja täiesti improviseeritud vestlus, kõik inspireeritud publiku mõtetest.<br><br>
 “Muusikalise impro jõujaam” - Open Your Mouth And Sing (muusikaimpro podcast)<br>
 “Mu lõug ei lahkunud põrandalt. Ma nautisin iga minutit” - Swimp16 (Rootsi rahvusvaheline improfestival)<br>
 “Kuramuse rahvuslik aare!” - kena inimene Twitteris<br>
