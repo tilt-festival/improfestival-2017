@@ -22,4 +22,4 @@ Peter teaches improv regularly in his home town of Gothenburg, Sweden. He is the
 - [improfest.se](http://improfest.se)
 - [facebook.com/scentid/](http://facebook.com/scentid/)
 - [improbootcamp.se](http://improbootcamp.se)
-- [performingartsschool.se/#!english-summary/meab1](http://www.performingartsschool.se/#!english-summary/meab1)
+- [performingartsschool.se/english-summary](http://www.performingartsschool.se/english-summary)
