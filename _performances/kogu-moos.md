@@ -14,11 +14,3 @@ ticket_url: '#'
 ---
 
 {% tf performances/kogu-moos.md %}
-
-<a href="http://improv.ee/trupid/kogu-moos/" target="_blank" class="btn btn-info">
-    <i class="fa fa-external-link"></i> improv.ee/trupid/kogu-moos
-</a>
-
-<a href="http://www.facebook.com/KoguMoos" target="_blank" class="btn btn-info">
-    <i class="fa fa-facebook"></i> facebook.com/KoguMoos
-</a>

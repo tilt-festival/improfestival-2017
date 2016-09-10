@@ -53,8 +53,8 @@ body {
   .vertical-center {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     height: 100%;
+    justify-content: center;
   }
 
   img {
@@ -73,9 +73,9 @@ body {
 // Generic row with a gray background
 .row.gray {
   background-color: $gray-light;
+  margin-top: 1em;
   min-height: 10em;
   text-align: center;
-  margin-top: 1em;
 
   [class^="col-"] {
     padding: 5em 2em;
