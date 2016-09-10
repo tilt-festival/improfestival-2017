@@ -21,7 +21,7 @@
            <li><a href="#sponsors">{% t menu.sponsors %}</a></li>
            <li>
            
-{% if site.lang == "ee" %}
+{% if site.lang == site.default_lang %}
   {% capture link_en %}{{ site.baseurl_root }}en{{ page.url}}{% endcapture %}
   <a href="{{ link_en }}">{% t global.english %}</a>
 {% else %}

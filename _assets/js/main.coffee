@@ -43,12 +43,13 @@ window.initMap = ->
       lng: 24.747384
     radius: 20
 
+
 $ ->
   $('a[href^="#"]').smoothScroll
     offset: -60
     speed: 800
 
-  $('[data-toggle="modal"').on 'click', (e) ->
+  $('[data-toggle="modal"]:not(tr)').on 'click', (e) ->
     e.preventDefault()
     url = $(this).data('href') ? $(this).attr('href')
     $('#modal-details').find('.modal-content').html('').load url

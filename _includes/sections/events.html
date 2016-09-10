@@ -5,7 +5,7 @@
         <div class="table-responsive">
             <table class="table table-tickets table-hover table-condensed">
                 {% for event in day_events.items %}
-                <tr data-image="{{ event.image | asset_path }}" data-toggle="modal" data-target="#modal-details" data-href="{{ event.url }}">
+                <tr data-image="{{ event.image | asset_path }}">
                     <td>
                         <strong>{{ event.start | date: '%H:%M' }} - {{ event.end | date: '%H:%M' }}</strong>
                     </td>
@@ -17,20 +17,20 @@
                         {% endif %}
                     </td>
                     <td>
-                        <a href="{{ event.url }}" data-toggle="modal" data-target="#modal-details">
+                        <a data-toggle="modal" data-target="#modal-details" href="{{ site.baseurl | append:event.url }}">
                             {{ event.name }} - {% t event.title %}
                         </a>
                     </td>
-                    <td><a href="#map"><i class="fa fa-2x fa-map-marker"></i></a></td>
-                    <td><a href="#"><i class="fa fa-2x fa-ticket"></i></a></td>
+                    <td><a href="#map" title="{% t menu.venues %}"><i class="fa fa-2x fa-map-marker"></i></a></td>
+                    <td><a href="#" title="{% t content.buy_ticket %}"><i class="fa fa-2x fa-ticket"></i></a></td>
                 </tr>
                 {% endfor %}
             </table>
         </div>
     </div>
 
-    <div class="col-lg-3 col-lg-offset-1 col-day-info hidden-xs">
-        <a data-toggle="modal" data-target="#modal-details" href="{{ day_events.items[0].url }}">
+    <div class="col-lg-3 col-lg-offset-1 col-day-info hidden-xs hidden-sm">
+        <a data-toggle="modal" data-target="#modal-details" href="{{ site.baseurl | append:day_events.items[0].url }}">
             {% img '{{ day_events.items[0].image }}' alt:'Image of a performer' class:'img-responsive' %}
         </a>
     </div>

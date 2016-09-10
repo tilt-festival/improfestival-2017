@@ -1,7 +1,8 @@
 Mari-Riin Villemsoo on Tartu Ülikooli Viljandi Kultuuriakadeemias 
 teatrikunsti visuaaltehnoloogia kolmandal kursusel valguskujunduse 
-eriala omandav noor (ja väga palju päikest täis) tüdruk. Valgustajana 
-on Mari-Riin töötanud juba umbes 5 aastat ning Tildiga ühte sammu astunud 
+eriala omandav noor (ja väga palju päikest täis) tüdruk.
+
+Valgustajana on Mari-Riin töötanud juba umbes 5 aastat ning Tildiga ühte sammu astunud 
 alates esimesest festivalist. Improteatrini jõudis valgustaja läbi Raheli 
 ning suure soovi avastada impromaailma, mitte just läbi lavalolemise vaid 
 lavalolijate toetamise. Improkatega koostöötamine pakub Mari-Riinule palju 

@@ -2,13 +2,39 @@
 @media (min-width: $screen-sm-min) {
 
   .row.social {
-    @include clip-down(0);
-    background-image: none;
+    [href*="instagram"] {
+      color: $body-bg;
+
+      :hover {
+        color: darken($gray-darker, 20%);
+      }
+    }
+
+    [href*="youtube"] {
+      color: lighten($youtube-red, 10%);
+
+      :hover {
+        color: $youtube-red;
+      }
+    }
   }
+
 }
 
 @media (min-width: $screen-md-min) {
+
+  .row.social {
+    @include clip-down(0);
+    background-image: none;
+  }
+
   .header-jumbotron {
+
+    img {
+      height: 50%;
+      width: 50%;
+    }
+
     + .row {
       @include clip-down(20%);
     }

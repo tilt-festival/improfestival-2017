@@ -29,6 +29,10 @@ body {
   }
 }
 
+.navbar-collapse {
+  border-bottom: 1px solid;
+}
+
 .map-container {
   height: 30em;
 }
@@ -50,12 +54,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 100%;
   }
 
   img {
-    height: 50%;
+    height: 80%;
     margin: 0 auto;
-    width: 50%;
+    width: 80%;
   }
 
   + .row {
@@ -69,6 +74,8 @@ body {
 .row.gray {
   background-color: $gray-light;
   min-height: 10em;
+  text-align: center;
+  margin-top: 1em;
 
   [class^="col-"] {
     padding: 5em 2em;
@@ -166,6 +173,10 @@ body {
   .lead {
     text-align: center;
   }
+
+  p {
+    margin-top: 1em;
+  }
 }
 
 .no-padding {
@@ -224,6 +235,10 @@ button {
 // Last footer row
 .row.footer-contact {
   padding-bottom: 1em;
+
+  p {
+    text-align: center;
+  }
 }
 
 blockquote {
@@ -255,7 +270,6 @@ blockquote {
 .table-tickets {
   tbody {
     tr {
-      cursor: pointer;
 
       td {
         border-top: 0;
