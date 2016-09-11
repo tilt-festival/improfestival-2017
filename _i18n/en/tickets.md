@@ -11,6 +11,8 @@ Discount tickets are for students and pensioners. Seating is not allocated.
 
 All the performances from Estonian improv groups are in Estonian. All the performances from groups that come from abroad are in English.
 
+All performances take place at Kino Sõprus (Vana-Posti 8, Tallinn). 
+
 From 15.09 day passes and festival supporter passes will also be on sale.
 
 More information: tilt@improfestival.ee
