@@ -8,6 +8,7 @@ country: isr
 image: workshops/hila.jpg
 price: 20
 venue: vene
+ticket_url: workshop.titles.ticket_url
 ---
 *On stage we can be anyone - thinking out of the gender box.*<br><br>
 
