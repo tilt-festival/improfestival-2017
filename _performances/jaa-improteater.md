@@ -8,7 +8,7 @@ language: est
 image: performers/jaa.jpg
 venue: soprus
 ticket_url: performances.ticket_links.jaa_improteater
-date: 2016-10-21
+date: 2016-10-22
 ---
 
 {% tf performances/jaa-improteater.md %}
