@@ -82,6 +82,10 @@
     }
   }
 
+  .map-container {
+    margin-bottom: 3em;
+  }
+
 
   .row.footer-dates {
     @include clip-up(30%);
