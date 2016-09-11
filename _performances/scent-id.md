@@ -5,7 +5,7 @@ name: Scent ID
 title: performances.titles.scent_id
 country: swe
 language: eng
-image: performers/scent-1.jpg
+image: performers/scent-3.jpg
 venue: soprus
 ticket_url: performances.ticket_links.scent_id
 date: 2016-10-20
