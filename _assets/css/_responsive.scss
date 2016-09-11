@@ -68,6 +68,21 @@
     }
   }
 
+
+  .modal-body {
+
+    padding: 2em 3em;
+
+    p.time {
+      text-align: right;
+    }
+
+    img {
+      @include clip-down(10%);
+    }
+  }
+
+
   .row.footer-dates {
     @include clip-up(30%);
     min-height: 20em;
