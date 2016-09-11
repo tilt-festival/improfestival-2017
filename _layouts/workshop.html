@@ -20,8 +20,9 @@ layout: empty
         <div class="row">
         <div class="col-lg-12">
             {% assign month = page.start | date: '%B' | downcase | prepend: "month." %}
+            {% assign venue = page.venue | prepend: 'venues.' %}
             <p class="lead">{{ page.start | date: '%d' }} {% t month %} {% t content.at_oclock %}
-                {{ page.start | date: '%H:%M' }} {% t content.in_location %} {{ page.venue }}</p>
+                {{ page.start | date: '%H:%M' }} {% t content.in_location %} {% t venue %}</p>
         </div>
     </div>
     <div class="row">

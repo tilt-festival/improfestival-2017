@@ -79,6 +79,12 @@ performances:
     all_performances: http://www.piletilevi.ee/eng/tickets/festival/teater/neljas-rahvusvaheline-improteatrite-festival-tilt-45044/
   in_eng: in English
   in_est: in Estonian
+
+
+venues:
+  soprus: 'Cinema Sõprus'
+  vene: 'Vene 6'
+
 titles:
   days_count: 3 days
   performances_count: 13 performers

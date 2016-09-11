@@ -32,6 +32,10 @@ month:
   november: November
   december: December
 
+venues:
+  soprus: 'Kino Sõprus'
+  vene: 'Rahvaülikooli Teatrikeskus'
+
 titles:
   days_count: 3 päeva
   performances_count: 13 esinejat
