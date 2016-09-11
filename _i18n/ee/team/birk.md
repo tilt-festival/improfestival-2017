@@ -1,5 +1,2 @@
-Birk is a communication expert, writer, copywriter and screenwriter, 
-the author of TV series "The Pillowclub", "Restart" and "Bad Girl's School".
-
-As student of graphic design in the Estonian Art Academy since 2015 she 
-has finally surprisingly realized that one picture tells more than a 1000 words.
+Birk on kommunikatsiooniekspert, kirjanik, copywriter ja stsenarist, kelle sulest on muuhulgas tulnud telesarjad "Padjaklubi", "Restart" ja "Nurjatud tüdrukud". 
+2015. aastast õpib ta EKAs kujundusgraafika erialal ja on saanud endalegi üllatuseks aru, et üks pilt ütleb rohkem kui 1000 sõna.
