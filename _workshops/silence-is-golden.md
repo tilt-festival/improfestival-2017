@@ -5,7 +5,7 @@ date: 2016-10-20
 title: workshops.titles.silence_is_golden    
 country: fin
 name: Kaisa Kokko
-image: workshops/kaisa-1.jpg
+image: workshops/kaisa-2.jpg
 price: 20
 venue: vene
 ---
