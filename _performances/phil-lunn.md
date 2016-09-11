@@ -8,7 +8,7 @@ language: eng
 image: performers/phil-1.jpg
 venue: soprus
 ticket_url: performances.ticket_links.phil_lunn
-date: 2016-10-21
+date: 2016-10-22
 ---
 
 {% tf performances/phil-lunn.md %}
