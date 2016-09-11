@@ -20,7 +20,7 @@ menu:
 
 stats:
   total_years: 4 years
-  total_performances: 68 performances
+  total_performances: 45 performances
   total_workshops: 25 workshops
 
 month:
@@ -61,6 +61,7 @@ performances:
     ruutu10: Todays News
     scent_id: Stockholm Syndrome
     trickle_improv: Off Balance
+    dream_team: This is It!
   ticket_links:
     eesti_improteater: http://www.piletilevi.ee/eng/tickets/festival/teater/neljas-rahvusvaheline-improteatrite-festival-tilt-esitleb-eesti-improteater-est-impromuusikal-improv-musical-196103/
     improbanden: http://www.piletilevi.ee/eng/tickets/festival/teater/neljas-rahvusvaheline-improteatrite-festival-tilt-esitleb-improbanden-ger-salajased-pihtimused-secret-confessions-196114/
@@ -74,6 +75,8 @@ performances:
     ruutu10: http://www.piletilevi.ee/eng/tickets/festival/teater/neljas-rahvusvaheline-improteatrite-festival-tilt-esitleb-ruutu10-est-tanased-uudised-todays-news-196109/
     scent_id: http://www.piletilevi.ee/eng/tickets/festival/teater/neljas-rahvusvaheline-improteatrite-festival-tilt-esitleb-scent-id-swe-stockholmi-sundroom-stockholm-syndrome-196106/
     trickle_improv: http://www.piletilevi.ee/eng/tickets/festival/teater/neljas-rahvusvaheline-improteatrite-festival-tilt-esitleb-trickle-improv-bel-tasakaalust-valjas-off-balance-196115/
+    dream_team: http://www.piletilevi.ee/eng/tickets/festival/teater/neljas-rahvusvaheline-improteatrite-festival-tilt-esitleb-the-dream-team-nii-ongi-this-is-it-196122/
+    all_performances: http://www.piletilevi.ee/eng/tickets/festival/teater/neljas-rahvusvaheline-improteatrite-festival-tilt-45044/
   in_eng: in English
   in_est: in Estonian
 titles:
@@ -82,6 +85,7 @@ titles:
   workshops_count: 9 workshops
 content:
   get_ticket: Get a festival ticket
+  get_tickets: Get tickets to Tilt performances
   get_one_day_pass: Get a 1-day pass
   here: here
   buy_ticket: Buy Ticket

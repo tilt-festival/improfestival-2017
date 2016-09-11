@@ -23,8 +23,8 @@
     }
   }
 
-  .btn-circle.btn-lg {
-    @include btn-circle(6em);
+  .btn-circle {
+    @include btn-circle(8em);
   }
 
   .col-schedule {
@@ -32,17 +32,27 @@
       height: 20em;
     }
   }
-
-  .row-buffer-top {
-    margin-top: 2em;
-    padding-bottom: 2em;
-  }
 }
 @media (min-width: $screen-lg-min) {
 
 
   .row.clip-downward {
     clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+  }
+
+  .row.highlights {
+    clip-path: polygon(50% 20%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+    margin-top: 2em;
+    min-height: 5em;
+
+    [class^="col-"] {
+      padding: 4em;
+    }
+  }
+
+  .row-buffer-top {
+    margin-top: 2em;
+    padding-bottom: 2em;
   }
 
   .header-jumbotron {

@@ -38,6 +38,7 @@ titles:
   workshops_count: 9 töötubac
 content:
   get_ticket: Osta festivali pass
+  get_tickets: Osta etenduste pileteid
   get_one_day_pass: Osta ühe päeva pilet
   here: siit
   buy_ticket: Osta Pilet
@@ -50,7 +51,7 @@ content:
 
 stats:
   total_years: 4 aastat
-  total_performances: 68 etendust
+  total_performances: 45 etendust
   total_workshops: 25 töötuba
 
 workshops:
@@ -79,6 +80,7 @@ performances:
     ruutu10: Tänased uudised
     scent_id: Stockholmi sündroom
     trickle_improv: Tasakaalust väljas
+    dream_team: Nii Ongi
   ticket_links:
     eesti_improteater: http://www.piletilevi.ee/est/piletid/festival/teater/neljas-rahvusvaheline-improteatrite-festival-tilt-esitleb-eesti-improteater-est-impromuusikal-improv-musical-196103/
     improbanden: http://www.piletilevi.ee/est/piletid/festival/teater/neljas-rahvusvaheline-improteatrite-festival-tilt-esitleb-improbanden-ger-salajased-pihtimused-secret-confessions-196114/
@@ -92,6 +94,8 @@ performances:
     ruutu10: http://www.piletilevi.ee/est/piletid/festival/teater/neljas-rahvusvaheline-improteatrite-festival-tilt-esitleb-ruutu10-est-tanased-uudised-todays-news-196109/
     scent_id: http://www.piletilevi.ee/est/piletid/festival/teater/neljas-rahvusvaheline-improteatrite-festival-tilt-esitleb-scent-id-swe-stockholmi-sundroom-stockholm-syndrome-196106/
     trickle_improv: http://www.piletilevi.ee/est/piletid/festival/teater/neljas-rahvusvaheline-improteatrite-festival-tilt-esitleb-trickle-improv-bel-tasakaalust-valjas-off-balance-196115/
+    dream_team: http://www.piletilevi.ee/est/piletid/festival/teater/neljas-rahvusvaheline-improteatrite-festival-tilt-esitleb-the-dream-team-nii-ongi-this-is-it-196122/
+    all_performances: http://www.piletilevi.ee/est/piletid/festival/teater/neljas-rahvusvaheline-improteatrite-festival-tilt-45044/
   in_eng: inglise keeles
   in_est: eesti keeles
 footer:

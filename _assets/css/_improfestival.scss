@@ -10,7 +10,7 @@
 @mixin btn-circle($size: 6em) {
   border-radius: $size/2;
   min-height: $size;
-  padding: $size/3 0 10px;
+  padding: $size/3 0;
   min-width: $size;
 }
 
@@ -73,7 +73,6 @@ body {
 // Generic row with a gray background
 .row.gray {
   background-color: $gray-light;
-  margin-top: 1em;
   min-height: 10em;
   text-align: center;
 
@@ -265,6 +264,7 @@ blockquote {
 
 .row.clip-roof {
   clip-path: polygon(50% 0%, 100% 15%, 100% 100%, 0 100%, 0 15%);
+  margin-top: 1em;
 }
 
 .table-tickets {
@@ -343,5 +343,5 @@ blockquote {
 }
 
 .carousel {
-  height: 20em;
+  height: 25em;
 }

@@ -1,18 +1,16 @@
-{% comment %}
 <div class="row">
     <div class="col-lg-12">
         <h1 id="tickets">{% t menu.tickets %}</h1>
+        {% tf tickets.md %}
     </div>
 </div>
 
 <div class="row">
-    <div class="col-lg-6"><p class="lead">{% t content.get_ticket %} <a href="#">{% t content.here %} <i
+    <div class="col-lg-6"><p class="lead">{% t content.get_tickets %}
+        <a href="{% t performances.ticket_links.all_performances %}">{% t content.here %} <i
             class="fa fa-chevron-right"
             aria-hidden="true"></i></a></p>
     </div>
-    <div class="col-lg-6"><p class="lead">{% t content.get_one_day_pass %} <a href="#">{% t content.here %} <i
-            class="fa fa-chevron-right"
-            aria-hidden="true"></i></a>
-    </p></div>
+
 </div>
-{% endcomment %}
+
