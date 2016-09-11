@@ -8,7 +8,7 @@ country: aus/est
 image: workshops/daniel.jpg
 price: 20
 venue: vene
-ticket_url: workshop.titles.ticket_url
+ticket_url: workshops.ticket_url
 ---
 *Pushups for Improvisers*<br><br>
 

@@ -8,7 +8,7 @@ country: ndl
 image: workshops/rod.jpg
 price: 20
 venue: vene
-ticket_url: workshop.titles.ticket_url
+ticket_url: workshops.ticket_url
 ---
 
 *“The only way to do a comedy scene is to play it completely straight” Del Close*<br><br>

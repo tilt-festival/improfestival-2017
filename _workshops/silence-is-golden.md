@@ -8,7 +8,7 @@ name: Kaisa Kokko
 image: workshops/kaisa-2.jpg
 price: 20
 venue: vene
-ticket_url: workshop.titles.ticket_url
+ticket_url: workshops.ticket_url
 ---
 *"You say so much, when you say nothing at all."*<br><br>
 

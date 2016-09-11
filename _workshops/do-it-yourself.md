@@ -8,7 +8,7 @@ name: Menelaos Prokos
 image: workshops/menelaos.jpg
 price: 20
 venue: vene
-ticket_url: workshop.titles.ticket_url
+ticket_url: workshops.ticket_url
 ---
 *"You gotta prepare a great party, before you invite your friends!"*<br><br>
 

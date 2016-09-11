@@ -8,7 +8,7 @@ country: nld
 image: workshops/nicole.jpg
 price: 20
 venue: vene
-ticket_url: workshop.titles.ticket_url
+ticket_url: workshops.ticket_url
 ---
 *Sex and Death, what more could you want from a workshop?*<br><br>
 

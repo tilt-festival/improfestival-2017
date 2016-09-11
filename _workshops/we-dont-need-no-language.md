@@ -8,7 +8,7 @@ name: Keng-Sam Chane Chick Té
 image: workshops/keng-2.jpg
 price: 20
 venue: vene
-ticket_url: workshop.titles.ticket_url
+ticket_url: workshops.ticket_url
 ---
 *We don't need no words to talk.*<br><br>
 

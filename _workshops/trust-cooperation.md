@@ -8,7 +8,7 @@ name: Peter Nordstrand
 image: workshops/peter.jpg
 price: 20
 venue: vene
-ticket_url: workshop.titles.ticket_url
+ticket_url: workshops.ticket_url
 ---
 
 *Fail Successfully*<br><br>
