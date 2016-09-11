@@ -4,7 +4,7 @@ ning vabade kohtade olemasolul enne etenduse algust kinost Sõprus (Vana-Posti 8
 
 ## Piletihinnad
 
-- Eesti improtruppid - täispilet `8` eurot, sooduspilet `6` eurot.
+- Eesti improtrupid - täispilet `8` eurot, sooduspilet `6` eurot.
 - Välismaa improtrupid - täispilet `10` või `12` eurot (vastavalt etendusele), sooduspilet `8` või `10` eurot (vastavalt etendusele).
 
 Soodustused kehtivad õpilastele, tudengitele ja pensionäridele. Piletid on vabade istekohtadega.
