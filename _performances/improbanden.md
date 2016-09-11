@@ -8,7 +8,7 @@ language: eng
 image: performers/improbanden.jpg
 venue: soprus
 ticket_url: performances.ticket_links.improbanden
-date: 2016-10-22
+date: 2016-10-21
 ---
 
 {% tf performances/improbanden.md %}
