@@ -7,9 +7,9 @@ METHOD:PUBLISH
 {% for event in all_events %}BEGIN:VEVENT
 UID:{{ event.id }}
 ORGANIZER;CN="Tilt Festival":MAILTO:tilt@improfestival.ee
-LOCATION:{{ event.venue }}
+LOCATION:{{ site.data.venues[event.venue].address }}
 SUMMARY:{% t event.title %}
-DESCRIPTION:{{ event.content | strip_newlines }}
+DESCRIPTION:{{ event.content | strip_newlines | strip_html }}
 URL:{{ site.url }}
 CLASS:PUBLIC
 DTSTART:{{ event.start | to_utc }}
