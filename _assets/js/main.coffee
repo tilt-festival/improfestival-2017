@@ -61,6 +61,11 @@ window.initMap = ->
   vene.addListener 'click', -> veneInfo.open map, vene
 
 $ ->
+
+  # Easter egg
+  $('.footer-bg').click ->
+    window.open 'https://fucking.tilt.ee', '_blank'
+
   $('a[href^="#"]').smoothScroll
     offset: -60
     speed: 800
