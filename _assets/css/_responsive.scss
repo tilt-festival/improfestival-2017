@@ -44,6 +44,7 @@
     }
 
   }
+
   .row.clip-downward {
     clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
   }
@@ -71,8 +72,8 @@
 
     img {
       height: 20em;
-      object-fit: scale-down;
       margin: 2em auto 0;
+      object-fit: scale-down;
     }
   }
 
