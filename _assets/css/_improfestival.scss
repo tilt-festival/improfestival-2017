@@ -147,6 +147,10 @@ body {
   }
 }
 
+img[src*="piletilevi"] {
+  width: 50%;
+}
+
 .modal-header {
   border-bottom: 0;
 }
@@ -167,6 +171,7 @@ body {
 
   img {
     display: block;
+    margin-bottom: 1em;
     width: 100%;
   }
 
