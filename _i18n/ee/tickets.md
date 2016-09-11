@@ -11,6 +11,8 @@ Soodustused kehtivad õpilastele, tudengitele ja pensionäridele. Piletid on vab
 
 Kõigi Eesti improtruppide etendused on eesti keeles. Kõigi välismaa truppide etendused on inglise keeles.
 
+Kõik etendused toimuvad kinos Sõprus (Vana-Posti 8, Tallinn).
+
 Alates 15.09 on võimalik soetada ka päevapileteid ja toetajapassi.
 
 Lisainfo aadressil: tilt@improfestival.ee
