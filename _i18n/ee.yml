@@ -28,7 +28,7 @@ month:
   july: July
   august: August
   september: September
-  october: Oktoober
+  october: oktoober
   november: November
   december: December
 
@@ -39,7 +39,7 @@ venues:
 titles:
   days_count: 3 päeva
   performances_count: 13 esinejat
-  workshops_count: 9 töötubac
+  workshops_count: 9 töötuba
 content:
   get_ticket: Osta festivali pass
   get_tickets: Osta etenduste pileteid
