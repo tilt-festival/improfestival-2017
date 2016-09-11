@@ -36,6 +36,14 @@
 @media (min-width: $screen-lg-min) {
 
 
+  .row.social {
+    margin-bottom: 2em;
+
+    [class^="col-"] {
+      padding: 2em 0;
+    }
+
+  }
   .row.clip-downward {
     clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
   }
@@ -62,9 +70,9 @@
     }
 
     img {
-      height: 70%;
+      height: 20em;
+      object-fit: scale-down;
       margin: 2em auto 0;
-      width: 50%;
     }
   }
 
