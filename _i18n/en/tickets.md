@@ -1,5 +1,5 @@
 The tickets to improv festival Tilt can be bought in advance via Piletilevi 
-(from Piletilevi ticket offices or web: [piletilevi.ee]({% t performances.ticket_links.all_performances %}) 
+(from Piletilevi ticket offices or web: [piletilevi.ee]({% t performances.ticket_links.all_performances %})) 
 and on the spot before the performances from Kino Sõprus (Vana-Posti 8).
 
 ## Ticket Prices
