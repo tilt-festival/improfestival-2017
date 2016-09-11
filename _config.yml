@@ -42,7 +42,7 @@ collections:
 
 assets:
   autoprefixer:
-    browsers: ["last 2 versions","> 5%","IE 9"]
+    browsers: ["last 4 versions","> 5%","IE 9"]
   cache_type: memory
   digest: true
   sources:  
