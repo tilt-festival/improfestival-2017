@@ -1,7 +1,7 @@
 
 email: tilt@improfestival.ee
 baseurl: ""
-url: "http://improfestival-2016-maria.static-homepages.dd299b78.svc.dockerapp.io:10069"
+url: "https://improfestival.ee"
 languages: ["ee", "en"]
 timezone: "Europe/Tallinn"
 exclude_from_localizations: ["assets"]
