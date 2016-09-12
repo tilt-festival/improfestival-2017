@@ -4,7 +4,7 @@ end: 2016-10-21 18:00
 date: 2016-10-21
 title: workshops.titles.50_characters_in_3_hours
 name: Rod Ben Zeev
-country: ndl
+country: nld
 image: workshops/rod.jpg
 price: 20
 venue: vene
