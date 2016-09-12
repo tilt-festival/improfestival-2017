@@ -6,4 +6,4 @@ Laval: Kristin Augutis, Daniel Malmqvist, Peter Nordstrand ja v천ib-olla 체ks k�
 ---
 See l천busatest rootsi n채itlejatest koosnev trio on v천tnud eesm채rgiks 체heskoos reisida, et impromaailmast inspiratsiooni saada. V천ib-olla, kui neil veab, 천nnestub neil inspireerida ka kedagi teist.<br>
 
-- [facebook.com/scentid](http://facebook.com/scentid/)
+- [facebook.com/scenkonstakademin](https://www.facebook.com/scenkonstakademin)

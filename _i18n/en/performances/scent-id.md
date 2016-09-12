@@ -6,4 +6,4 @@ Cast: Kristin Augutis, Daniel Malmqvist, Peter Nordstrand, and maybe a guest.
 ---
 This Swedish trio of fun loving actors are travelling together to get inspired by the world of improvisation. Maybe, if they are lucky, someone will get a little bit inspired by them.<br>
 
-- [http://facebook.com/scentid](http://facebook.com/scentid/)
+- [facebook.com/scenkonstakademin](https://www.facebook.com/scenkonstakademin)
