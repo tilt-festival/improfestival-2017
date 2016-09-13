@@ -7,6 +7,7 @@ country: est
 language: est
 image: performers/ruutu-10.jpg
 venue: soprus
+sold_out: false
 ticket_url: performances.ticket_links.ruutu10
 date: 2016-10-21
 ---

@@ -7,6 +7,7 @@ country: est
 language: eng
 image: performers/improteater.jpg
 venue: soprus
+sold_out: false
 ticket_url: performances.ticket_links.eesti_improteater
 date: 2016-10-20
 ---

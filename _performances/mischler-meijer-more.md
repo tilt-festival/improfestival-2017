@@ -7,6 +7,7 @@ country: nld
 language: eng
 image: performers/mischler-1.jpg
 venue: soprus
+sold_out: false
 ticket_url: performances.ticket_links.mischler_meijer_more
 date: 2016-10-20
 ---

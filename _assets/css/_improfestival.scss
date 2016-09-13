@@ -348,3 +348,22 @@ blockquote {
   height: 25em;
   margin-top: 5em;
 }
+
+
+.image-container {
+  position: relative;
+  width: 100%;
+
+  h3 {
+    background: rgba($brand-primary, .7);
+    bottom: .5em;
+    color: $body-bg;
+    left: 0;
+    letter-spacing: .2em;
+    padding: .5em 1em;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+  }
+}

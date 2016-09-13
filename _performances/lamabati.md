@@ -7,6 +7,7 @@ country: isr
 language: eng
 image: performers/lamabati.jpg
 venue: soprus
+sold_out: false
 ticket_url: performances.ticket_links.lamabati
 date: 2016-10-22
 ---

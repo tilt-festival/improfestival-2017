@@ -6,6 +6,7 @@ title: performances.titles.improvisers_of_tilt
 image: performers/tilt.jpg
 venue: soprus
 language: eng
+sold_out: false
 ticket_url: performances.ticket_links.improvisers_of_tilt
 date: 2016-10-21
 ---

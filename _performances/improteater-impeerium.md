@@ -7,6 +7,7 @@ country: est
 language: est
 image: performers/impeerium.jpg
 venue: soprus
+sold_out: false
 ticket_url: performances.ticket_links.improteater_impeerium
 date: 2016-10-22
 ---
