@@ -102,5 +102,6 @@ content:
   workshop: Workshop
   show: Show
   signup_workshop: Sign up for workshops
+  sold_out: Sold Out!
 footer:
   more_info: For more info, please contact tilt@improfestival.ee

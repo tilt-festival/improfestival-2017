@@ -6,7 +6,7 @@ title: workshops.titles.silence_is_golden
 country: fin
 name: Kaisa Kokko
 image: workshops/kaisa-2.jpg
-price: 20
+sold_out: false
 venue: vene
 ticket_url: workshops.ticket_url
 ---

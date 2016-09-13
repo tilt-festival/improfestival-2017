@@ -52,6 +52,7 @@ content:
   workshop: Töötuba
   show: Etendus
   signup_workshop: Registreeru töötuppa
+  sold_out: Välja Müüdud!
 
 stats:
   total_years: 4 aastat

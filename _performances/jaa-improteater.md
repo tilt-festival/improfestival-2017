@@ -7,6 +7,7 @@ country: est
 language: est
 image: performers/jaa.jpg
 venue: soprus
+sold_out: false
 ticket_url: performances.ticket_links.jaa_improteater
 date: 2016-10-22
 ---

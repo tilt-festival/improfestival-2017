@@ -6,7 +6,7 @@ title: workshops.titles.do_it_yourself
 country: grc
 name: Menelaos Prokos
 image: workshops/menelaos.jpg
-price: 20
+sold_out: false
 venue: vene
 ticket_url: workshops.ticket_url
 ---

@@ -8,6 +8,7 @@ country: est
 language: est
 image: performers/moos.jpg
 venue: soprus
+sold_out: false
 ticket_url: performances.ticket_links.kogu_moos
 ---
 
