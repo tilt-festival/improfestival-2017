@@ -15,4 +15,6 @@ Kõik etendused toimuvad kinos Sõprus (Vana-Posti 8, Tallinn).
 
 Alates 15.09 on võimalik soetada ka päevapileteid ja toetajapassi.
 
+Kõigi töötubade täishind on 20 eurot. Erihinnad kehtivad festivaliesinejatele ja koolitajatele. 
+
 Lisainfo aadressil: tilt@improfestival.ee
