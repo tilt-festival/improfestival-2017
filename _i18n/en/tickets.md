@@ -15,4 +15,6 @@ All performances take place at Kino Sõprus (Vana-Posti 8, Tallinn).
 
 From 15.09 day passes and festival supporter passes will also be on sale.
 
+All workshops cost 20 euros. Special prices for workshops are for performers and teachers of Tilt 2016.
+
 More information: tilt@improfestival.ee
