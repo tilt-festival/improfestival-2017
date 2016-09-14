@@ -6,7 +6,7 @@ title: workshops.titles.gender_laboratory
 name: Hila Di Castro
 country: isr
 image: workshops/hila.jpg
-price: 20
+sold_out: false
 venue: vene
 ticket_url: workshops.ticket_url
 ---

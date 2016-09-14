@@ -6,7 +6,7 @@ title: workshops.titles.game_of_thrones_on_stage
 name: Nicole Mischler
 country: nld
 image: workshops/nicole.jpg
-price: 20
+sold_out: false
 venue: vene
 ticket_url: workshops.ticket_url
 ---

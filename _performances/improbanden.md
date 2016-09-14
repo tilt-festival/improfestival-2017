@@ -7,6 +7,7 @@ country: ger
 language: eng
 image: performers/improbanden.jpg
 venue: soprus
+sold_out: false
 ticket_url: performances.ticket_links.improbanden
 date: 2016-10-21
 ---

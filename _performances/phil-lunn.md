@@ -7,6 +7,7 @@ country: gbr
 language: eng
 image: performers/phil-2.jpg
 venue: soprus
+sold_out: false
 ticket_url: performances.ticket_links.phil_lunn
 date: 2016-10-22
 ---

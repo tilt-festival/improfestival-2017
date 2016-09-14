@@ -6,6 +6,7 @@ title: performances.titles.dream_team
 language: eng
 image: performers/tilt.jpg
 venue: soprus
+sold_out: false
 ticket_url: performances.ticket_links.dream_team
 date: 2016-10-22
 ---

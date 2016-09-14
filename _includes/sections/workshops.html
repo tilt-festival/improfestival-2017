@@ -15,7 +15,12 @@
         </h4>
 
         <a href="{{ site.baseurl | append:workshop.url }}" data-toggle="modal" data-target="#modal-details">
-            {% img '{{ workshop.image }}' alt:'{{ workshop.name }}' class:'img-responsive center-block' %}
+            <div class="image-container">
+                {% img '{{ workshop.image }}' alt:'{{ workshop.name }}' class:'img-responsive center-block' %}
+                {% if workshop.sold_out %}
+                    <h3>{% t content.sold_out %}</h3>
+                {% endif %}
+            </div>
         </a>
     </div>
 

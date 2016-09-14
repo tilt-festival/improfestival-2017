@@ -6,7 +6,7 @@ title: workshops.titles.we_dont_need_no_language
 country: reu
 name: Keng-Sam Chane Chick Té
 image: workshops/keng-2.jpg
-price: 20
+sold_out: false
 venue: vene
 ticket_url: workshops.ticket_url
 ---

@@ -46,7 +46,11 @@ layout: empty
 
     <div class="row">
         <div class="col-lg-12">
+            {% if page.sold_out %}
+            <button disabled="disabled" class="btn btn-primary btn-buy">{% t content.sold_out %}</button>
+            {% else %}
             <a href="{%t page.ticket_url %}" target="_blank" class="btn btn-buy btn-info">{% t content.buy_ticket %}</a>
+            {% endif %}
         </div>
     </div>
 </div>

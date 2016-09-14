@@ -7,6 +7,7 @@ country: bel
 language: eng
 image: performers/trickle-1.jpg
 venue: soprus
+sold_out: false
 ticket_url: performances.ticket_links.trickle_improv
 date: 2016-10-21
 ---

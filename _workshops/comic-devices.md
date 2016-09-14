@@ -6,7 +6,7 @@ title: workshops.titles.comic_devices
 country: usa
 name: Kevin Scott
 image: workshops/kevin.jpg
-price: 20
+sold_out: false
 venue: vene
 ticket_url: workshops.ticket_url
 ---

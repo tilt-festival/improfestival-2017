@@ -5,7 +5,8 @@ url: "https://improfestival.ee"
 languages: ["ee", "en"]
 timezone: "Europe/Tallinn"
 exclude_from_localizations: ["assets"]
-exclude: ["Gemfile", ".bundle", ".sass-cache", ".asset-cache", "Gemfile.lock", "Dockerfile", "README.md",".travis.yml", "vendor", "node_modules", "bower.json"]
+exclude: ["Gemfile", ".bundle", ".sass-cache", "nginx.conf", "docker-compose.yml", ".asset-cache", "Gemfile.lock", "Dockerfile", "README.md",".travis.yml", "vendor", "node_modules", "bower.json"]
+environment: production
 
 markdown: kramdown
 sass:
@@ -71,3 +72,9 @@ social:
   instagram: https://instagram.com/tilt_improfestival
   youtube: https://www.youtube.com/channel/UC7gOmWdcrS_He1XZnj1VjBQ
   workshop_form: https://improfestival.typeform.com/to/TSPWV7
+
+compress_html:
+  clippings: all
+  ignore:
+    envs:
+      - development

@@ -32,6 +32,10 @@
     @include btn-circle(8em);
   }
 
+  .row.clip-downward {
+    clip-path: polygon(50% 20%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+  }
+
   .col-schedule {
     img {
       height: 20em;
@@ -57,9 +61,11 @@
 
   }
 
-  .row.clip-downward {
-    clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+  .row.clip-roof {
+    clip-path: polygon(50% 0%, 100% 20%, 100% 100%, 0 100%, 0 20%);
+    padding-top: 1em;
   }
+
 
   .row.highlights {
     clip-path: polygon(50% 20%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);

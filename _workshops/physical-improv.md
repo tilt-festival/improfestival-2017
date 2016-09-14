@@ -6,7 +6,7 @@ title: workshops.titles.physical_improv
 name: Daniel Renwick
 country: aus/est
 image: workshops/daniel.jpg
-price: 20
+sold_out: false
 venue: vene
 ticket_url: workshops.ticket_url
 ---
