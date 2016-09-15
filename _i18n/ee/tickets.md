@@ -13,7 +13,7 @@ Kõigi Eesti improtruppide etendused on eesti keeles. Kõigi välismaa truppide 
 
 Kõik etendused toimuvad kinos Sõprus (Vana-Posti 8, Tallinn).
 
-Alates 15.09 on võimalik soetada ka päevapileteid ja toetajapassi.
+Alates 16.09 on võimalik soetada ka päevapileteid ja toetajapassi.
 
 Kõigi töötubade täishind on 20 eurot. Erihinnad kehtivad festivaliesinejatele ja koolitajatele. 
 
