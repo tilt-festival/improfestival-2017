@@ -2,6 +2,7 @@
     <div class="col-md-8 col-lg-8">
         {% assign month = day_events.items[0].start | date: '%B' | downcase | prepend: "month." %}
         <h3>{{ day_events.items[0].start | date: '%d' }} {% t month %}</h3>
+
         <div class="table-responsive">
             <table class="table table-tickets table-hover table-condensed">
                 {% for event in day_events.items %}
@@ -30,6 +31,7 @@
                 {% endfor %}
             </table>
         </div>
+
     </div>
 
     <div class="col-md-3 col-lg-3 col-lg-offset-1 col-day-info hidden-xs hidden-sm">

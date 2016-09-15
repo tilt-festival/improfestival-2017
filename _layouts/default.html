@@ -10,6 +10,16 @@ layout: empty
       {{ content | extlinks }}
       {% include footer.html %}
     </div>
+
+    <!-- This is the main modal window used for showing all kinds of details -->
+    <!-- Its content is loaded dynamically by Javascript from remote sources -->
+    <div class="modal fade" id="modal-details" tabindex="-1" role="dialog" aria-labelledby="modal-details-title">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+        </div>
+      </div>
+    </div>
+
     {% include scripts.html %}
   </body>
 </html>

@@ -1,4 +1,3 @@
-
 @charset 'utf-8';
 
 $brand-primary: #a43a5a;
@@ -8,12 +7,11 @@ $brand-warning: #e8b329;
 $brand-danger:  #d1752f;
 $gray-light:    #ccc;
 
-
+// Colors for the "social" bar font-icons
 $twitter-blue: #4099ff;
 $google-calendar-blue: #373ad7;
 $facebook-blue: #3b5998;
 $youtube-red: #b31217;
-
 
 @mixin fontdef($font-type:'Regular') {
   src: url(asset_path('#{$font-type}/OpenSans-#{$font-type}.eot')) format('embedded-opentype'),
@@ -43,7 +41,6 @@ $font-family-sans-serif: 'Open Sans', sans-serif;
 @import 'bootstrap';
 @import '../bower/font-awesome/scss/font-awesome';
 
-
 @font-face {
   font-family: 'FontAwesome';
   src: url(asset_path('fontawesome-webfont.eot'));
@@ -57,4 +54,5 @@ $font-family-sans-serif: 'Open Sans', sans-serif;
 }
 
 @import 'improfestival';
+@import 'utils';
 @import 'responsive';

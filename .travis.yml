@@ -31,5 +31,7 @@ after_script:
 
 notifications:
   email:
+    on_success: change
+    on_failure: change
     recipients:
       - conv.1cubcaa5j2i2ik@fleep.io

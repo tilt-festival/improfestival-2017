@@ -1,15 +1,11 @@
-{% assign all_events = site.workshops | a_concat: site.performances | sort: 'start' %}
-
 <div class="row">
-    <div class="col-lg-8">
+    <div class="col-lg-12">
         <h1 id="schedule">{% t menu.schedule %}</h1>
-
     </div>
 </div>
 
-{% assign events_by_day = all_events | group_by: "date" %}
+{% assign all_events = site.workshops | a_concat: site.performances | sort: 'start' | group_by: 'date' %}
 
-{% for day_events in events_by_day %}
+{% for day_events in all_events %}
     {% include sections/events.html %}
-{%endfor%}
-
+{% endfor %}

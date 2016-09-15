@@ -42,13 +42,6 @@ body {
   width: 100%;
 }
 
-.vertical-center {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .header-jumbotron {
   padding-bottom: 2em;
 
@@ -185,10 +178,6 @@ body {
   }
 }
 
-.no-padding {
-  padding: 0;
-}
-
 .row.highlights {
   clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
   min-height: 3em;
@@ -259,21 +248,6 @@ blockquote {
   }
 }
 
-.row-buffer-top {
-  margin-top: 0;
-  padding-bottom: 0;
-}
-
-.row.clip-downward {
-  clip-path: polygon(50% 5%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
-  margin-top: 1em;
-}
-
-.row.clip-roof {
-  clip-path: polygon(50% 0%, 100% 15%, 100% 100%, 0 100%, 0 15%);
-  margin-top: 1em;
-}
-
 .table-tickets {
   tbody {
     tr {
@@ -289,9 +263,6 @@ blockquote {
   }
 }
 
-.img-grayscale {
-  filter: grayscale(100%);
-}
 
 .table {
   tbody {
@@ -348,7 +319,6 @@ blockquote {
   height: 25em;
   margin-top: 5em;
 }
-
 
 .image-container {
   position: relative;
