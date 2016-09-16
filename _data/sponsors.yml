@@ -13,3 +13,7 @@
 - name: Public TV
   logo: sponsors/tv.png
   url: http://www.publictv.ee/
+
+- name: Tele2
+  logo: sponsors/tele2.png
+  url: https://tele2.ee
