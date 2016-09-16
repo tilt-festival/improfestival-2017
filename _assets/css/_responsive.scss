@@ -1,7 +1,12 @@
 
 @media (min-width: $screen-sm-min) {
-
-
+  .header-jumbotron {
+    [class^="col-"]:last-child {
+      h2 {
+        font-size: $font-size-h2;
+      }
+    }
+  }
 }
 
 @media (min-width: $screen-md-min) {
@@ -83,6 +88,18 @@
   }
 
   .header-jumbotron {
+
+    [class^="col-"]:nth-child(2) {
+      h2 {
+        text-align: left;
+      }
+    }
+
+    [class^="col-"]:last-child {
+      h2 {
+        text-align: right;
+      }
+    }
 
     .vertical-center {
       min-height: 20em;

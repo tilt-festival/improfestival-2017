@@ -45,9 +45,14 @@ body {
 .header-jumbotron {
   padding-bottom: 2em;
 
-  h2,
-  h4 {
+  h2 {
     text-align: center;
+  }
+
+  [class^="col-"]:last-child {
+    h2 {
+      font-size: ceil($font-size-base * 1.4);
+    }
   }
 
   .vertical-center {
@@ -58,7 +63,7 @@ body {
   img {
     height: 80%;
     margin: 0 auto;
-    width: 70%;
+    width: 50%;
   }
 
   + .row {
