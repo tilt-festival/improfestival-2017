@@ -6,12 +6,17 @@
         font-size: $font-size-h2;
       }
     }
+
+    img {
+      height: 90%;
+      width: 70%;
+    }
   }
 
   .row.social {
     [class^="col-"] {
-      height: 20em;
       @include flex-center;
+      height: 20em;
     }
   }
 }
@@ -54,6 +59,11 @@
       height: 20em;
     }
   }
+
+  .img-padded {
+    padding: 1em;
+  }
+
 }
 @media (min-width: $screen-lg-min) {
 
@@ -158,4 +168,7 @@
     margin-top: 5em;
   }
 
+  .img-padded {
+    padding: 2em;
+  }
 }
