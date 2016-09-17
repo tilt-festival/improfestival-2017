@@ -7,9 +7,9 @@
 <div class="row row-equal-height">
 
     {% for sponsor in site.data.sponsors %}
-    <div class="col-xs-4 col-lg-3">
+    <div class="col-xs-4 col-lg-3 vertical-center">
         <a href="{{ sponsor.url }}" target="_blank">
-            {% img '{{ sponsor.logo }}' alt:'{{ sponsor.name }}' title:'{{ sponsor.name }}' class:'img-rounded img-grayscale img-responsive' %}
+            {% img '{{ sponsor.logo }}' alt:'{{ sponsor.name }}' title:'{{ sponsor.name }}' class:'img-rounded img-padded img-grayscale img-responsive' %}
         </a>
     </div>
     {% endfor %}

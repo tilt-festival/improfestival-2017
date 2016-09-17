@@ -2,48 +2,10 @@
 layout: default
 ---
 
-<div class="row header-jumbotron row-equal-height">
-
-    <div class="col-xs-12 col-sm-push-4 col-sm-4 col-lg-4 vertical-center">
-        {% img header-logo.png class:'img-responsive' alt:'Tilt logo' %}
-    </div>
-
-    <div class="col-xs-12 col-sm-4 col-sm-pull-4 col-lg-3 col-lg-offset-1 center-block">
-        <div class="vertical-center">
-            <h2>{% t global.title_short %}</h2></div>
-    </div>
-
-    <div class="col-xs-12 col-sm-4 col-lg-3 col-lg-offset-1">
-        <div class="vertical-center">
-            <h4>{% t global.dates %}</h4>
-        </div>
-    </div>
-</div>
-
-<div class="row hidden-xs hidden-sm">
-    <div class="col-lg-12">&nbsp;</div>
-</div>
-
+{% include sections/jumbotron.html %}
 {% include sections/social.html %}
-
-
 {% include sections/performances.html %}
-
-<div class="row gray hide">
-    <div class="col-xs-12 col-sm-6 col-lg-6">
-        <a href="#schedule" class="btn btn-circle btn-warning">{% t menu.schedule %}</a>
-        <a href="#tickets" class="btn btn-circle btn-info">{% t menu.tickets %}</a>
-        <a href="#team" class="btn btn-circle btn-primary">{% t menu.team %}</a>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-pull-1 hidden-xs">
-        <p class="lead text-right">{% t content.get_ticket %} <a href="#">{% t content.here %} <i class="fa fa-chevron-right"
-                                                                                       aria-hidden="true"></i></a></p>
-        <p class="lead text-right">{% t content.get_one_day_pass %} <a href="#">{% t content.here %} <i class="fa fa-chevron-right"
-                                                                                             aria-hidden="true"></i></a>
-        </p>
-    </div>
-</div>
-
+{% include sections/row-tickets.html %}
 {% include sections/workshops.html %}
 {% include sections/quotes1.html %}
 {% include sections/schedule.html %}
@@ -51,39 +13,5 @@ layout: default
 {% include sections/tickets.html %}
 {% include sections/quotes2.html %}
 {% include sections/sponsors.html %}
-
-<div class="row">
-    <div class="col-lg-12">
-
-    </div>
-</div>
-
-
-<div class="row gray highlights">
-    <div class="col-lg-6">
-        <ul class="list-unstyled lead">
-            <li>{% t stats.total_years %}</li>
-            <li>{% t stats.total_performances %}</li>
-            <li>{% t stats.total_workshops %}</li>
-        </ul>
-    </div>
-    <div class="col-lg-6">
-        <ul class="list-unstyled lead">
-            <li>
-                <a href="https://2013.improfestival.ee" target="_blank">2013</a>
-            </li>
-            <li><a href="https://2014.improfestival.ee" target="_blank">2014</a></li>
-            <li><a href="https://2015.improfestival.ee" target="_blank">2015</a></li>
-        </ul>
-    </div>
-</div>
-
+{% include sections/row-years.html %}
 {% include sections/team.html %}
-
-
-<div class="modal fade" id="modal-details" tabindex="-1" role="dialog" aria-labelledby="modal-details-title">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-        </div>
-    </div>
-</div>

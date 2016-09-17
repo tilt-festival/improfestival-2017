@@ -1,0 +1,27 @@
+.img-grayscale {
+  filter: grayscale(100%);
+}
+
+.vertical-center {
+  @include flex-center;
+  display: flex;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.row-buffer-top {
+  margin-top: 0;
+  padding-bottom: 0;
+}
+
+.row.clip-downward {
+  clip-path: polygon(50% 5%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+  margin-top: 1em;
+}
+
+.row.clip-roof {
+  clip-path: polygon(50% 0%, 100% 15%, 100% 100%, 0 100%, 0 15%);
+  margin-top: 1em;
+}
