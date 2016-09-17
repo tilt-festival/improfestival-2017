@@ -4,6 +4,10 @@ body {
   padding-top: 70px;
 }
 
+i {
+  font-size: 1em;
+}
+
 .navbar-default {
   background-color: $body-bg;
   border-bottom: 0;
@@ -84,6 +88,10 @@ body {
   @include clip-down(10%);
   background-image: url(image_path('header.jpg'));
   background-size: cover;
+
+  i {
+    font-size: 3em;
+  }
 
   [href*="facebook"] {
     color: $facebook-blue;
@@ -241,6 +249,11 @@ blockquote {
 }
 
 .table-tickets {
+
+  i {
+    font-size: 2em;
+  }
+
   tbody {
     tr {
 

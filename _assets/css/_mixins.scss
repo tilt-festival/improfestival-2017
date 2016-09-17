@@ -1,4 +1,4 @@
-@mixin flex-center() {
+@mixin flex-center {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
@@ -20,3 +20,7 @@
   padding: $size/3 0;
   min-width: $size;
 }
+
+// Stub of the Bootstrap form-inline mixing from the _forms module
+// This is used in the _navbar module, but we don't want to include _forms only because of that
+@mixin form-inline {}

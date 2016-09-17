@@ -22,8 +22,8 @@
                             {{ event.name }} - {% t event.title %}
                         </a>
                     </td>
-                    <td><a href="#map" title="{% t menu.venues %}"><i class="fa fa-2x fa-map-marker"></i></a></td>
-                    <td><a href="{% t event.ticket_url %}" title="{% t content.buy_ticket %}"><i class="fa fa-2x fa-ticket"></i></a></td>
+                    <td><a href="#map" title="{% t menu.venues %}"><i class="icon-map-marker"></i></a></td>
+                    <td><a href="{% t event.ticket_url %}" title="{% t content.buy_ticket %}"><i class="icon-ticket"></i></a></td>
                 </tr>
                 {% if event.collection == 'workshops' and day_events.items[forloop.index].collection == 'performances' %}
                 <tr><td colspan="5">&nbsp;</td></tr>
