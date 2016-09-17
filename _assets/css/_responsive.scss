@@ -1,7 +1,24 @@
 
 @media (min-width: $screen-sm-min) {
+  .header-jumbotron {
+    [class^="col-"]:last-child {
+      h2 {
+        font-size: $font-size-h2;
+      }
+    }
 
+    img {
+      height: 90%;
+      width: 70%;
+    }
+  }
 
+  .row.social {
+    [class^="col-"] {
+      @include flex-center;
+      height: 20em;
+    }
+  }
 }
 
 @media (min-width: $screen-md-min) {
@@ -9,6 +26,7 @@
   .row.social {
     @include clip-down(0);
     background-image: none;
+    height: 18em;
   }
 
 
@@ -41,11 +59,20 @@
       height: 20em;
     }
   }
+
+  .img-padded {
+    padding: 1em;
+  }
+
 }
 @media (min-width: $screen-lg-min) {
 
   [src*="piletilevi"] {
     width: 100%;
+  }
+
+  .btn-circle {
+    font-size: $font-size-large;
   }
 
   h1 {
@@ -58,7 +85,6 @@
     [class^="col-"] {
       padding: 2em 0;
     }
-
   }
 
   .row.clip-roof {
@@ -83,6 +109,18 @@
   }
 
   .header-jumbotron {
+
+    [class^="col-"]:nth-child(2) {
+      h2 {
+        text-align: left;
+      }
+    }
+
+    [class^="col-"]:last-child {
+      h2 {
+        text-align: right;
+      }
+    }
 
     .vertical-center {
       min-height: 20em;
@@ -129,4 +167,7 @@
     margin-top: 5em;
   }
 
+  .img-padded {
+    padding: 2em;
+  }
 }

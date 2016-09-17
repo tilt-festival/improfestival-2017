@@ -1,22 +1,11 @@
 
-@mixin clip-down($amount: 20%) {
-  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0, 50% $amount);
-}
-
-@mixin clip-up($amount: 20%) {
-  clip-path: polygon(0 $amount, 0 101%, 100% 101%, 100% $amount, 50% 0);
-}
-
-@mixin btn-circle($size: 6em) {
-  border-radius: $size/2;
-  min-height: $size;
-  padding: $size/3 0;
-  min-width: $size;
-}
-
 body {
   min-height: 100em;
   padding-top: 70px;
+}
+
+i {
+  font-size: 1em;
 }
 
 .navbar-default {
@@ -42,19 +31,17 @@ body {
   width: 100%;
 }
 
-.vertical-center {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .header-jumbotron {
   padding-bottom: 2em;
 
-  h2,
-  h4 {
+  h2 {
     text-align: center;
+  }
+
+  [class^="col-"]:last-child {
+    h2 {
+      font-size: ceil($font-size-base * 1.4);
+    }
   }
 
   .vertical-center {
@@ -65,7 +52,7 @@ body {
   img {
     height: 80%;
     margin: 0 auto;
-    width: 70%;
+    width: 50%;
   }
 
   + .row {
@@ -101,6 +88,10 @@ body {
   @include clip-down(10%);
   background-image: url(image_path('header.jpg'));
   background-size: cover;
+
+  i {
+    font-size: 3em;
+  }
 
   [href*="facebook"] {
     color: $facebook-blue;
@@ -185,10 +176,6 @@ body {
   }
 }
 
-.no-padding {
-  padding: 0;
-}
-
 .row.highlights {
   clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
   min-height: 3em;
@@ -216,6 +203,8 @@ button {
 
 .btn-circle {
   @include btn-circle(6em);
+  font-size: $font-size-base;
+  font-weight: bold;
 }
 
 // Last 2 rows
@@ -259,22 +248,12 @@ blockquote {
   }
 }
 
-.row-buffer-top {
-  margin-top: 0;
-  padding-bottom: 0;
-}
-
-.row.clip-downward {
-  clip-path: polygon(50% 5%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
-  margin-top: 1em;
-}
-
-.row.clip-roof {
-  clip-path: polygon(50% 0%, 100% 15%, 100% 100%, 0 100%, 0 15%);
-  margin-top: 1em;
-}
-
 .table-tickets {
+
+  i {
+    font-size: 2em;
+  }
+
   tbody {
     tr {
 
@@ -289,9 +268,6 @@ blockquote {
   }
 }
 
-.img-grayscale {
-  filter: grayscale(100%);
-}
 
 .table {
   tbody {
@@ -349,7 +325,6 @@ blockquote {
   margin-top: 5em;
 }
 
-
 .image-container {
   position: relative;
   width: 100%;
@@ -366,4 +341,8 @@ blockquote {
     text-transform: uppercase;
     width: 100%;
   }
+}
+
+.img-padded {
+  padding: .4em;
 }

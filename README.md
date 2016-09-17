@@ -35,9 +35,18 @@ This will start a Nginx webserver image listening on port 80.
 * Install gems: `bundle install`
 * Run Jekyll server: `bundle exec jekyll serve`
 
-## Authors
+### Adding Icons
 
-* [NPO Improgrupp Jaa!](http://jaa.ee)
+Instead of using the stock Font Awesome icon package, this site uses a custom-generated icon font that includes only the icons it actually uses. This saves bandwidth.
+The icons are generated with [Icomoon.io](https://icomoon.io/app/). See `_assets/fonts/icomoon` folder.
+
+To add new icons:
+ 
+- Open the Icomoon app
+- Import `_assets/fonts/icomoon/selection.json` into it
+- Add new icons
+- Download the icon archive into `_assets/fonts/icomoon` folder
+- Manually update `_assets/css/_icons.scss` - add new icon variables and classes
 
 # Licence
 

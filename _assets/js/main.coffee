@@ -1,3 +1,9 @@
+#= require jquery.min
+#= require bootstrap.min
+#= require jquery-smooth-scroll/jquery.smooth-scroll.min
+#= require matchHeight/dist/jquery.matchHeight-min
+
+# Create a JS Google Map object and add important location markers to it
 window.initMap = ->
   map = new google.maps.Map $('.map')[0],
     center:
@@ -78,10 +84,14 @@ $ ->
   $('.footer-bg').click ->
     window.open 'https://fucking.tilt.ee', '_blank'
 
+  # Smooth out scrolling effect when clicking on a hash link
   $('a[href^="#"]').smoothScroll
     offset: -60
     speed: 800
 
+  # Load the contents of links into a modal window
+  # The links must have a [data-]href attribute and be marked
+  # as data-toggle="modal"
   $('[data-toggle="modal"]:not(tr)').on 'click', (e) ->
     e.preventDefault()
     url = $(this).data('href') ? $(this).attr('href')
@@ -91,9 +101,12 @@ $ ->
 
     $('#modal-details').find('.modal-content').html('').load url
 
-
+  # Non-flexbox hack to get Bootstrap columns to be of matching height
   $('.row-equal-height [class^="col-"]').matchHeight()
 
+  # Hover effect for the schedule table:
+  # Change the "featured" image source depending on
+  # which table row is hovered on
   $('.table-tickets tr').hover ->
     image = $(this).data 'image'
     url = $(this).find('a').attr 'href'
