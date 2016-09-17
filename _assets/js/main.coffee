@@ -1,3 +1,8 @@
+#= require jquery.min
+#= require bootstrap.min
+#= require jquery-smooth-scroll/jquery.smooth-scroll.min
+#= require matchHeight/dist/jquery.matchHeight-min
+
 # Create a JS Google Map object and add important location markers to it
 window.initMap = ->
   map = new google.maps.Map $('.map')[0],

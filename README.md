@@ -48,10 +48,6 @@ To add new icons:
 - Download the icon archive into `_assets/fonts/icomoon` folder
 - Manually update `_assets/css/_icons.scss` - add new icon variables and classes
 
-## Authors
-
-* [NPO Improgrupp Jaa!](http://jaa.ee)
-
 # Licence
 
 Licenced under [Apache License 2.0](http://choosealicense.com/licenses/apache-2.0).

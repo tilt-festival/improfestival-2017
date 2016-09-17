@@ -1,10 +1,12 @@
 version: "2"
 
-
 services:
   web:
     build: .
+    image: improv-jaa/improfestival-2016
     ports:
-      - 8080:80
+      - 8080:8080
     volumes:
       - ./_site:/usr/share/nginx/html:ro
+    # A random UID that does not exist
+    user: "1109"
