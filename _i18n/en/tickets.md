@@ -4,8 +4,8 @@ and on the spot before the performances from Kino Sõprus (Vana-Posti 8).
 
 ## Ticket Prices
 
-- Estonian improv groups - full tickets `8` euros, discount tickets `6` euros.
-- Improv groups from abroad - full tickets `10` or `12` euros (depending on the show), discount tickets `8` or `10` euros (depending on the show).
+- Estonian improv groups - full tickets **8** euros, discount tickets **6** euros.
+- Improv groups from abroad - full tickets **10** or **12** euros (depending on the show), discount tickets **8** or **10** euros (depending on the show).
 
 Discount tickets are for students and pensioners. Seating is not allocated.
 
