@@ -1,19 +1,4 @@
 
-@mixin clip-down($amount: 20%) {
-  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0, 50% $amount);
-}
-
-@mixin clip-up($amount: 20%) {
-  clip-path: polygon(0 $amount, 0 101%, 100% 101%, 100% $amount, 50% 0);
-}
-
-@mixin btn-circle($size: 6em) {
-  border-radius: $size/2;
-  min-height: $size;
-  padding: $size/3 0;
-  min-width: $size;
-}
-
 body {
   min-height: 100em;
   padding-top: 70px;
@@ -210,6 +195,8 @@ button {
 
 .btn-circle {
   @include btn-circle(6em);
+  font-size: $font-size-base;
+  font-weight: bold;
 }
 
 // Last 2 rows

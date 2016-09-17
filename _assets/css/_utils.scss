@@ -1,14 +1,10 @@
-
 .img-grayscale {
   filter: grayscale(100%);
 }
 
 .vertical-center {
-  align-items: center;
+  @include flex-center;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
 }
 
 .no-padding {

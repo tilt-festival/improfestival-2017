@@ -7,6 +7,13 @@
       }
     }
   }
+
+  .row.social {
+    [class^="col-"] {
+      height: 20em;
+      @include flex-center;
+    }
+  }
 }
 
 @media (min-width: $screen-md-min) {
@@ -14,6 +21,7 @@
   .row.social {
     @include clip-down(0);
     background-image: none;
+    height: 18em;
   }
 
 
@@ -51,6 +59,10 @@
 
   [src*="piletilevi"] {
     width: 100%;
+  }
+
+  .btn-circle {
+    font-size: $font-size-large;
   }
 
   h1 {
