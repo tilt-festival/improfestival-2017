@@ -1,14 +1,17 @@
-<div class="row gray hide">
+<div class="row gray hidden-xs hidden-sm">
     <div class="col-xs-12 col-sm-6 col-lg-6">
         <a href="#schedule" class="btn btn-circle btn-warning">{% t menu.schedule %}</a>
         <a href="#tickets" class="btn btn-circle btn-info">{% t menu.tickets %}</a>
         <a href="#team" class="btn btn-circle btn-primary">{% t menu.team %}</a>
     </div>
-    <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-pull-1 hidden-xs">
-        <p class="lead text-right">{% t content.get_ticket %} <a href="#">{% t content.here %} <i class="fa fa-chevron-right"
-                                                                                                  aria-hidden="true"></i></a></p>
-        <p class="lead text-right">{% t content.get_one_day_pass %} <a href="#">{% t content.here %} <i class="fa fa-chevron-right"
-                                                                                                        aria-hidden="true"></i></a>
+    <div class="col-xs-12 col-sm-6 col-lg-6 vertical-center">
+        <p class="lead">{% t content.get_one_day_pass %} <a href="{% t performances.ticket_links.day_tickets %}"
+        target="_blank">
+            {% t content.here %} <i class="fa fa-chevron-right" aria-hidden="true"></i></a></p>
+        <p class="lead">{% t content.get_ticket %} <a href="{% t performances.ticket_links.festival_pass %}"
+        target="_blank">
+            {% t content.here %} <i class="fa fa-chevron-right"
+                                    aria-hidden="true"></i></a>
         </p>
     </div>
 </div>
