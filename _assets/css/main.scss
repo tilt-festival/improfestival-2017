@@ -17,7 +17,7 @@ $youtube-red: #b31217;
   src: url(asset_path('#{$font-type}/OpenSans-#{$font-type}.eot')) format('embedded-opentype'),
     url(asset_path('#{$font-type}/OpenSans-#{$font-type}.woff2')) format('woff2'),
     url(asset_path('#{$font-type}/OpenSans-#{$font-type}.woff')) format('woff'),
-    url(asset_path('#{$font-type}/OpenSans-#{$font-type}.tff')) format('truetype'),
+    url(asset_path('#{$font-type}/OpenSans-#{$font-type}.ttf')) format('truetype'),
     url(asset_path('#{$font-type}/OpenSans-#{$font-type}.svg')) format('svg');
 }
 
