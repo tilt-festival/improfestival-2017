@@ -95,9 +95,10 @@ $ ->
   $('[data-toggle="modal"]:not(tr)').on 'click', (e) ->
     e.preventDefault()
     url = $(this).data('href') ? $(this).attr('href')
+    url = url.replace('/en', '')
 
     # Append the modal's ID to the URL's hash
-    window.location.hash = url.replace '.html', ''
+    window.location.hash = url.replace('.html', '')
 
     $('#modal-details').find('.modal-content').html('').load url
 
