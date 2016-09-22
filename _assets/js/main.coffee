@@ -95,6 +95,9 @@ $ ->
   $('[data-toggle="modal"]:not(tr)').on 'click', (e) ->
     e.preventDefault()
     url = $(this).data('href') ? $(this).attr('href')
+
+    # Fix bug for language'd pages where the URL contains "double" language
+    # Example: https://improfestival.ee/en#/en/workshops
     url = url.replace('/en', '')
 
     # Append the modal's ID to the URL's hash
