@@ -5,6 +5,7 @@ Publik võib end kujutleda vaatamas seriaali.... aga... teil on võimalus pimesi
 
 ---
 Kogu Moos on seltskond väga erineva taustaga improviseerijaid, kes on ühendanud oma armastuse ja jõu impro vastu, et avastada koos elu treppe, rõõmsaid ja tumedaid, naiivseid ja iroonilisi, romantilisi ja realistlike... Nagu neis endiski, väärtustavad nad ka impros mitmekesisust ja erinevate külgede koostoimimist.<br>
+Muusikaline tugi - bänd Dust Cloud.<br>
 
 - [improv.ee/trupid/kogu-moos](http://improv.ee/trupid/kogu-moos/)
 - [facebook.com/KoguMoos](http://www.facebook.com/KoguMoos)
