@@ -70,6 +70,7 @@ i {
 
   [class^="col-"] {
     padding: 5em 2em;
+    padding-bottom: 1em;
   }
 
   .btn-circle {
@@ -86,8 +87,6 @@ i {
 // Row with social icons and "bullet points"
 .row.social {
   @include clip-down(10%);
-  background-image: url(image_path('header.jpg'));
-  background-size: cover;
 
   i {
     font-size: 3em;
@@ -245,6 +244,21 @@ blockquote {
     color: $gray-darker;
     font-size: 1.8em;
     font-weight: 400;
+
+    &.no-dash::before {
+      content: '';
+    }
+  }
+}
+
+.table {
+  tbody {
+    tr {
+      td {
+        border-top: 0;
+        vertical-align: middle;
+      }
+    }
   }
 }
 
@@ -258,22 +272,10 @@ blockquote {
     tr {
 
       td {
-        border-top: 0;
 
         &:first-child {
           white-space: nowrap;
         }
-      }
-    }
-  }
-}
-
-
-.table {
-  tbody {
-    tr {
-      td {
-        vertical-align: middle;
       }
     }
   }
@@ -323,6 +325,19 @@ blockquote {
 .carousel {
   height: 25em;
   margin-top: 5em;
+
+  .carousel-inner {
+    height: 100%;
+
+    .item {
+      height: 100%;
+
+      blockquote {
+        @include flex-center;
+        height: 100%;
+      }
+    }
+  }
 }
 
 .image-container {

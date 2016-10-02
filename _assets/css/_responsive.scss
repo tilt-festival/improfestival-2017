@@ -23,9 +23,15 @@
 
 @media (min-width: $screen-md-min) {
 
+  .row.gray {
+
+    [class^="col-"] {
+      padding: 5em 2em;
+    }
+  }
+
   .row.social {
     @include clip-down(0);
-    background-image: none;
     height: 18em;
   }
 
