@@ -86,8 +86,6 @@ i {
 // Row with social icons and "bullet points"
 .row.social {
   @include clip-down(10%);
-  background-image: url(image_path('header.jpg'));
-  background-size: cover;
 
   i {
     font-size: 3em;
