@@ -246,7 +246,7 @@ blockquote {
     font-weight: 400;
 
     &.no-dash::before {
-      content: "";
+      content: '';
     }
   }
 }
@@ -325,6 +325,19 @@ blockquote {
 .carousel {
   height: 25em;
   margin-top: 5em;
+
+  .carousel-inner {
+    height: 100%;
+
+    .item {
+      height: 100%;
+
+      blockquote {
+        @include flex-center;
+        height: 100%;
+      }
+    }
+  }
 }
 
 .image-container {
