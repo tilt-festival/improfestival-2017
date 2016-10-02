@@ -244,6 +244,10 @@ blockquote {
     color: $gray-darker;
     font-size: 1.8em;
     font-weight: 400;
+
+    &.no-dash::before {
+      content: "";
+    }
   }
 }
 
@@ -252,6 +256,7 @@ blockquote {
     tr {
       td {
         border-top: 0;
+        vertical-align: middle;
       }
     }
   }
@@ -271,17 +276,6 @@ blockquote {
         &:first-child {
           white-space: nowrap;
         }
-      }
-    }
-  }
-}
-
-
-.table {
-  tbody {
-    tr {
-      td {
-        vertical-align: middle;
       }
     }
   }
