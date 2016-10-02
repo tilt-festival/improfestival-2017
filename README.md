@@ -10,18 +10,19 @@ This is the homepage for the 4th [international improv festival Tilt](https://im
 
 ## Managing Content
 
-This is a static site, built with [Jekyll](http://jekyllrb.com). This means that one can not "edit and save" content similarly to Wordpress. For every change, a new "deployment" needs to happen.
+This is a static site, built with [Jekyll](http://jekyllrb.com). This means that one can not "edit and save" content similarly to Wordpress. 
+For every change, a new "deployment" needs to happen before the changed content is visible to the world.
 
 ### Workflow
 
 To change something within the website:
 
 - Make the desired change on the [develop branch](https://github.com/improv-jaa/improfestival-2016/tree/develop) _(only for people who are members of the organization)_
-- Create a [pull request] with the desired branch against the `master` branch
+- Create a [pull request](https://guides.github.com/activities/hello-world/#pr) from `develop` to `master` branch
 - The change will automatically be deployed to the live environment [2016.improfestival.ee](https://2016.improfestival.ee) once the pull request is merged
 
-Each change triggers a [Travis build](https://travis-ci.org/improv-jaa/improfestival-2016/builds), which will build a new version of the site's Docker image and checks for coding errors.
-The build takes about ~2...5 minutes. If the build fails, fix the problem.
+Each change automatically triggers a [Travis build](https://travis-ci.org/improv-jaa/improfestival-2016/builds), which will build a new version of the site's Docker image and checks for coding errors.
+The build takes about ~2...5 minutes. If the build fails see Travis logs for an error and fix the problem.
 
 ### Folder Structure
 
