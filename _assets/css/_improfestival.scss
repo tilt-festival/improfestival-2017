@@ -247,6 +247,16 @@ blockquote {
   }
 }
 
+.table {
+  tbody {
+    tr {
+      td {
+        border-top: 0;
+      }
+    }
+  }
+}
+
 .table-tickets {
 
   i {
@@ -257,7 +267,6 @@ blockquote {
     tr {
 
       td {
-        border-top: 0;
 
         &:first-child {
           white-space: nowrap;
