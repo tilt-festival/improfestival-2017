@@ -16,10 +16,20 @@
 </div>
 
 <div class="row">
-    <div class="col-lg-6"><p class="lead">{% t content.get_tickets %}
+    <div class="col-lg-6">
+    <p class="lead">{% t content.get_tickets %}
         <a href="{% t performances.ticket_links.all_performances %}">{% t content.here %} <i
             class="icon-chevron-right"
-            aria-hidden="true"></i></a></p>
+            aria-hidden="true"></i></a>
+    </p>
+    <p class="lead">{% t content.get_one_day_pass %} <a href="{% t performances.ticket_links.day_tickets %}"
+        target="_blank">
+            {% t content.here %} <i class="icon-chevron-right" aria-hidden="true"></i></a></p>
+        <p class="lead">{% t content.get_ticket %} <a href="{% t performances.ticket_links.festival_pass %}"
+        target="_blank">
+            {% t content.here %} <i class="icon-chevron-right"
+                                    aria-hidden="true"></i></a>
+        </p>
     </div>
 
 </div>
