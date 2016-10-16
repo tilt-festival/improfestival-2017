@@ -6,7 +6,7 @@ title: workshops.titles.50_characters_in_3_hours
 name: Rod Ben Zeev
 country: nld
 image: workshops/rod.jpg
-sold_out: false
+sold_out: true
 venue: vene
 ticket_url: workshops.ticket_url
 ---
