@@ -6,7 +6,7 @@ title: workshops.titles.trust_cooperation
 country: swe
 name: Peter Nordstrand
 image: workshops/peter.jpg
-sold_out: false
+sold_out: true
 venue: vene
 ticket_url: workshops.ticket_url
 ---
