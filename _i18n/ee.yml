@@ -35,6 +35,8 @@ month:
 venues:
   soprus: 'Kino Sõprus'
   vene: 'Rahvaülikooli Teatrikeskus'
+  house: 'Õpetajate Maja'
+  kloostriait: 'Kloostriait'
 
 titles:
   days_count: 3 päeva

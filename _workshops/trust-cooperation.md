@@ -7,7 +7,7 @@ country: swe
 name: Peter Nordstrand
 image: workshops/peter.jpg
 sold_out: true
-venue: vene
+venue: house
 ticket_url: workshops.ticket_url
 ---
 
