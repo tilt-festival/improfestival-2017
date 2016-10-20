@@ -66,6 +66,61 @@ window.initMap = ->
 """
   vene.addListener 'click', -> veneInfo.open map, vene
 
+  # Õpetajate Maja
+  new google.maps.Circle
+    strokeColor: '#a43a5a'
+    fillOpacity: 0
+    strokeWeight: 4
+    map: map
+    center:
+      lat: 59.437589
+      lng: 24.746095
+    radius: 20
+
+  house = new google.maps.Marker
+    position:
+      lat: 59.437589
+      lng: 24.746095
+    map: map
+    title: 'Õpetajate Maja'
+    label: '3'
+
+  houseInfo = new google.maps.InfoWindow
+    content: """
+      <h3>Teacher's House (Õpetajate Maja)</h3>
+      <p class="lead">Raekoja Plats 14, Tallinn</p>
+      <p>Workshop venue</p>
+"""
+  house.addListener 'click', -> houseInfo.open map, house
+
+  # Kloostriait
+  new google.maps.Circle
+    strokeColor: '#a43a5a'
+    fillOpacity: 0
+    strokeWeight: 4
+    map: map
+    center:
+      lat: 59.438014
+      lng: 24.747941
+    radius: 20
+
+  kloostriait = new google.maps.Marker
+    position:
+      lat: 59.438014
+      lng: 24.747941
+    map: map
+    title: 'Kloostriait'
+    label: '4'
+
+  kloostriaitInfo = new google.maps.InfoWindow
+    content: """
+      <h3>Kloostriait</h3>
+      <p class="lead">Vene 14, Tallinn</p>
+      <p>Workshop venue. Entrance from the side door, opposite Katariina's church.</p>
+"""
+  kloostriait.addListener 'click', -> kloostriaitInfo.open map, kloostriait
+
+
 # Open a modal window with the set modal's content loaded
 # url should be in the form workshops/do-it-yourself.html (no leading # or /)
 showModal = (url) ->

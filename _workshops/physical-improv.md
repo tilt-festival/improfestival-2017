@@ -7,7 +7,7 @@ name: Daniel Renwick
 country: aus/est
 image: workshops/daniel.jpg
 sold_out: true
-venue: vene
+venue: kloostriait
 ticket_url: workshops.ticket_url
 ---
 *Pushups for Improvisers*<br><br>

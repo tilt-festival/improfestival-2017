@@ -85,8 +85,10 @@ performances:
 
 
 venues:
-  soprus: 'Cinema Sõprus'
-  vene: 'Vene 6'
+  soprus: 'Cinema Sõprus (Kino Sõprus)'
+  vene: 'Vene 6 (Rahvaülikooli Teatrikeskus)'
+  house: "Teacher's House (Õpetajate Maja)"
+  kloostriait: 'Kloostriait'
 
 titles:
   days_count: 3 days
