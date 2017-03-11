@@ -124,14 +124,14 @@ window.initMap = ->
 # Open a modal window with the set modal's content loaded
 # url should be in the form workshops/do-it-yourself.html (no leading # or /)
 showModal = (url) ->
-  # Forcing the prepending of .href helps mitigrate some XSS attacks
+  # Forcing the prepending of .href helps mitigate some XSS attacks
   url = "#{getPageUrl()}#{url}.html"
   $('#modal-details').find('.modal-content').html('').load(url)
   $('#modal-details').modal 'show'
 
 # Return the URL of the current page, without the .hash part
 getPageUrl = ->
-  window.location.href.substr 0, window.location.href.indexOf('#')-1
+  window.location.href.substr 0, window.location.href.indexOf('#')
 
 $ ->
 
@@ -153,7 +153,7 @@ $ ->
 
     # Fix bug for language'd pages where the URL contains "double" language
     # Example: https://improfestival.ee/en#/en/workshops
-    url = url.replace('/en', '')
+    url = url.replace '/en/', ''
 
     # Append the modal's ID to the URL's hash
     window.location.hash = url.replace('.html', '')
