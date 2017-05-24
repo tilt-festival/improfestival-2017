@@ -1,12 +1,12 @@
-# Improfestival "Tilt" 2016 homepage
+# Improfestival "Tilt" 2017 homepage
 
-[![Travis branch](https://img.shields.io/travis/improv-jaa/improfestival-2016/develop.svg?maxAge=2592000)](https://travis-ci.org/improv-jaa/improfestival-2016)
+[![Travis branch](https://img.shields.io/travis/improv-jaa/improfestival-2017/develop.svg?maxAge=2592000)](https://travis-ci.org/improv-jaa/improfestival-2017)
 [![
- branch](https://img.shields.io/scrutinizer/g/improv-jaa/improfestival-2016/develop.svg?maxAge=2592000)](https://scrutinizer-ci.com/g/improv-jaa/improfestival-2016/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/improvjaa/improfestival-2016.svg?maxAge=2592000)](https://hub.docker.com/r/improvjaa/improfestival-2016/)
-[![GitHub release](https://img.shields.io/github/release/improv-jaa/improfestival-2016.svg?maxAge=2592000)](https://github.com/improv-jaa/improfestival-2016/releases)
+ branch](https://img.shields.io/scrutinizer/g/improv-jaa/improfestival-2017/develop.svg?maxAge=2592000)](https://scrutinizer-ci.com/g/improv-jaa/improfestival-2017/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/improvjaa/improfestival-2017.svg?maxAge=2592000)](https://hub.docker.com/r/improvjaa/improfestival-2017/)
+[![GitHub release](https://img.shields.io/github/release/improv-jaa/improfestival-2017.svg?maxAge=2592000)](https://github.com/improv-jaa/improfestival-2017/releases)
 
-This is the homepage for the 4th [international improv festival Tilt](https://improfestival.ee) (2016).
+This is the homepage for the 4th [international improv festival Tilt](https://improfestival.ee) (2017).
 
 ## Managing Content
 
@@ -17,11 +17,11 @@ For every change, a new "deployment" needs to happen before the changed content 
 
 To change something within the website:
 
-- Make the desired change on the [develop branch](https://github.com/improv-jaa/improfestival-2016/tree/develop) _(only for people who are members of the organization)_
+- Make the desired change on the [develop branch](https://github.com/improv-jaa/improfestival-2017/tree/develop) _(only for people who are members of the organization)_
 - Create a [pull request](https://guides.github.com/activities/hello-world/#pr) from `develop` to `master` branch
-- The change will automatically be deployed to the live environment [2016.improfestival.ee](https://2016.improfestival.ee) once the pull request is merged
+- The change will automatically be deployed to the live environment [2017.improfestival.ee](https://2017.improfestival.ee) once the pull request is merged
 
-Each change automatically triggers a [Travis build](https://travis-ci.org/improv-jaa/improfestival-2016/builds), which will build a new version of the site's Docker image and checks for coding errors.
+Each change automatically triggers a [Travis build](https://travis-ci.org/improv-jaa/improfestival-2017/builds), which will build a new version of the site's Docker image and checks for coding errors.
 The build takes about ~2...5 minutes. If the build fails see Travis logs for an error and fix the problem.
 
 ### Folder Structure
@@ -46,11 +46,11 @@ The files contain metadata (between `---` lines), which is generic information a
 
 ```yaml
 # Start and end times of the event, in the specified format.
-start: 2016-10-20 19:45
-end: 2016-10-20 20:15
+start: 2017-10-20 19:45
+end: 2017-10-20 20:15
 
 # Only the date of the event, in specified format. This duplicate information is needed for technical reasons.
-date: 2016-10-20
+date: 2017-10-20
 
 # The name of the performance group. This is not translated.
 name: Eesti Improteater
@@ -82,9 +82,9 @@ ticket_url: performances.ticket_links.eesti_improteater
 Identical to "performance".
 
 ```yaml
-start: 2016-10-20 15:00
-end: 2016-10-20 18:00
-date: 2016-10-20
+start: 2017-10-20 15:00
+end: 2017-10-20 18:00
+date: 2017-10-20
 title: workshops.titles.do_it_yourself
 country: grc
 name: Menelaos Prokos
@@ -115,7 +115,7 @@ Add an image to `_assets/img/` folder. Before adding the image, ensure that the 
 Run the image:
 
 ```
-docker run -p 80:80 improvjaa/improfestival-2016
+docker run -p 80:80 improvjaa/improfestival-2017
 ```
 
 This will start a Nginx webserver image listening on port 80.
