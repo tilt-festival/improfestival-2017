@@ -135,10 +135,6 @@ getPageUrl = ->
 
 $ ->
 
-  # Easter egg
-  $('.footer-bg').click ->
-    window.open 'https://fucking.tilt.ee', '_blank'
-
   # Smooth out scrolling effect when clicking on a hash link
   $('a[href^="#"]').smoothScroll
     offset: -60
