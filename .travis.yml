@@ -17,7 +17,7 @@ script:
   - real-favicon generate _assets/img/faviconDescription.json /dev/null .
   - JEKYLL_ENV=production bundle exec jekyll build
 
-  - bundle exec yaml-lint _i18n/*.yml .travis.yml _config.yml .scss-lint.yml _data/sponsors.yml docker-compose.yml
+  - bundle exec yaml-lint _i18n/*.yml .travis.yml _config.yml .scss-lint.yml _data/*.yml docker-compose.yml
   - bundle exec htmlproofer --allow-hash-href --disable-external --check-html  _site
   - bundle exec scss-lint _assets/css
 
