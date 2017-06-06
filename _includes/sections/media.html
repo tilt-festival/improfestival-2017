@@ -4,19 +4,22 @@
 	</div>
 </div>
 <div class="row">
-	<div class="col-lg-8 col-lg-offset-2">
+	<div class="col-xs-12 col-xs-offset-0 col-lg-8 col-lg-offset-2">
         {% for year in site.data.media %}
-        <div class="text-center">
-        <h3>{{ year[0] }}</h3>
+        <h3 class="text-center">{{ year[0] }}</h3>
 
-        <ul class="list-unstyled">
-        	{% for article in year[1] %}
-        		<li>
-        			<a href="{{ article.url }}" target="_blank">{{ article.title }}</a>
-    			</li>
-        	{% endfor %}
-        </ul>
+
+        <div class="table-responsive">
+            <table class="table table-hover">
+                {% for article in year[1] %}
+                <tr>
+                    <td class="col-xs-4 col-lg-2">{{ article.publisher }}</td>
+                    <td class="col-lg-8 col-lg-10"><a href="{{ article.url }}" target="_blank">{{ article.title }}</a></td>
+                </tr>
+                {% endfor %}
+            </table>
         </div>
+
         {% endfor %}
     </div>
 </div>
