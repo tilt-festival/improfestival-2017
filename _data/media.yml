@@ -2,21 +2,49 @@
   - url: http://kultuur.err.ee/315524/selgusid-riiklike-kultuuripreemiate-kandidaadid
     title: Selgusid riiklike kultuuripreemiate kandidaadid
     publisher: ERR
+    excerpt: >
+              Festivali peakorraldaja Rahel Otsa nomineeriti 2016.aastal
+              neljanda Tilti eest Eesti riiklike kultuuripreemiate kandidaadiks aastapreemiate kategoorias.
   - url: http://www.sirp.ee/s1-artiklid/teater/improteater-on-lollakas-parimas-mottes/
     title: Improteater on lollakas. Parimas mõttes
     publisher: Sirp
+    excerpt: >
+     Keiu Virro arvustus kultuurilehes Sirp: "Täiesti teistmoodi festival läks mulle korda ja kõditas mõnusalt närvirakke.
+     Loodetavasti on aasta-aastalt saalis peale improviseerijate endi rohkem ka pealtvaatajaid.
+     Kui sõnad „huvitav“ või „teistsugune“ kipuvad sageli eufemismidena käiku minema, siis sedapuhku
+     võib ilma agadeta öelda, et see teistsugune on iseenesest küll väärt nägemist ja osalemist."
+  - url: http://www.tallinnatv.eu/index.php/saated-sarjad/kultuur/kultuurinadal-pealinnas/10612-2016-10-18-kultuurinadal-pealinnas
+    title: 2016.10.18 - Kultuurinädal pealinnas
+    publisher: TallinnTV
+    excerpt: > 
+     Tallinna TV intervjuu Rahel Otsaga, kus muu hulgas räägitakse festivalist,
+     mida tehakse improteatri proovis ning publiku rollist etendustel. (Intervjuu algab 9.15)
   - url: http://www.sirp.ee/s1-artiklid/teater/pealelend-rahel-otsa-improteatrite-festivali-tilt-peakorraldaja/
     title: Pealelend – Rahel Otsa, improteatrite festivali „Tilt“ peakorraldaja
     publisher: Sirp
+    excerpt: > 
+     Festivali „Tilt" peakorraldaja Rahel Otsa räägib intervjuus festivalist,
+     improteatri tasemest Eestis ning selgitab, mis teeb improteatri eriliseks.
   - url: http://menu.err.ee/292694/improteatrite-festival-tilt-toob-kohale-osalejad-nii-rootsist-belgiast-kui-ka-ameerikast
     title: 'Improteatrite festival Tilt toob kohale osalejad nii Rootsist, Belgiast kui ka Ameerikast'
     publisher: ERR
+    excerpt: > 
+     20.-22. oktoobrini leiab kinos Sõprus aset juba neljas rahvusvaheline improteatrite festival Tilt. Tegemist on spontaanse teatri peoga,
+     sest kõik publiku ette jõudvad lavastused sünnivad kohapeal ning neid on võimalik näha vaid üks kord.
   - url: http://podcast.kuku.postimees.ee/podcast/intervjuu-2016-10-180900/
     title: 'Intervjuu 2016-10-18 Rahvusvaheline improteatrite festival Tilt!'
     publisher: Kuku
+    excerpt: > 
+     Rahel Otsa räägib Kuku Raadio intervjuus lähemalt, mis on improteater,
+     kuidas Tilt endale nime sai ning kuidas jõudis improteater Eestisse
   - url: http://www.teater.ee/teater_eestis/uudised/aid-6777/Neljas-rahvusvaheline-improteatrite-festival-Tilt-avaldas-m%C3%A4ngukava
     title: Neljas rahvusvaheline improteatrite festival Tilt avaldas mängukava
     publisher: Eesti Teatri Agentuur
+    excerpt: > 
+     20.-22. oktoobrini leiab kinos Sõprus aset juba neljas rahvusvaheline improteatrite festival Tilt.
+     Improteater eristub klassikalisest teatrist selle poolest, et kõik mida publik etendusel näeb, sünnib kohapeal,
+     improviseerituna publiku antud inspiratsioonisõnadest. Seega on iga etendus vahetu ja kordumatu, sest kahte
+     täpselt ühesugust lugu pole võimalik lavale panna!
 
 '2015':
   - url: http://kultuur.postimees.ee/3346931/algab-improteatrite-festival-tilt
