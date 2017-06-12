@@ -4,30 +4,37 @@
     </div>
 </div>
 
-<div class="row row-equal-height">
-    {% for workshop in site.workshops %}
-    {% capture index %}{% cycle 'one', 'two', 'three' %}{% endcapture %}
+{% if site.performances.size > 0 %}
+    <div class="row row-equal-height">
+        {% for workshop in site.workshops %}
+        {% capture index %}{% cycle 'one', 'two', 'three' %}{% endcapture %}
 
-    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-schedule">
-        <h4 class="text-center">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-schedule">
+            <h4 class="text-center hidden-xs">
+                <a href="{{ site.baseurl | append:workshop.url }}" data-toggle="modal" data-target="#modal-details">
+                    {{ workshop.name }}<br/>{% t workshop.title %} <br/> {{ workshop.country | upcase }}</a>
+            </h4>
+
             <a href="{{ site.baseurl | append:workshop.url }}" data-toggle="modal" data-target="#modal-details">
-                {{ workshop.name }}<br/>{% t workshop.title %} <br/> {{ workshop.country | upcase }}</a>
-        </h4>
+                <div class="image-container">
+                    {% img '{{ workshop.image }}' alt:'{{ workshop.name }}' class:'img-responsive center-block' %}
+                    {% if workshop.sold_out %}
+                        <h3>{% t content.sold_out %}</h3>
+                    {% endif %}
+                </div>
+            </a>
+        </div>
 
-        <a href="{{ site.baseurl | append:workshop.url }}" data-toggle="modal" data-target="#modal-details">
-            <div class="image-container">
-                {% img '{{ workshop.image }}' alt:'{{ workshop.name }}' class:'img-responsive center-block' %}
-                {% if workshop.sold_out %}
-                    <h3>{% t content.sold_out %}</h3>
-                {% endif %}
-            </div>
-        </a>
+        {% if index == 'three' %}
+    </div>
+    <div class="row row-equal-height">
+        {% endif %}
+
+        {% endfor %}
     </div>
 
-    {% if index == 'three' %}
-</div>
-<div class="row row-equal-height">
-    {% endif %}
+{% else %}
 
-    {% endfor %}
-</div>
+<p>{% t content.no_info_yet %}</p>
+
+{% endif %}

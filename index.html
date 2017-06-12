@@ -4,6 +4,13 @@ layout: default
 
 {% include sections/jumbotron.html %}
 {% include sections/social.html %}
+
+<div class="tilt5-banner">
+<h1>{% t tilt5.title %}</h1>
+<p>{% t tilt5.dates %}</p><p class="lead"> <strong>21 - 23 September 2017</strong>!</p> <p>{% t tilt5.stay_tuned %}</p>
+<p>{% t tilt5.solo_text %} <a href="http://bit.ly/Tilt2017" target="_blank">{% t tilt5.solo_link_text %}</a></p>
+</div>
+
 {% include sections/performances.html %}
 {% include sections/row-tickets.html %}
 {% include sections/workshops.html %}
@@ -11,25 +18,5 @@ layout: default
 {% include sections/schedule.html %}
 {% include sections/map.html %}
 {% include sections/quotes2.html %}
-{% include sections/sponsors.html %}
-{% include sections/row-years.html %}
 {% include sections/team.html %}
-
-<div class="modal" id="modal-next-tilt" tabindex="-1" role="dialog">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-
- 	<div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">{% t tilt5.title %}</h4>
-      </div>
-      <div class="modal-body text-center">
-        <p>{% t tilt5.dates %}</p><p class="lead"> <strong>21 - 23 September 2017</strong>!</p> <p>{% t tilt5.stay_tuned %}</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">{% t tilt5.button %}</button>
-      </div>
-
-    </div>
-  </div>
-</div>
+{% include sections/row-years.html %}

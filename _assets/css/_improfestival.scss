@@ -309,6 +309,7 @@ blockquote {
     height: 10em;
     object-fit: cover;
     width: 100%;
+    margin-bottom: .3em;
   }
 
   a {
@@ -349,7 +350,8 @@ blockquote {
     bottom: .5em;
     color: $body-bg;
     left: 0;
-    letter-spacing: .2em;
+    letter-spacing: 0;
+    font-size: 80%;
     padding: .5em 1em;
     position: absolute;
     text-align: center;
@@ -360,4 +362,12 @@ blockquote {
 
 .img-padded {
   padding: .4em;
+}
+
+.tilt5-banner {
+  text-align: center;
+
+  h1 {
+    text-transform: uppercase;
+  }
 }

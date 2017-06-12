@@ -19,6 +19,7 @@
       height: 20em;
     }
   }
+
 }
 
 @media (min-width: $screen-md-min) {
@@ -35,6 +36,13 @@
     height: 18em;
   }
 
+
+  .image-container {
+    h3 {
+      letter-spacing: .2em;
+      font-size: $font-size-h3;
+    }
+  }
 
   h1 {
     margin-top: 35px;

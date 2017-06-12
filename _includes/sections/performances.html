@@ -5,31 +5,36 @@
     </div>
 </div>
 
-<div class="row row-equal-height">
-    {% assign performances = site.performances | sort: 'start' %}
-    {% for performer in performances %}
-    {% capture index %}{% cycle 'one', 'two', 'three', 'four' %}{% endcapture %}
+{% if site.performances.size > 0 %}
+    <div class="row row-equal-height">
+        {% assign performances = site.performances | sort: 'start' %}
+        {% for performer in performances %}
+        {% capture index %}{% cycle 'one', 'two', 'three', 'four' %}{% endcapture %}
 
-    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 col-schedule">
-        <h4 class="text-center">
+        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 col-schedule">
+            <h4 class="text-center">
+                <a href="{{ site.baseurl | append:performer.url }}" data-toggle="modal" data-target="#modal-details">
+                    {{ performer.name }} - {% t performer.title %}
+                    <br />
+                    {{ performer.country | upcase }}</a>
+            </h4>
             <a href="{{ site.baseurl | append:performer.url }}" data-toggle="modal" data-target="#modal-details">
-                {{ performer.name }} - {% t performer.title %}
-                <br />
-                {{ performer.country | upcase }}</a>
-        </h4>
-        <a href="{{ site.baseurl | append:performer.url }}" data-toggle="modal" data-target="#modal-details">
-            <div class="image-container">
-                {% img '{{ performer.image }}' alt:'{{ performer.name }}' class:'img-responsive center-block' %}
-                {% if performer.sold_out %}
-                <h3>{% t content.sold_out %}</h3>
-                {% endif %}
+                <div class="image-container">
+                    {% img '{{ performer.image }}' alt:'{{ performer.name }}' class:'img-responsive center-block' %}
+                    {% if performer.sold_out %}
+                    <h3>{% t content.sold_out %}</h3>
+                    {% endif %}
+                </div>
+            </a>
+        </div>
+        {% if index == 'four' %}
             </div>
-        </a>
-    </div>
-    {% if index == 'four' %}
-</div>
-<div class="row row-equal-height row-buffer-top">
-    {% endif %}
-
+            <div class="row row-equal-height row-buffer-top">
+        {% endif %}
     {% endfor %}
 </div>
+{% else %}
+
+<p>{% t content.no_info_yet %}</p>
+
+{% endif %}

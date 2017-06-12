@@ -1,10 +1,10 @@
 global:
-  title: Neljas Rahvusvaheline Improteatrite Festival Tilt
+  title: Viies Rahvusvaheline Improteatrite Festival Tilt
   description: >
-    Neljas rahvusvaheline improteatrite festival Tilt toob teie ette ülevaate Eesti improteatritest
+    Viies rahvusvaheline improteatrite festival Tilt toob teie ette ülevaate Eesti improteatritest
     ning parimad impronäitlejad ja -koolitajad üle kogu maailma! Olete palutud spontaanse teatri peole!
-  dates: Oktoober 20 - 22 Tallinnas
-  title_short: Neljas Rahvusvaheline Improteatrite Festival
+  dates: September 21 - 23 2017 Tallinnas
+  title_short: Viies Rahvusvaheline Improteatrite Festival
   english: Eng
   estonian: Est
 menu:
@@ -23,7 +23,8 @@ tilt5:
   title: Tilt 5 on tulekul
   dates: Viienda Tilt festivali kuupäevad on selgunud. Järgmine Rahvusvaheline Improteatrite Festival Tilt toimub Tallinnas
   stay_tuned: ""
-  button: Lahe!
+  solo_text: Sel aastal on Tiltil võimalik osaleda ka sooloimprotajana.
+  solo_link_text: Vaata lähemalt »
   
 month:
   january: January
@@ -63,54 +64,20 @@ content:
   signup_workshop: Registreeru töötuppa
   sold_out: Välja Müüdud!
   tilt_in_media: '» Loe veel: Tilt meedias'
+  no_info_yet: See info pole veel saadaval
 
 stats:
-  total_years: 4 aastat
+  total_years: 5 aastat
   total_performances: 45 etendust
   total_workshops: 25 töötuba
 
 workshops:
   titles:
-    50_characters_in_3_hours: 50 Characters in 3 Hours
-    comic_devices: Comic Devices
-    do_it_yourself: Do-It-Yourself
-    game_of_thrones_on_stage: 'Game of Thrones: On Stage'
-    gender_laboratory: Gender Laboratory
-    physical_improv: Physical Improv
-    silence_is_golden: Silence Is Golden
-    we_dont_need_no_language: We Don't Need No Language
-    trust_cooperation: Trust, Cooperation, and Dealing With Failure
   ticket_url: https://
 
 performances:
   titles:
-    eesti_improteater: Impromuusikal
-    improbanden: Salajased pihtimused
-    improteater_impeerium: Matus
-    improvisers_of_tilt: Sõnamulin
-    jaa_improteater: Kontakt
-    kogu_moos: Kollaaž
-    lamabati: Igapäevane nõiakunst
-    mischler_meijer_more: Tagasi olevikku
-    phil_lunn: Phil Lunn on...
-    ruutu10: Tänased uudised
-    scent_id: Stockholmi sündroom
-    trickle_improv: Tasakaalust väljas
-    dream_team: Nii ongi
   ticket_links:
-    eesti_improteater: https://
-    improbanden: https://
-    improteater_impeerium: https://
-    improvisers_of_tilt: https://
-    jaa_improteater: https://
-    kogu_moos: https://
-    lamabati: https://
-    mischler_meijer_more: https://
-    phil_lunn: https://
-    ruutu10: https://
-    scent_id: https://
-    trickle_improv: https://
-    dream_team: https://
     all_performances: https://
     day_tickets: https://
     festival_pass: https://

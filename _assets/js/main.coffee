@@ -7,118 +7,63 @@
 window.initMap = ->
   map = new google.maps.Map $('.map')[0],
     center:
-      lat: 59.436292
-      lng: 24.746169
+      lat: 59.439497
+      lng: 24.748720
     zoom: 16
 
-  soprus = new google.maps.Marker
+  catherine = new google.maps.Marker
     position:
-      lat: 59.435283
-      lng: 24.745345
+      lat: 59.437746
+      lng: 24.748497
     map: map
-    title: 'Sõprus'
+    title: 'St. Catherine\'s Church'
     label: '1'
 
-  soprusInfo = new google.maps.InfoWindow
+  catherineInfo = new google.maps.InfoWindow
     content: """
-      <h3>Cinema "Sõprus"</h3>
-      <p class="lead">Vana-Posti 8, Tallinn</p>
-      <p>Performance venue. Entrance from the smaller door to the right of the building.</p>
+      <h3>St. Catherine's Church</h3>
+      <p class="lead">Vene 14a, Tallinn</p>
+      <p>Performance venue</p>
 """
-  soprus.addListener 'click', -> soprusInfo.open map, soprus
+  catherine.addListener 'click', -> catherineInfo.open map, catherine
 
-  # Sõprus
+  # St. Catherine's
   new google.maps.Circle
     strokeColor: '#a43a5a'
     fillOpacity: 0
     strokeWeight: 4
     map: map
     center:
-      lat: 59.435154
-      lng: 24.745211
+      lat: 59.437746
+      lng: 24.748497
     radius: 20
 
-  # Rahvaülikool
+  # OldHouse
   new google.maps.Circle
     strokeColor: '#a43a5a'
     fillOpacity: 0
     strokeWeight: 4
     map: map
     center:
-      lat: 59.437209
-      lng: 24.747384
+      lat: 59.440786
+      lng: 24.749836
     radius: 20
 
-  vene = new google.maps.Marker
+  oldhouse = new google.maps.Marker
     position:
-      lat: 59.437209
-      lng: 24.747384
+      lat: 59.440786, 
+      lng: 24.749836
     map: map
-    title: 'Tallinna Rahvaülikooli Teatrikeskus'
+    title: 'OldHouse Hostel'
     label: '2'
 
-  veneInfo = new google.maps.InfoWindow
+  oldhouseInfo = new google.maps.InfoWindow
     content: """
-      <h3>Tallinna Rahvaülikooli Teatrikeskus</h3>
-      <p class="lead">Vene 6, Tallinn</p>
-      <p>Workshops venue. Come into the tunnel from Vene street. <br />Ring the bell next to the first door on the right.
-      Workshops will take place on the 2nd and 3rd floors.</p>
+      <h3>OldHouse Hostel</h3>
+      <p class="lead">Uus 26</p>
+      <p><a href="http://www.oldhouse.ee/">oldhouse.ee</a></p>
 """
-  vene.addListener 'click', -> veneInfo.open map, vene
-
-  # Õpetajate Maja
-  new google.maps.Circle
-    strokeColor: '#a43a5a'
-    fillOpacity: 0
-    strokeWeight: 4
-    map: map
-    center:
-      lat: 59.437589
-      lng: 24.746095
-    radius: 20
-
-  house = new google.maps.Marker
-    position:
-      lat: 59.437589
-      lng: 24.746095
-    map: map
-    title: 'Õpetajate Maja'
-    label: '3'
-
-  houseInfo = new google.maps.InfoWindow
-    content: """
-      <h3>Teacher's House (Õpetajate Maja)</h3>
-      <p class="lead">Raekoja Plats 14, Tallinn</p>
-      <p>Workshop venue</p>
-"""
-  house.addListener 'click', -> houseInfo.open map, house
-
-  # Kloostriait
-  new google.maps.Circle
-    strokeColor: '#a43a5a'
-    fillOpacity: 0
-    strokeWeight: 4
-    map: map
-    center:
-      lat: 59.438014
-      lng: 24.747941
-    radius: 20
-
-  kloostriait = new google.maps.Marker
-    position:
-      lat: 59.438014
-      lng: 24.747941
-    map: map
-    title: 'Kloostriait'
-    label: '4'
-
-  kloostriaitInfo = new google.maps.InfoWindow
-    content: """
-      <h3>Kloostriait</h3>
-      <p class="lead">Vene 14, Tallinn</p>
-      <p>Workshop venue. Entrance from the side door, opposite Katariina's church.</p>
-"""
-  kloostriait.addListener 'click', -> kloostriaitInfo.open map, kloostriait
+  oldhouse.addListener 'click', -> oldhouseInfo.open map, oldhouse
 
 
 # Open a modal window with the set modal's content loaded
