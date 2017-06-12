@@ -17,7 +17,6 @@ menu:
   sponsors: Sponsorid
   team: Korraldajad
   close: Sulge
-  media: Meedia
 
 
 tilt5:
@@ -63,6 +62,7 @@ content:
   show: Etendus
   signup_workshop: Registreeru töötuppa
   sold_out: Välja Müüdud!
+  tilt_in_media: '» Loe veel: Tilt meedias'
 
 stats:
   total_years: 4 aastat
