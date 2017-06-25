@@ -307,9 +307,9 @@ blockquote {
   img {
     @include clip-down(10%);
     height: 10em;
+    margin-bottom: .3em;
     object-fit: cover;
     width: 100%;
-    margin-bottom: .3em;
   }
 
   a {
@@ -349,9 +349,9 @@ blockquote {
     background: rgba($brand-primary, .7);
     bottom: .5em;
     color: $body-bg;
+    font-size: 80%;
     left: 0;
     letter-spacing: 0;
-    font-size: 80%;
     padding: .5em 1em;
     position: absolute;
     text-align: center;
