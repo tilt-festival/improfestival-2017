@@ -1,10 +1,10 @@
 global:
-  title: The Fourth International Improv Festival Tilt
+  title: The Fifth International Improv Festival Tilt
   description: >
-    The Fourth International Improv Festival Tilt brings you the overview of Estonian improv theatres and also best
+    The Fifth International Improv Festival Tilt brings you the overview of Estonian improv theatres and also best
     improv actors and teachers from all over the world! Welcome to the party of spontaneous theatre!
-  dates: October 20 - 22 in Tallinn
-  title_short: The 4th International Improv Festival
+  dates: September 21 - 23 2017 in Tallinn
+  title_short: The 5th International Improv Festival
   english: Eng
   estonian: Est
 menu:
@@ -22,12 +22,11 @@ tilt5:
   title: Tilt 5 is coming!
   dates: The dates for Tilt 5 have been announced! The next Tilt International Improv Festival will take place in Tallinn, Estonia on
   stay_tuned: Stay tuned for more updates!
-  button: Awesome!
   solo_text: 'This year it is possible to take part of Tilt as a solo improviser.'
   solo_link_text: More information »
   
 stats:
-  total_years: 4 years
+  total_years: 5 years
   total_performances: 45 performances
   total_workshops: 25 workshops
 
@@ -46,51 +45,15 @@ month:
   december: December
 workshops:
   titles:
-    50_characters_in_3_hours: 50 Characters in 3 Hours
-    comic_devices: Comic Devices
-    do_it_yourself: Do-It-Yourself
-    game_of_thrones_on_stage: 'Game of Thrones: On Stage'
-    gender_laboratory: Gender Laboratory
-    physical_improv: Physical Improv
-    silence_is_golden: Silence Is Golden
-    we_dont_need_no_language: We Don't Need No Language
-    trust_cooperation: Trust, Cooperation, and Dealing With Failure
   ticket_url: https://
 performances:
   titles:
-    eesti_improteater: Improv musical
-    improbanden: Secret Confessions
-    improteater_impeerium: The Funeral
-    improvisers_of_tilt: Grommelot
-    jaa_improteater: Contact
-    kogu_moos: Collage
-    lamabati: Everyday Magic
-    mischler_meijer_more: Back to the Present
-    phil_lunn: Phil Lunn is...
-    ruutu10: Today's News
-    scent_id: Stockholm Syndrome
-    trickle_improv: Off Balance
-    dream_team: This is It!
   ticket_links:
-    eesti_improteater: https://
-    improbanden: https://
-    improteater_impeerium: https://
-    improvisers_of_tilt: https://
-    jaa_improteater: https://
-    kogu_moos: https://
-    lamabati: https://
-    mischler_meijer_more: https://
-    phil_lunn: https://
-    ruutu10: https://
-    scent_id: https://
-    trickle_improv: https://
-    dream_team: https://
     all_performances: https://
     day_tickets: https://
     festival_pass: https://
   in_eng: in English
   in_est: in Estonian
-
 
 venues:
   soprus: 'Cinema Sõprus (Kino Sõprus)'
@@ -116,5 +79,7 @@ content:
   signup_workshop: Sign up for workshops
   sold_out: Sold Out!
   tilt_in_media: '' # Nothing for English, unfortunately
+  no_info_yet: No info as of yet
+
 footer:
   more_info: For more info, please contact tilt@improfestival.ee

@@ -307,6 +307,7 @@ blockquote {
   img {
     @include clip-down(10%);
     height: 10em;
+    margin-bottom: .3em;
     object-fit: cover;
     width: 100%;
   }
@@ -348,8 +349,9 @@ blockquote {
     background: rgba($brand-primary, .7);
     bottom: .5em;
     color: $body-bg;
+    font-size: 80%;
     left: 0;
-    letter-spacing: .2em;
+    letter-spacing: 0;
     padding: .5em 1em;
     position: absolute;
     text-align: center;
@@ -360,4 +362,12 @@ blockquote {
 
 .img-padded {
   padding: .4em;
+}
+
+.tilt5-banner {
+  text-align: center;
+
+  h1 {
+    text-transform: uppercase;
+  }
 }

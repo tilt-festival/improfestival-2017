@@ -1,5 +1,0 @@
-*Etendus Tilt 2016 festivali improtöötubade juhendajatelt!*<br><br>
-
-Te olete ehk näinud neid festivalil ringi liikumas ning mõnda neist olete võib-olla juba lavalgi kohanud. Jääb mulje, et kõik improtajad teavad neid ja tahavad nendega õlleklaasi kõrval juttu vesta, nii et nad ei ole kunagi üksi. Nemad on The Dream Team! See etendus tuuakse teieni nende inimeste poolt, kes on olnud sellel festivalil koolitaja rollis. Nad tulevad maailma eri paigust kuid neid ühendab armastus improteatri vastu ning teadmised, mida nad on kogunud aastate jooksul nii etendusi kui töötubasid läbi viies. See on segu improkarakteritest, tehnikatest ja ideedest, mis on pärit eri kultuuridest ning saab kokku vaid sel ühel korral. Ja see on 2016. aasta Tildi viimane etendus. Nii et - nii ongi!<br><br>
-
-Laval: Kaisa Kokko (FIN), Nicole Mischler (NLD), Hila Di Castro (ISR), Menelaos Prokos (GRC), Keng-Sam Chane Chick Té (REU), Peter Nordstrand (SWE), Daniel Renwick (AUS/EST), Rod Ben Zeev (ISR/NDL) ja Kevin Scott (USA).
