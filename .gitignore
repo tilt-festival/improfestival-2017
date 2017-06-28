@@ -4,3 +4,10 @@ _site
 _components
 vendor/
 .bundle/
+*-touch-icon*.png
+android-chrome-*.png
+browserconfig.xml
+favicon*
+manifest.json
+mstile-*.png
+safari-pinned-tab.svg
