@@ -1,4 +1,4 @@
-Rahelil on olnud au Tilti korraldada juba neli aastat.
+Rahelil on olnud au Tilti korraldada juba viis aastat.
 
 Mõned aastad kauem on ta juhtinud Jaa !mproteatri tegemisi ning üldse paistab 
 tema külge tõmbuvat kõik, mis improga seotud on.
