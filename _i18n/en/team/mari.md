@@ -1,6 +1,6 @@
 Mari-Riin Villemsoo, young and filled with sun, is currently studying 
 lighting design at University of Tartu Viljandi Culture Academy at 
-the Performing Arts Visual Technology department.
+the Performing Arts Visual Technology department. She is also a lighting technician for Ugala Theatre.
 
 She has been working in the field for about five years and has grown 
 with Tilt since the first festival in 2013. Improv found Mari-Riin and she found improv, through 
