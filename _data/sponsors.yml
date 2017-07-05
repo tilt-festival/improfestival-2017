@@ -1,7 +1,3 @@
-- name: Hasartmängumaksu Nõukogu
-  logo: sponsors/hmn.png
-  url: http://www.hmn.ee/
-
 - name: City Motors
   logo: sponsors/citymotors.png
   url: http://www.citymotors.ee/
@@ -9,19 +5,3 @@
 - name: Eesti Kultuurikapital
   logo: sponsors/kulka.png
   url: http://www.kulka.ee/
-
-- name: Public TV
-  logo: sponsors/tv.png
-  url: http://www.publictv.ee/
-
-- name: Tele2
-  logo: sponsors/tele2.png
-  url: https://tele2.ee
-
-- name: Saku
-  logo: sponsors/saku.jpg
-  url: https://www.saku.ee/
-
-- name: Spoony
-  logo: sponsors/spoony.png
-  url: http://spoony.ee/
