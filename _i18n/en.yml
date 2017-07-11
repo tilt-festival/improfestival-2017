@@ -45,6 +45,11 @@ month:
   december: December
 workshops:
   titles:
+    peak_performance: Peak Performance
+    read_the_scene_dont_write_it: Read the scene! Don’t write it!
+    talking_no_talking: Talking, no talking
+    the_tiny_glass_man: The tiny glass man
+    time_to_get_uncomfortable: Time to get uncomfortable
   ticket_url: https://
 performances:
   titles:
