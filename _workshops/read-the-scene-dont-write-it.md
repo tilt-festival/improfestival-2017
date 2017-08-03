@@ -39,6 +39,6 @@ give the best taste of every improv style he has met. His goal is to build
 bridges between people, cultures, languages and improv styles. 
 
 - [facebook.com/Flaviencomedien](https://facebook.com/Flaviencomedien)
-- [flavien-reppert.book.fr](www.flavien-reppert.book.fr)
+- [flavien-reppert.book.fr](https://www.flavien-reppert.book.fr)
 - [facebook.com/theatredeloignon](https://facebook.com/theatredeloignon)
-- [www.loignon.eu](www.loignon.eu)
+- [www.loignon.eu](http://www.loignon.eu)
