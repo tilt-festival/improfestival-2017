@@ -4,6 +4,7 @@ _site
 _components
 vendor/
 .bundle/
+.asset-cache
 *-touch-icon*.png
 android-chrome-*.png
 browserconfig.xml

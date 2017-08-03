@@ -38,7 +38,7 @@ of thoughts. His teaching is multicultural and multi influenced, he tries to
 give the best taste of every improv style he has met. His goal is to build
 bridges between people, cultures, languages and improv styles. 
 
-https://m.facebook.com/Flaviencomedien/
-www.flavien-reppert.book.fr
-https://m.facebook.com/theatredeloignon/
-www.loignon.eu
+- [facebook.com/Flaviencomedien](https://facebook.com/Flaviencomedien)
+- [flavien-reppert.book.fr](www.flavien-reppert.book.fr)
+- [facebook.com/theatredeloignon](https://facebook.com/theatredeloignon)
+- [www.loignon.eu](www.loignon.eu)

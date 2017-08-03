@@ -5,7 +5,21 @@ url: "https://improfestival.ee"
 languages: ["ee", "en"]
 timezone: "Europe/Tallinn"
 exclude_from_localizations: ["assets"]
-exclude: ["Gemfile", ".bundle", ".sass-cache", "nginx.conf", "docker-compose.yml", ".asset-cache", "Gemfile.lock", "Dockerfile", "README.md",".travis.yml", "vendor", "node_modules", "bower.json"]
+exclude:
+  - Gemfile
+  - .bundle
+  - cart
+  - .sass-cache
+  - nginx.conf
+  - docker-compose.yml
+  - .asset-cache
+  - Gemfile.lock
+  - Dockerfile
+  - README.md
+  - .travis.yml
+  - vendor
+  - node_modules
+  - bower.json"
 environment: production
 
 markdown: kramdown
