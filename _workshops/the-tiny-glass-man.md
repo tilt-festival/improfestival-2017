@@ -40,6 +40,6 @@ Since 2001 he has taught and performed in different cities in Argentina, Chile,
 Colombia, Mexico, Peru, Uruguay, Canada, Germany, Belgium, Spain, Finland, Norway,
 Portugal, Netherlands, Sweden and Italy.
 
-- [www.globalimpro.com](http://www.globalimpro.com)
-- [www.facebook.com/fena.ortalli](https://www.facebook.com/fena.ortalli)
-- [www.facebook.com/StatusRevistaImpro](https://www.facebook.com/StatusRevistaImpro)
+- [globalimpro.com](http://www.globalimpro.com)
+- [facebook.com/fena.ortalli](https://www.facebook.com/fena.ortalli)
+- [facebook.com/StatusRevistaImpro](https://www.facebook.com/StatusRevistaImpro)

@@ -55,5 +55,5 @@ renowned Western Australian Academy of Performing Arts since 2001, some of
 his students going on to make careers in Hollywood and around the world.
  
 - [justimprovise.com.au](https://justimprovise.com.au)
-- [www.facebook.com/glennOhall](https://www.facebook.com/glennOhall)
-- [www.facebook.com/JustImproviseHQ](https://www.facebook.com/JustImproviseHQ)
+- [facebook.com/glennOhall](https://www.facebook.com/glennOhall)
+- [facebook.com/JustImproviseHQ](https://www.facebook.com/JustImproviseHQ)

@@ -41,4 +41,4 @@ bridges between people, cultures, languages and improv styles.
 - [facebook.com/Flaviencomedien](https://facebook.com/Flaviencomedien)
 - [flavien-reppert.book.fr](https://www.flavien-reppert.book.fr)
 - [facebook.com/theatredeloignon](https://facebook.com/theatredeloignon)
-- [www.loignon.eu](http://www.loignon.eu)
+- [loignon.eu](http://www.loignon.eu)

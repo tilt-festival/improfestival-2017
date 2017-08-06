@@ -39,5 +39,5 @@ and teaching they have specialized in the sections of corporate gigs, coaching
 companies and coaching teachers. With BIG he has performed and taught in English
 for the international community in Barcelona. 
 
-- [www.frei-wild-berlin.de](http://www.frei-wild-berlin.de)
-- [www.barcelonaimprovgroup.com](http://www.barcelonaimprovgroup.com)
+- [frei-wild-berlin.de](http://www.frei-wild-berlin.de)
+- [barcelonaimprovgroup.com](http://www.barcelonaimprovgroup.com)
