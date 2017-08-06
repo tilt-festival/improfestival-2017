@@ -8,7 +8,7 @@ country: fra
 image: workshops/flavien_reppert.jpg
 sold_out: false
 venue: vene
-ticket_url: workshops.ticket_url
+ticket_url: https://gateme.com/event/82199
 ---
 
 People would tend to think improv is a blank page to be filled. To Flavien,

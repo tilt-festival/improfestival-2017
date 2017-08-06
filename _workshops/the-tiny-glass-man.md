@@ -8,7 +8,7 @@ country: esp
 image: workshops/fena_ortalli.jpg
 sold_out: false
 venue: vene
-ticket_url: workshops.ticket_url
+ticket_url: https://gateme.com/event/82201
 ---
 
 Based on Gianni Rodari's "Grammatica della fantasia" chapter where he explains

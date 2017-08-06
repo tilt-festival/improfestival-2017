@@ -8,7 +8,7 @@ country: deu
 image: workshops/severin_mahncke.jpg
 sold_out: false
 venue: vene
-ticket_url: workshops.ticket_url
+ticket_url: https://gateme.com/event/82200
 ---
 
 Improv actors love talking. And they love to do it in the same sized portions.

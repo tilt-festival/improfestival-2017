@@ -8,7 +8,7 @@ country: aus
 image: workshops/glenn_hall.jpg
 sold_out: false
 venue: vene
-ticket_url: workshops.ticket_url
+ticket_url: https://gateme.com/event/82202
 ---
 
 Improvisation is everything we have been, everything we are and everything
