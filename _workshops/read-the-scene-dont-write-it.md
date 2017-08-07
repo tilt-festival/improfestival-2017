@@ -22,6 +22,7 @@ Everything is already there, there's nothing to be created or invented.
 There's just momentum to be revealed.
 
 Perfect for: intermediate and advanced improvisers
+
 Skills and Tools: Reading scenes/ slow improv / support
 
 ---

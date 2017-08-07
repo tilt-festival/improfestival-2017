@@ -1,4 +1,3 @@
-
 email: tilt@improfestival.ee
 baseurl: ""
 url: "https://improfestival.ee"
@@ -83,7 +82,7 @@ social:
   twitter: TILT_Improfest
   facebook: https://www.facebook.com/tilt.improfestival
   ical: /schedule.ics
-  instagram: https://instagram.com/tilt_improfestival
+  instagram: https://www.instagram.com/tilt.improfestival
   youtube: https://www.youtube.com/channel/UC7gOmWdcrS_He1XZnj1VjBQ
 
 compress_html:
