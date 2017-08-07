@@ -1,7 +1,7 @@
 ---
-start: 2017-09-21 15:00
-end: 2017-09-21 18:00
-date: 2017-09-21
+start: 2017-09-22 10:00
+end: 2017-09-22 13:00
+date: 2017-09-22
 title: workshops.titles.the_tiny_glass_man
 name: Feña Ortalli 
 country: esp 

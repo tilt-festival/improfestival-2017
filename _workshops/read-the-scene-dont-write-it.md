@@ -1,6 +1,6 @@
 ---
-start: 2017-09-21 15:00
-end: 2017-09-21 18:00
+start: 2017-09-21 14:00
+end: 2017-09-21 17:00
 date: 2017-09-21
 title: workshops.titles.read_the_scene_dont_write_it
 name: Flavien Reppert

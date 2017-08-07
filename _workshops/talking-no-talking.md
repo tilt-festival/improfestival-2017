@@ -1,7 +1,7 @@
 ---
-start: 2017-09-21 15:00
-end: 2017-09-21 18:00
-date: 2017-09-21
+start: 2017-09-22 14:00
+end: 2017-09-22 17:00
+date: 2017-09-22
 title: workshops.titles.talking_no_talking
 name: Severin Mahncke
 country: deu

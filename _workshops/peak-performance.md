@@ -1,7 +1,7 @@
 ---
-start: 2017-09-21 15:00
-end: 2017-09-21 18:00
-date: 2017-09-21
+start: 2017-09-23 10:00
+end: 2017-09-23 13:00
+date: 2017-09-23
 title: workshops.titles.peak_performance
 name: Nick Byrne
 country: aus
