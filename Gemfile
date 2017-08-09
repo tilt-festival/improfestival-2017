@@ -11,7 +11,7 @@ gem 'yaml-lint'
 gem 'autoprefixer-rails'
 
 group :jekyll_plugins do
-  gem 'jekyll-assets', '~> 2.2.8'
+  gem 'jekyll-assets', '~> 2.3.2'
   gem 'jekyll-multiple-languages-plugin', '~>1.5'
   gem 'jekyll-coffeescript', '~>1.0'
 end

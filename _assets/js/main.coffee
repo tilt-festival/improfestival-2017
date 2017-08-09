@@ -66,6 +66,35 @@ window.initMap = ->
   oldhouse.addListener 'click', -> oldhouseInfo.open map, oldhouse
 
 
+  # Rahvaülikool
+  new google.maps.Circle
+    strokeColor: '#a43a5a'
+    fillOpacity: 0
+    strokeWeight: 4
+    map: map
+    center:
+      lat: 59.437209
+      lng: 24.747384
+    radius: 20
+
+  vene = new google.maps.Marker
+    position:
+      lat: 59.437209
+      lng: 24.747384
+    map: map
+    title: 'Tallinna Rahvaülikooli Teatrikeskus'
+    label: '3'
+
+  veneInfo = new google.maps.InfoWindow
+    content: """
+      <h3>Tallinna Rahvaülikooli Teatrikeskus</h3>
+      <p class="lead">Vene 6, Tallinn</p>
+      <p>Workshops venue. Come into the tunnel from Vene street. <br />Ring the bell next to the first door on the right.
+      Workshops will take place on the 2nd and 3rd floors.</p>
+"""
+  vene.addListener 'click', -> veneInfo.open map, vene
+
+
 # Open a modal window with the set modal's content loaded
 # url should be in the form workshops/do-it-yourself.html (no leading # or /)
 showModal = (url) ->

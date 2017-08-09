@@ -1,11 +1,24 @@
-
 email: tilt@improfestival.ee
 baseurl: ""
 url: "https://improfestival.ee"
 languages: ["ee", "en"]
 timezone: "Europe/Tallinn"
 exclude_from_localizations: ["assets"]
-exclude: ["Gemfile", ".bundle", ".sass-cache", "nginx.conf", "docker-compose.yml", ".asset-cache", "Gemfile.lock", "Dockerfile", "README.md",".travis.yml", "vendor", "node_modules", "bower.json"]
+exclude:
+  - Gemfile
+  - .bundle
+  - cart
+  - .sass-cache
+  - nginx.conf
+  - docker-compose.yml
+  - .asset-cache
+  - Gemfile.lock
+  - Dockerfile
+  - README.md
+  - .travis.yml
+  - vendor
+  - node_modules
+  - bower.json"
 environment: production
 
 markdown: kramdown
@@ -69,9 +82,8 @@ social:
   twitter: TILT_Improfest
   facebook: https://www.facebook.com/tilt.improfestival
   ical: /schedule.ics
-  instagram: https://instagram.com/tilt_improfestival
+  instagram: https://www.instagram.com/tilt.improfestival
   youtube: https://www.youtube.com/channel/UC7gOmWdcrS_He1XZnj1VjBQ
-  workshop_form: https://
 
 compress_html:
   clippings: all
