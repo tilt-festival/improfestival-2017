@@ -6,7 +6,7 @@ title: workshops.titles.talking_no_talking
 name: Severin Mahncke
 country: deu
 image: workshops/severin_mahncke.jpg
-sold_out: false
+sold_out: true
 venue: vene
 ticket_url: https://gateme.com/event/82200
 ---
