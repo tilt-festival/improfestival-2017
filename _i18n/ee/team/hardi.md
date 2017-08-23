@@ -1,4 +1,5 @@
-Hardi kujundab kasutajaliideseid, teeb veebi ja vahel stressi maandamiseks mõne postri.
+Hardi kujundab kasutajaliideseid, [teeb veebi](http://luminarious.net) ja vahel
+stressi maandamiseks mõne postri.
 
 Interneti-entusiast ja lauamängudisainer.
 
