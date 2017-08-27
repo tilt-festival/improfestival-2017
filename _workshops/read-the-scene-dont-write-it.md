@@ -6,7 +6,7 @@ title: workshops.titles.read_the_scene_dont_write_it
 name: Flavien Reppert
 country: fra
 image: workshops/flavien_reppert.jpg
-sold_out: false
+sold_out: true
 venue: vene
 ticket_url: https://gateme.com/event/82199
 ---

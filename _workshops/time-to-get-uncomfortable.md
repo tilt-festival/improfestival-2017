@@ -6,7 +6,7 @@ title: workshops.titles.time_to_get_uncomfortable
 name: Glenn Hall
 country: aus
 image: workshops/glenn_hall.jpg
-sold_out: false
+sold_out: true
 venue: vene
 ticket_url: https://gateme.com/event/82202
 ---

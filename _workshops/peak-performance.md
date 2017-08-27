@@ -6,7 +6,7 @@ title: workshops.titles.peak_performance
 name: Nick Byrne
 country: aus
 image: workshops/nick_byrne.jpg
-sold_out: false
+sold_out: true
 venue: vene
 ticket_url: https://gateme.com/event/82187
 ---
