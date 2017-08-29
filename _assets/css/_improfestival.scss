@@ -152,6 +152,7 @@ i {
 
 .modal-title {
   text-align: center;
+  margin-top: 2em;
 }
 
 .modal-body {
@@ -367,7 +368,7 @@ blockquote {
 .img-cover {
   height: 20em;
   margin: 0;
-  object-fit: cover;
+  object-fit: fill;
   padding: 0;
   width: 100%;
 }
