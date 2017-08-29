@@ -19,7 +19,11 @@
                     </td>
                     <td>
                         <a data-toggle="modal" data-target="#modal-details" href="{{ site.baseurl | append:event.url }}">
-                            {{ event.name }} - {% t event.title %}
+                            {% if event.collection == 'workshops' %}
+                                {{ event.name }} - {% t event.title %}
+                            {% else %}
+                                {% t event.title %}
+                            {% endif %}
                         </a>
                     </td>
                     <td><a href="#map" title="{% t menu.venues %}"><i class="icon-map-marker"></i></a></td>
