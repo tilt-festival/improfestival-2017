@@ -9,20 +9,9 @@ layout: empty
 <div class="modal-body">
 
     <div class="row">
-        <div class="col-xs-12 col-lg-12">
-
-            <div class="text-justify">
-                {{ page.content }}
-                <hr />
-            </div>
-        </div>
-    </div>
-
-
-    <div class="row">
         <div class="col-xs-12 col-lg-4">
-                    {% assign language = page.language | prepend:'performances.in_' %}
-                    <p class="lead">{% t language %}</p>
+            {% assign language = page.language | prepend:'performances.in_' %}
+            <p class="lead">{% t language %}</p>
         </div>
         <div class="col-xs-12 col-lg-8">
             {% assign month = page.start | date: '%B' | downcase | prepend: "month." %}
@@ -33,6 +22,15 @@ layout: empty
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-xs-12 col-lg-12">
+
+            <div class="text-justify">
+                {{ page.content }}
+                <hr />
+            </div>
+        </div>
+    </div>
 
     {% capture ticket_url %}{% t page.ticket_url %}{% endcapture %}
     {% unless ticket_url == 'https://' %}

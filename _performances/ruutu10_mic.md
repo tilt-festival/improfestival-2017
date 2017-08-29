@@ -1,7 +1,7 @@
 ---
 start: 2017-09-21 19:00
 end: 2017-09-21 20:30
-name: Ruutu10 & Moscow Improv Club
+name: Ruutu10 (EST) & Moscow Improv Club (RUS)
 title: performances.titles.ruutu10_mic
 country: est/rus
 language: mixed
