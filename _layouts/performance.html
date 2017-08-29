@@ -10,34 +10,30 @@ layout: empty
 <div class="modal-body">
 
     <div class="row">
+        <div class="col-xs-12 col-lg-12">
 
-        <div class="col-xs-12 col-lg-4">
-            {% assign language = page.language | prepend:'performances.in_' %}
-            <p class="lead">“{% t page.title %}”<br/>
-                <small>({% t language %})</small>
-            </p>
+            <div class="text-justify">
+                {{ page.content }}
+                <hr />
             </div>
-        <div class="col-xs-12 col-lg-8">
+        </div>
+    </div>
 
+
+    <div class="row">
+        <div class="col-xs-12 col-lg-4">
+                    {% assign language = page.language | prepend:'performances.in_' %}
+                    <p class="lead">{% t language %}</p>
+        </div>
+        <div class="col-xs-12 col-lg-8">
             {% assign month = page.start | date: '%B' | downcase | prepend: "month." %}
             {% assign venue = page.venue | prepend: "venues." %}
             <p class="lead time">{{ page.start | date: '%d' }} {% t month %} {% t content.at_oclock %}
                 {{ page.start | date: '%H:%M' }} {% t venue %}</p>
 
         </div>
-            </div>
-
-
-
-    <div class="row">
-        <div class="col-xs-12 col-lg-12">
-
-            <div class="text-justify">
-                {{ page.content }}
-            </div>
-
-        </div>
     </div>
+
 
     {% capture ticket_url %}{% t page.ticket_url %}{% endcapture %}
     {% unless ticket_url == 'https://' %}
