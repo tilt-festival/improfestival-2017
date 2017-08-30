@@ -13,6 +13,9 @@ $google-calendar-blue: #373ad7;
 $facebook-blue: #3b5998;
 $youtube-red: #b31217;
 
+//$panel-default-heading-bg: $brand-primary;
+//$panel-default-border: $brand-info;
+
 @mixin fontdef($font-type:'Regular') {
   src: url(asset_path('#{$font-type}/OpenSans-#{$font-type}.eot')) format('embedded-opentype'),
     url(asset_path('#{$font-type}/OpenSans-#{$font-type}.woff2')) format('woff2'),

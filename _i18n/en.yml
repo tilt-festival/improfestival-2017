@@ -26,6 +26,14 @@ stats:
   total_performances: 45 performances
   total_workshops: 25 workshops
 
+map:
+  hostel: Hostel
+  hostel_address: OldHouse Hostel, Uus 26
+  performance_venue: Performance Venue
+  performance_venue_address: St. Catherine's Church, Vene 14a
+  workshop_venue: Workshop Venue
+  workshop_venue_address: Tallinna Rahvaülikooli Teatrikeskus, Vene 6
+
 month:
   january: January
   february: February

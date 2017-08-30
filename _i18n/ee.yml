@@ -63,6 +63,14 @@ stats:
   total_performances: 45 etendust
   total_workshops: 25 töötuba
 
+map:
+  hostel: Hostel
+  hostel_address: OldHouse Hostel, Uus 26
+  performance_venue: Etendused
+  performance_venue_address: Katariina Kirik, Vene 14a
+  workshop_venue: Töötoad
+  workshop_venue_address: Tallinna Rahvaülikooli Teatrikeskus, Vene 6
+
 workshops:
   titles:
     peak_performance: Peak Performance
