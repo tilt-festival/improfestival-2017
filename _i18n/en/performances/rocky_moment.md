@@ -7,7 +7,7 @@ In "Here, Now" Kaisa and Chris spend 45 minutes with you in real time, drifting 
 Kaisa and Chris are both improvisers, instructors, and community leaders - one in Finland, and one in the USA. They only play together a few times a year, but it is an annual highlight for both.  
 In their instruction, both teachers emphasize honesty, vulnerability, truthfulness, physicality, silence, and genuine fun. Their shows are a reflection of these common interests!
 
-- [www.osuuskuntakuje.fi/kaisakokko_english](www.osuuskuntakuje.fi/kaisakokko_english)
+- [www.osuuskuntakuje.fi/kaisakokko_english](http://www.osuuskuntakuje.fi/kaisakokko_english)
 
 ### Rocky Amaretto (NLD) - “Everybody has one” (In English)
 

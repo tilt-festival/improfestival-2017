@@ -6,10 +6,10 @@ Kokkoflava toob festivalile oma formaadi TEMPO. Nad mängivad tempo, volüümi j
 
 Kokkoflava on Prantsue-Soome duo, mis esitab segatud vaba-vormi improt. Kaisa Kokko on Soomest ning Flavien Reppert Prantsusmaalt. Koos avastavad nad improteatri lõputuid võimalusi.
 
-- [osuuskuntakuje.fi/kaisakokko_english](www.osuuskuntakuje.fi/kaisakokko_english)
-- [flavien-reppert.book.fr](www.flavien-reppert.book.fr)
+- [osuuskuntakuje.fi/kaisakokko_english](http://www.osuuskuntakuje.fi/kaisakokko_english)
+- [flavien-reppert.book.fr](https://flavien-reppert.book.fr)
 - [facebook.com/Flaviencomedien](https://facebook.com/Flaviencomedien/)
-- [loignon.eu](www.loignon.eu)
+- [loignon.eu](https://loignon.eu)
 - [https://facebook.com/theatredeloignon](https://facebook.com/theatredeloignon)
 
 ### Nick Byrne (AUS) - "Inspireeritud" (Inglise keeles)

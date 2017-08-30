@@ -6,10 +6,10 @@ Kokkoflava will bring their format TEMPO to the festival and play with tempo, vo
 
 Kokkoflava is a French-Finnish duo of mixed free form. Kaisa Kokko is from Finland and Flavien Reppert is from France and together they will explore the endless possibilities of improvisational theatre.
 
-- [osuuskuntakuje.fi/kaisakokko_english](www.osuuskuntakuje.fi/kaisakokko_english)
-- [flavien-reppert.book.fr](www.flavien-reppert.book.fr)
+- [osuuskuntakuje.fi/kaisakokko_english](http://www.osuuskuntakuje.fi/kaisakokko_english)
+- [flavien-reppert.book.fr](https://flavien-reppert.book.fr)
 - [facebook.com/Flaviencomedien](https://facebook.com/Flaviencomedien/)
-- [loignon.eu](www.loignon.eu)
+- [loignon.eu](https://loignon.eu)
 - [https://facebook.com/theatredeloignon](https://facebook.com/theatredeloignon)
 
 ### Nick Byrne (AUS) - "Inspired" (In English)

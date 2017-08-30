@@ -7,7 +7,7 @@ Etenduses “Siin, praegu” veedavad Kaisa ja Chris teiega 45 minutit reaalajas
 Kaisa ja Chris on improviseerijad, õpetajad ja improkogukonna juhid - üks Soomes, teine USA-s. Nad mängivad koos vaid paar korda aastas, kuid see on mõlema jaoks iga-aastane kõrghetk. 
 Õpetajatena rõhutavad mõlemad ausust, haavatavust, tõesust, füüsilisust, vaikust ja lõbutsemist. Nende etendused peegeldavad neid jagatud väärtusi!
 
-- [www.osuuskuntakuje.fi/kaisakokko_english](www.osuuskuntakuje.fi/kaisakokko_english)
+- [www.osuuskuntakuje.fi/kaisakokko_english](http://www.osuuskuntakuje.fi/kaisakokko_english)
  
 ### Rocky Amaretto (NLD) - “Kõigil on üks” (Inglise keeles)
 
