@@ -2,6 +2,7 @@
 #= require bootstrap.min
 #= require jquery-smooth-scroll/jquery.smooth-scroll.min
 #= require matchHeight/dist/jquery.matchHeight-min
+#= require picturefill/dist/picturefill
 
 # Create a JS Google Map object and add important location markers to it
 window.initMap = ->

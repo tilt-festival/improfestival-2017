@@ -11,6 +11,11 @@ sold_out: false
 ticket_url: performances.ticket_links.kokkoflava_nick
 date: 2017-09-21
 ---
-{% img 'performers/wide/ruutu10_mic.jpg' alt:'Kokkoflava and Nick' class:'img-cover' %}
+
+<picture>
+    <source media="(min-width: 1200px)" srcset="{% asset_path performers/wide/ruutu10_mic.jpg %}">
+    <source media="(min-width: 768px)" srcset="{% asset_path performers/wide/ruutu10_mic.jpg %}">
+    <img src="{% asset_path performers/square/ruutu10_mic.jpg %}" alt="">
+</picture>
 
 {% tf performances/kokkoflava_nick.md %}

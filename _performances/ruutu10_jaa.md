@@ -11,6 +11,11 @@ sold_out: false
 ticket_url: performances.ticket_links.ruutu10_jaa
 date: 2017-09-22
 ---
-{% img 'performers/wide/ruutu10_mic.jpg' alt:'Ruutu10_and_Moscow_Improv_Club' class:'img-cover' %}
+
+<picture>
+    <source media="(min-width: 1200px)" srcset="{% asset_path performers/wide/ruutu10_mic.jpg %}">
+    <source media="(min-width: 768px)" srcset="{% asset_path performers/wide/ruutu10_mic.jpg %}">
+    <img src="{% asset_path performers/square/ruutu10_mic.jpg %}" alt="">
+</picture>
 
 {% tf performances/ruutu10_jaa.md %}

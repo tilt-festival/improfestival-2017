@@ -11,6 +11,11 @@ sold_out: false
 ticket_url: performances.ticket_links.impeerium_each_other
 date: 2017-09-23
 ---
-{% img 'performers/wide/ruutu10_mic.jpg' alt:'Kokkoflava and Nick' class:'img-cover' %}
+
+<picture>
+    <source media="(min-width: 1200px)" srcset="{% asset_path performers/wide/ruutu10_mic.jpg %}">
+    <source media="(min-width: 768px)" srcset="{% asset_path performers/wide/ruutu10_mic.jpg %}">
+    <img src="{% asset_path performers/square/ruutu10_mic.jpg %}" alt="">
+</picture>
 
 {% tf performances/impeerium_each_other.md %}
