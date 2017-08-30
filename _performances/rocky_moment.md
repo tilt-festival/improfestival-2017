@@ -15,7 +15,7 @@ date: 2017-09-23
 <picture>
     <source media="(min-width: 1200px)" srcset="{% asset_path performers/wide/ruutu10_mic.jpg %}">
     <source media="(min-width: 768px)" srcset="{% asset_path performers/wide/ruutu10_mic.jpg %}">
-    <img src="{% asset_path performers/square/ruutu10_mic.jpg %}" alt="">
+    <img src="{% asset_path performers/square/ruutu10_mic.jpg %}" alt="The Moment and Rocky Amaretto">
 </picture>
 
 {% tf performances/rocky_moment.md %}
