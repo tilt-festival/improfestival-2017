@@ -14,7 +14,7 @@ date: 2017-09-21
 
 <picture>
     <source media="(min-width: 1200px)" srcset="{% asset_path performers/wide/ruutu10_mic_large.jpg %}">
-    <source media="(min-width: 768px)" srcset="{% asset_path performers/wide/ruutu10_mic_medium.jpg %}">
+    <source media="(min-width: 768px)" srcset="{% asset_path performers/wide/ruutu10_mic_large.jpg %}">
     <img src="{% asset_path performers/square/ruutu10_mic.jpg %}" alt="Ruutu10 and Moscow Improv Club">
 </picture>
 
