@@ -1,7 +1,7 @@
 ---
 start: 2017-09-23 18:15
 end: 2017-09-23 19:15
-name: Mixer D & Mixer E
+name: Any Given Day & The Place
 title: performances.titles.mixer_de
 country: 
 language: eng

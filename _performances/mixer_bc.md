@@ -1,7 +1,7 @@
 ---
 start: 2017-09-22 18:15
 end: 2017-09-22 19:15
-name: Mixer B & Mixer C
+name: Courtesy Sleeve & Parallel
 title: performances.titles.mixer_bc
 country: 
 language: eng

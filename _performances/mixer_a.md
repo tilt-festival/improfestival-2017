@@ -1,7 +1,7 @@
 ---
 start: 2017-09-21 18:15
 end: 2017-09-21 18:45
-name: Mixer A
+name: Let the Music Play
 title: performances.titles.mixer_a
 country: 
 language: eng
