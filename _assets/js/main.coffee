@@ -3,6 +3,7 @@
 #= require jquery-smooth-scroll/jquery.smooth-scroll.min
 #= require matchHeight/dist/jquery.matchHeight-min
 #= require picturefill/dist/picturefill
+#= require blazy/blazy.min
 
 # Create a JS Google Map object and add important location markers to it
 window.initMap = ->
@@ -109,6 +110,10 @@ getPageUrl = ->
   window.location.href.substr 0, window.location.href.indexOf('#')
 
 $ ->
+
+  # Implement lazy loading of images
+  new Blazy
+    offset: 300
 
   # Smooth out scrolling effect when clicking on a hash link
   $('a[href^="#"]').smoothScroll

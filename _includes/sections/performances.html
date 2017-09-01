@@ -18,7 +18,11 @@
             </h4>
             <a href="{{ site.baseurl | append:performer.url }}" data-toggle="modal" data-target="#modal-details">
                 <div class="image-container">
-                    {% img '{{ performer.image }}' alt:'{{ performer.name }}' class:'img-responsive center-block' %}
+                    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                         data-src="{{ performer.image | asset_path }}"
+                         alt="{{ performer.name }}"
+                         class="b-lazy img-responsive center-block" />
+
                     {% if performer.sold_out %}
                     <h3>{% t content.sold_out %}</h3>
                     {% endif %}
