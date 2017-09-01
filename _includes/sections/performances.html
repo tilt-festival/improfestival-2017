@@ -9,9 +9,9 @@
     <div class="row row-equal-height">
         {% assign performances = site.performances | sort: 'start' %}
         {% for performer in performances %}
-        {% capture index %}{% cycle 'one', 'two', 'three', 'four' %}{% endcapture %}
+        {% capture index %}{% cycle 'one', 'two', 'three' %}{% endcapture %}
 
-        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 col-schedule">
+        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-schedule">
             <h4 class="text-center">
                 <a href="{{ site.baseurl | append:performer.url }}" data-toggle="modal" data-target="#modal-details">
                     {{ performer.name }}</a>
@@ -25,7 +25,7 @@
                 </div>
             </a>
         </div>
-        {% if index == 'four' %}
+        {% if index == 'three' %}
             </div>
             <div class="row row-equal-height row-buffer-top">
         {% endif %}
