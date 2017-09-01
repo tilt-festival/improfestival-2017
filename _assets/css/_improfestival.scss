@@ -178,6 +178,10 @@ i {
   .lead {
     text-align: center;
   }
+
+  p + h3, ul + h3 {
+    margin-top: 2em;
+  }
 }
 
 .row.highlights {

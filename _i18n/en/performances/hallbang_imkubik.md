@@ -1,19 +1,21 @@
-### Hall and the Bang (SWE/AUS) - “#Perfectmatch2K30” (In English)
+### Hall and the Bang (SWE/AUS) - “#Perfectmatch2K30”
+
+In English
  
-`Downloading Love™` is easy. There is an app, an algorithm that enables
+Downloading Love™ is easy. There is an app, an algorithm that enables
 any relationship; lust, sex, and love are not bound by money, time or place.
  
 There are no more random meetings, no chance encounters, yet you can have
-any `Love™` you like. Just a tap and a swipe at the tip of your digits means
-you need never be alone - once you've found your `#perfectmatch2k30`.
+any Love™ you like. Just a tap and a swipe at the tip of your digits means
+you need never be alone - once you've found your #perfectmatch2k30.
 Sounds like the perfect dance of two violins in a perfect world.
  
 But what happens if there's discordance in the formula? When is perfect not
 perfect enough? Can you patch the glitch?
  
-`#Perfectmatch2k30` explores the spaces between binary relations and the
+#Perfectmatch2k30 explores the spaces between binary relations and the
 future of love - in a world where perfection is possible, what would
-it take for you to upgrade `Love™`?
+it take for you to upgrade Love™?
 
 ---
   
@@ -44,7 +46,9 @@ with no branding or instructions.
 
 - [hallbang.com](http://www.hallbang.com)
 
-### imKubik (CHE) - “Without a word” (In English)
+### imKubik (CHE) - “Without a word”
+ 
+In English
 
 "With(out) a word" - if we talk, it’s only “gibberish”
 

@@ -1,4 +1,6 @@
-### Kokkoflava (FIN/FRA) - “TEMPO” (In English)
+### Kokkoflava (FIN/FRA) - “TEMPO”
+
+In English
 
 Kokkoflava will bring their format TEMPO to the festival and
 play with tempo, volume and rhythm. How will the terms such as
@@ -22,7 +24,9 @@ explore the endless possibilities of improvisational theatre.
 - [loignon.eu](https://loignon.eu)
 - [https://facebook.com/theatredeloignon](https://facebook.com/theatredeloignon)
 
-### Nick Byrne (AUS) - "Inspired" (In English)
+### Nick Byrne (AUS) - "Inspired"
+
+In English
 
 Nick Byrne is genuinely inspired by you!
 

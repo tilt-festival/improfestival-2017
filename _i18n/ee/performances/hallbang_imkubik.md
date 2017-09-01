@@ -1,12 +1,14 @@
-### Hall and the Bang (SWE/AUS) - “#Täiusliksobivus2K30” (Inglise keeles)
+### Hall and the Bang (SWE/AUS) - “#Täiusliksobivus2K30”
+
+Inglise keeles
  
-`Armastuse Allalaadimine™` on lihtne. On olemas üks rakendus, algoritm,
+Armastuse Allalaadimine™ on lihtne. On olemas üks rakendus, algoritm,
 mis võimaldab iga suhte. Iha, seks ja armastus ei ole enam ei rahaliselt,
 ajaliselt ega asukohaga piiratud.
  
 Ei enam mingeid suvalisi kohtumisi, juhuslikke kokkupõrkeid. Siiski võid sa
 saada iga Armastuse™ millist soovid. Lihtsalt üks nupuvajutus ja sa ei pea
-enam kunagi üksi olema, kui on leitud `#Täiusliksobivus2K30`. Kõlab nagu kahe
+enam kunagi üksi olema, kui on leitud #Täiusliksobivus2K30. Kõlab nagu kahe
 viiuli ideaalne tants täiuslikus maailmas.
  
 Kuid mis juhtub, kui valemis on ebakõla? Millal ei ole täiuslik
@@ -14,7 +16,7 @@ piisavalt hea? Kas viga on võimalik parandada?
  
 \#Täiusliksobivus2K30 uurib seoseid binaarsete suhete ja armastuse
 tuleviku vahel - maailmas, kus täiuslik tulemus on võimalik, mis
-paneks sind alla laadima `Armastust™`?
+paneks sind alla laadima Armastust™?
  
 ---
 
@@ -45,7 +47,9 @@ teineteist olemasolevaga. Nagu IKEA mööbel ilma kaubamärgi ja juhendita.
 
 - [hallbang.com](http://www.hallbang.com)
 
-### imKubik (CHE) - “Ilma sõnadeta” (Inglise keeles)
+### imKubik (CHE) - “Ilma sõnadeta”
+
+Inglise keeles
 
 Lähtudes seostest, mis neil tekivad publiku antud sõnadest, asuvad kolm
 peategelast mitteverbaalsele improviseeritud lugude teekonnale. Stseen steeni kaupa

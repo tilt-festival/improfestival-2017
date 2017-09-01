@@ -11,7 +11,7 @@
         {% for performer in performances %}
         {% capture index %}{% cycle 'one', 'two', 'three' %}{% endcapture %}
 
-        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-schedule">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-schedule">
             <h4 class="text-center">
                 <a href="{{ site.baseurl | append:performer.url }}" data-toggle="modal" data-target="#modal-details">
                     {{ performer.name }}</a>

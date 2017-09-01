@@ -1,4 +1,6 @@
-### The Moment (FIN/USA) - “Here, Now” (In English)
+### The Moment (FIN/USA) - “Here, Now”
+
+In English
 
 In "Here, Now" Kaisa and Chris spend 45 minutes with you in
 real time, drifting in and out of a series of memories, flashbacks,
@@ -17,7 +19,9 @@ physicality, silence, and genuine fun. Their shows are a reflection of these com
 
 - [www.osuuskuntakuje.fi/kaisakokko_english](http://www.osuuskuntakuje.fi/kaisakokko_english)
 
-### Rocky Amaretto (NLD) - “Everybody has one” (In English)
+### Rocky Amaretto (NLD) - “Everybody has one”
+
+In English
 
 We all have stories about our fathers, being a father or maybe becoming one.
 Rocky Amaretto will play their show ‘Fathers’. Kicking off the show with a true

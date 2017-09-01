@@ -1,4 +1,6 @@
-### The Moment (FIN/USA) - “Siin, praegu” (Inglise keeles)
+### The Moment (FIN/USA) - “Siin, praegu”
+ 
+Inglise keeles
 
 Etenduses “Siin, praegu” veedavad Kaisa ja Chris teiega 45 minutit
 reaalajas, triivides edasi-tagasi mälestuste, meenutuste ja
@@ -18,7 +20,9 @@ ja lõbutsemist. Nende etendused peegeldavad neid jagatud väärtusi!
 
 - [www.osuuskuntakuje.fi/kaisakokko_english](http://www.osuuskuntakuje.fi/kaisakokko_english)
  
-### Rocky Amaretto (NLD) - “Kõigil on üks” (Inglise keeles)
+### Rocky Amaretto (NLD) - “Kõigil on üks”
+
+Inglise keeles
 
 Meil kõigil on lugusid oma isadest, isaks olemisest või ehk isaks saamisest.
 Rocky Amaretto toob teie ette oma etenduse “Isad”. Etendus algab ühe näitleja

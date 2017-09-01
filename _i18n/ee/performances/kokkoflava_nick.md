@@ -1,4 +1,6 @@
-### Kokkoflava (FIN/FRA) - “TEMPO” (Inglise keeles)
+### Kokkoflava (FIN/FRA) - “TEMPO”
+ 
+Inglise keeles
 
 Kokkoflava toob festivalile oma formaadi TEMPO. Nad mängivad tempo,
 volüümi ja rütmiga. Kuidas avastatakse laval selliseid termineid nagu
@@ -20,7 +22,9 @@ nad improteatri lõputuid võimalusi.
 - [loignon.eu](https://loignon.eu)
 - [https://facebook.com/theatredeloignon](https://facebook.com/theatredeloignon)
 
-### Nick Byrne (AUS) - "Inspireeritud" (Inglise keeles)
+### Nick Byrne (AUS) - "Inspireeritud"
+ 
+Inglise keeles
 
 Nick Byrne on teist tõeliselt inspireeritud!
 

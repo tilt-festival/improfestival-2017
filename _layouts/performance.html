@@ -10,8 +10,7 @@ layout: empty
 
     <div class="row">
         <div class="col-xs-12 col-lg-4">
-            {% assign language = page.language | prepend:'performances.in_' %}
-            <p class="lead">{% t language %}</p>
+
         </div>
         <div class="col-xs-12 col-lg-8">
             {% assign month = page.start | date: '%B' | downcase | prepend: "month." %}
@@ -25,10 +24,8 @@ layout: empty
     <div class="row">
         <div class="col-xs-12 col-lg-12">
 
-            <div class="text-justify">
                 {{ page.content }}
                 <hr />
-            </div>
         </div>
     </div>
 

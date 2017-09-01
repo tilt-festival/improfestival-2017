@@ -1,4 +1,6 @@
-### Ruutu10 (EST) - “T&R” (Eesti keeles)
+### Ruutu10 (EST) - “T&R”
+
+Eesti keeles
 
 Rauno ja Toivo asuvad avastama, kuidas ideest sünnib tegevus ja
 tegevusest põnev looliin. Nad sukelduvad erinevate karakteritega
@@ -15,7 +17,9 @@ Toivo tahab pigem TJ & Dave’i stiilis aeglast komöödiat, mina seevastu aga
 Middleage Comeback stiilis higist tõmblemist. Eks me sinna vahele kuku,
 mõnikord nii ja teinekord naa.". 
 
-### Moscow Improv Club (RUS) - “1, 2, 3 Läksime!” (Inglise keeles)
+### Moscow Improv Club (RUS) - “1, 2, 3 Läksime!”
+
+Inglise keeles
 
 Jah, improteatrit tehakse ka Venemaal!
 

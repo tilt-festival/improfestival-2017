@@ -1,4 +1,6 @@
-### Ruutu10 (EST) - “T&R” (In Estonian)
+### Ruutu10 (EST) - “T&R”
+
+In Estonian
 
 Rauno and Toivo will embark on a journey to
 discover how an idea inspires the action and how that
@@ -17,7 +19,9 @@ Toivo wants more of a TJ & Dave styled slow comedy, whereas I would
 like a Middleage Comeback styled sweaty chaos. So we are somewhere
 in between, sometimes one way, other times another way.“
 
-### Moscow Improv Club (RUS) - “1, 2, 3 Poyekhali!” (In English)
+### Moscow Improv Club (RUS) - “1, 2, 3 Poyekhali!”
+
+In English
 
 Yes, improv in Russia exists!
 Moscow Improv Club is made up of Dina, Yegor, Anna, Yura, and Josh,
