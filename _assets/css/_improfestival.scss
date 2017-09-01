@@ -150,6 +150,11 @@ i {
   border-bottom: 0;
 }
 
+.modal-title {
+  margin-top: 2em;
+  text-align: center;
+}
+
 .modal-body {
 
   padding: 0 $modal-inner-padding $modal-inner-padding;
@@ -172,6 +177,11 @@ i {
 
   .lead {
     text-align: center;
+  }
+
+  p + h3,
+  ul + h3 {
+    margin-top: 2em;
   }
 }
 
@@ -360,18 +370,15 @@ blockquote {
   }
 }
 
+.img-cover {
+  height: 20em;
+  margin: 0;
+  object-fit: fill;
+  padding: 0;
+  width: 100%;
+}
+
 .img-padded {
   padding: .4em;
 }
 
-.tilt5-banner {
-  text-align: center;
-
-  h1 {
-    text-transform: uppercase;
-  }
-
-  p {
-    font-size: 2em;
-  }
-}

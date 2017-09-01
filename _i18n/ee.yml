@@ -21,15 +21,6 @@ menu:
   team: Korraldajad
   close: Sulge
 
-
-tilt5:
-  title: Tilt 5 on tulekul
-  dates: >
-    Viienda Tilt festivali kuupäevad on selgunud.
-    Järgmine Rahvusvaheline Improteatrite Festival Tilt toimub Tallinnas
-  stay_tuned: ""
-  button: Lahe!
-
 month:
   january: January
   february: February
@@ -45,10 +36,8 @@ month:
   december: December
 
 venues:
-  soprus: 'Kino Sõprus'
+  catherine: 'Katariina Kirik'
   vene: 'Rahvaülikooli Teatrikeskus'
-  house: 'Õpetajate Maja'
-  kloostriait: 'Kloostriait'
 
 titles:
   days_count: 3 päeva
@@ -62,7 +51,6 @@ content:
   buy_ticket: Osta Pilet
   meet_tilt_team: Tilti aitavad korraldada
   at_oclock: kell
-  in_location: asukohas
   workshop: Töötuba
   show: Etendus
   signup_workshop: Registreeru töötuppa
@@ -75,6 +63,14 @@ stats:
   total_performances: 45 etendust
   total_workshops: 25 töötuba
 
+map:
+  hostel: Hostel
+  hostel_address: OldHouse Hostel, Uus 26
+  performance_venue: Etendused
+  performance_venue_address: Katariina Kirik, Vene 14a
+  workshop_venue: Töötoad
+  workshop_venue_address: Tallinna Rahvaülikooli Teatrikeskus, Vene 6
+
 workshops:
   titles:
     peak_performance: Peak Performance
@@ -86,11 +82,30 @@ workshops:
 
 performances:
   titles:
+    ruutu10_mic: Ruutu10 (EST) - "T&R" & Moscow Improv Club (RUS) - "1, 2, 3 Läksime!"
+    ruutu10_jaa: Ruutu10 (EST) - "JD" & Jaa !mproteater (EST) - "Mis võiks küll valesti minna?"
+    hallbang_imkubik: Hall and the Bang (SWE/AUS) - "#Täiusliksobivus2K30" & imKubik (CHE) - "Ilma sõnadeta"
+    impeerium_each_other: Improteater IMPEERIUM (EST) - "Räägi meile!" & Each Other (LAT/FRA) - "Ütle midagi"
+    kokkoflava_nick: Kokkoflava (FIN/FRA) - "TEMPO" & Nick Byrne (AUS) - "Inspireeritud"
+    rocky_moment: The Moment (FIN/USA) - "Siin, praegu" & Rocky Amaretto (NLD) - "Kõigil on üks"
+    mixer_a: '"Las mängib muusika"'
+    mixer_bc: '"Courtesy Sleeve" & "Paralleelne"'
+    mixer_de: '"Ükspuha millisel päeval" & "Asukoht"'
   ticket_links:
-    all_performances: https://
+    ruutu10_mic: http://www.piletilevi.ee/est/piletid/festival/teater/ruutu-10-est-t--r-mic-rus-123-laksime-224242/
+    ruutu10_jaa: http://www.piletilevi.ee/est/piletid/festival/teater/ruutu10-est-jd-jaa-mproteater-est-mis-voiks-kull-valesti-minna-224248/
+    hallbang_imkubik: http://www.piletilevi.ee/est/piletid/festival/teater/hall-and-the-bang-swe-aus-taiusliksobivus2k30-imkubik-che-ilma-sonadeta-224249/
+    impeerium_each_other: http://www.piletilevi.ee/est/piletid/festival/teater/improteater-impeerium-est-raagi-meile-each-other-lat-fra-utle-midagi-224251
+    kokkoflava_nick: http://www.piletilevi.ee/est/piletid/festival/teater/kokkoflava-fin-fra-tempo-nick-byrne-aus-inspireeritud-224247/
+    rocky_moment: http://www.piletilevi.ee/est/piletid/festival/teater/the-moment-fin-usa-siin-praegu-rocky-amaretto-nld-koigil-on-uks-224833/
+    mixer_a: https://
+    mixer_bc: https://
+    mixer_de: https://
+    all_performances: http://www.piletilevi.ee/est/piletid/festival/teater/viies-rahvusvaheline-improteatrite-festival-tilt-51734
     day_tickets: https://
     festival_pass: https://
   in_eng: inglise keeles
   in_est: eesti keeles
+  in_mixed: Eri keeltes
 footer:
   more_info: Lisainformatsiooni saab e-maililt tilt@improfestival.ee

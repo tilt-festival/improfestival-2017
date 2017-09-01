@@ -21,18 +21,18 @@ menu:
   team: Team
   close: Close
 
-tilt5:
-  title: Tilt 5 is coming!
-  dates: >
-    The dates for Tilt 5 have been announced! The next Tilt
-    International Improv Festival will take place in Tallinn,
-    Estonia on
-  stay_tuned: Stay tuned for more updates!
-
 stats:
   total_years: 5 years
   total_performances: 45 performances
   total_workshops: 25 workshops
+
+map:
+  hostel: Hostel
+  hostel_address: OldHouse Hostel, Uus 26
+  performance_venue: Performance Venue
+  performance_venue_address: St. Catherine's Church, Vene 14a
+  workshop_venue: Workshop Venue
+  workshop_venue_address: Tallinna Rahvaülikooli Teatrikeskus, Vene 6
 
 month:
   january: January
@@ -57,18 +57,35 @@ workshops:
     sing_it_out_loud: Sing it out loud!
 performances:
   titles:
+    ruutu10_mic: Ruutu10 (EST) - "T&R" & Moscow Improv Club (RUS) - "1, 2, 3 Poyekhali!"
+    ruutu10_jaa: Ruutu10 (EST) - "JD" & Jaa !mproteater (EST) - "What could go wrong?"
+    hallbang_imkubik: Hall and the Bang (SWE/AUS) - "#Perfectmatch2K30" & imKubik (CHE) - "Without a word"
+    impeerium_each_other: Improteater IMPEERIUM (EST) - "Tell Us!" & Each Other (LAT/FRA) - "Say Something"
+    kokkoflava_nick: Kokkoflava (FIN/FRA) - "TEMPO" & Nick Byrne (AUS) - "Inspired"
+    rocky_moment: The Moment (FIN/USA) - "Here, Now" & Rocky Amaretto (NLD) - "Eerybody has one"
+    mixer_a: "Let the Music Play"
+    mixer_bc: '"Courtesy Sleeve" & "Parallel"'
+    mixer_de: '"Any Given Day" & "The Place"'
+
   ticket_links:
-    all_performances: https://
+    ruutu10_mic: http://www.piletilevi.ee/eng/piletid/festival/teater/ruutu-10-est-t--r-mic-rus-123-laksime-224242/
+    ruutu10_jaa: http://www.piletilevi.ee/eng/piletid/festival/teater/ruutu10-est-jd-jaa-mproteater-est-mis-voiks-kull-valesti-minna-224248/
+    hallbang_imkubik: http://www.piletilevi.ee/eng/piletid/festival/teater/hall-and-the-bang-swe-aus-taiusliksobivus2k30-imkubik-che-ilma-sonadeta-224249/
+    impeerium_each_other: http://www.piletilevi.ee/eng/piletid/festival/teater/improteater-impeerium-est-raagi-meile-each-other-lat-fra-utle-midagi-224251
+    kokkoflava_nick: http://www.piletilevi.ee/eng/piletid/festival/teater/kokkoflava-fin-fra-tempo-nick-byrne-aus-inspireeritud-224247/
+    rocky_moment: http://www.piletilevi.ee/eng/piletid/festival/teater/the-moment-fin-usa-siin-praegu-rocky-amaretto-nld-koigil-on-uks-224833/
+    all_performances: http://www.piletilevi.ee/eng/piletid/festival/teater/viies-rahvusvaheline-improteatrite-festival-tilt-51734
+    mixer_a: https://
+    mixer_bc: https://
+    mixer_de: https://
     day_tickets: https://
     festival_pass: https://
   in_eng: in English
   in_est: in Estonian
-
+  in_mixed: Mixed languages
 venues:
-  soprus: 'Cinema Sõprus (Kino Sõprus)'
+  catherine: "St Catherine's Church"
   vene: 'Vene 6 (Rahvaülikooli Teatrikeskus)'
-  house: "Teacher's House (Õpetajate Maja)"
-  kloostriait: 'Kloostriait'
 
 titles:
   days_count: 3 days
@@ -79,10 +96,9 @@ content:
   get_tickets: Get tickets to Tilt performances
   get_one_day_pass: Get a 1-day pass
   here: here
-  buy_ticket: Buy Ticket
+  buy_ticket: Buy Tickets
   meet_tilt_team: Meet the Tilt Team
   at_oclock: at
-  in_location: in
   workshop: Workshop
   show: Show
   signup_workshop: Sign up for workshops

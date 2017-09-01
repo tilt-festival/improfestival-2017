@@ -18,6 +18,7 @@
     "bootstrap-sass": "^3.3.6",
     "jquery-smooth-scroll":"^2.2",
     "matchHeight": "^0.7",
-    "open-sans-fontface": "^1.4"
+    "open-sans-fontface": "^1.4",
+    "picturefill": "^3.0"
   }
 }
