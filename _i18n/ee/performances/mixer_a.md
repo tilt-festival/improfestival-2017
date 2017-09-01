@@ -1,6 +1,6 @@
 ### "Las mängib muusika". Juhendaja: Severin Mahncke
 
-Inglise keeles
+**Inglise keeles**
 
 Viiendal rahvusvahelisel improteatrite festivalil Tilt on au võõrustada
 külalisi lähemalt ja kaugemalt. Et tegemist on meisterimprotajatega, on

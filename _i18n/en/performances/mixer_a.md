@@ -1,6 +1,6 @@
 ### "Let the Music Play". Instructor: Severin Mahncke
 
-In English
+**In English**
 
 The fifth international improv festival Tilt is very
 proud to welcome improvisers from countries nearby and far away.

@@ -1,6 +1,6 @@
 ### Kokkoflava (FIN/FRA) - “TEMPO”
 
-In English
+**In English**
 
 Kokkoflava will bring their format TEMPO to the festival and
 play with tempo, volume and rhythm. How will the terms such as
@@ -26,7 +26,7 @@ explore the endless possibilities of improvisational theatre.
 
 ### Nick Byrne (AUS) - "Inspired"
 
-In English
+**In English**
 
 Nick Byrne is genuinely inspired by you!
 

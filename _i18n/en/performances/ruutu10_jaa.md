@@ -1,6 +1,6 @@
 ### Ruutu10 (EST) - “JD”
 
-In Estonian
+**In Estonian**
 
 JD is a fast paced and fluid long-form with quick and
 seamless scene transitions. JD is a free-form improv show​.
@@ -23,7 +23,7 @@ instructors in their field.
 
 ### Jaa !mprov theatre (EST) - “What could go wrong?”
 
-In Estonian
+**In Estonian**
 
 We all make plans, may they be big or small. “I’ll just hop by the
 store quickly before I go home” or “I’ll just peek my crushes Facebook

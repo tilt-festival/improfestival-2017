@@ -1,6 +1,6 @@
 ### "Courtesy Sleeve". Juhendaja: Kaisa Kokko
 
-Inglise keeles
+**Inglise keeles**
 
 Viiendal rahvusvahelisel improteatrite festivalil Tilt on au võõrustada
 külalisi lähemalt ja kaugemalt. Et tegemist on meisterimprotajatega,
@@ -21,7 +21,7 @@ jätta annetuse festivali toetuseks!
 
 ### "Paralleelne". Juhendaja: Nick Byrne
 
-Inglise keeles
+**Inglise keeles**
 
 Viiendal rahvusvahelisel improteatrite festivalil Tilt on au võõrustada külalisi
 lähemalt ja kaugemalt. Et tegemist on meisterimprotajatega, on nad rõõmuga nõus

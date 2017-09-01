@@ -1,6 +1,6 @@
 ### Kokkoflava (FIN/FRA) - “TEMPO”
  
-Inglise keeles
+**Inglise keeles**
 
 Kokkoflava toob festivalile oma formaadi TEMPO. Nad mängivad tempo,
 volüümi ja rütmiga. Kuidas avastatakse laval selliseid termineid nagu
@@ -24,7 +24,7 @@ nad improteatri lõputuid võimalusi.
 
 ### Nick Byrne (AUS) - "Inspireeritud"
  
-Inglise keeles
+**Inglise keeles**
 
 Nick Byrne on teist tõeliselt inspireeritud!
 

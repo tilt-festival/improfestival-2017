@@ -1,6 +1,6 @@
 ### Ruutu10 (EST) - “JD”
 
-Eesti keeles
+**Eesti keeles**
  
 JD on impro pikavormi etendus, millel puudub struktuur ning
 seetõttu võib selle liigitada vaba-vormi impro alla. Stseenid
@@ -23,7 +23,7 @@ parimate juhendajate käe all.
 
 ### Jaa !mproteater (EST) - “Mis võiks küll valesti minna?”
 
-Eesti keeles
+**Eesti keeles**
  
 Me kõik teeme plaane, olgu need siis suured või väiksed. “Ma lähen käin
 enne koju minekut kiiresti poest läbi” või “Ma ainult korraks vaatan oma

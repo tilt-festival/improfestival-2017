@@ -1,6 +1,6 @@
 ### “Any Given Day”. Instructor: Feña Ortalli
 
-In English
+**In English**
 
 The fifth international improv festival Tilt is very proud to welcome
 improvisers from countries nearby and far away. Because these participants
@@ -20,7 +20,7 @@ a donation to the festival after the show!
 
 ### “The Place”. Instructor: Victoria Bang
 
-In English
+**In English**
 
 The fifth international improv festival Tilt is very proud to welcome improvisers
 from countries nearby and far away. Because these participants are skillful at what

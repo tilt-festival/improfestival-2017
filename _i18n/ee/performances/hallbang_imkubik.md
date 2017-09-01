@@ -1,6 +1,6 @@
 ### Hall and the Bang (SWE/AUS) - “#Täiusliksobivus2K30”
 
-Inglise keeles
+**Inglise keeles**
  
 Armastuse Allalaadimine™ on lihtne. On olemas üks rakendus, algoritm,
 mis võimaldab iga suhte. Iha, seks ja armastus ei ole enam ei rahaliselt,
@@ -49,7 +49,7 @@ teineteist olemasolevaga. Nagu IKEA mööbel ilma kaubamärgi ja juhendita.
 
 ### imKubik (CHE) - “Ilma sõnadeta”
 
-Inglise keeles
+**Inglise keeles**
 
 Lähtudes seostest, mis neil tekivad publiku antud sõnadest, asuvad kolm
 peategelast mitteverbaalsele improviseeritud lugude teekonnale. Stseen steeni kaupa

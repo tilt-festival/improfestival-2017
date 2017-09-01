@@ -1,6 +1,6 @@
 ### “Ükspuha millisel päeval”. Juhendaja: Feña Ortalli
 
-Inglise keeles
+**Inglise keeles**
 
 Viiendal rahvusvahelisel improteatrite festivalil Tilt on au võõrustada
 külalisi lähemalt ja kaugemalt. Et tegemist on meisterimprotajatega, on nad
@@ -19,7 +19,7 @@ annetuse festivali toetuseks!
 
 ### “Asukoht”. Juhendaja: Victoria Bang
 
-Inglise keeles
+**Inglise keeles**
 
 Viiendal rahvusvahelisel improteatrite festivalil Tilt on au võõrustada külalisi
 lähemalt ja kaugemalt. Et tegemist on meisterimprotajatega, on nad rõõmuga nõus

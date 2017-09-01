@@ -1,6 +1,6 @@
 ### "Courtesy Sleeve". Instructor: Kaisa Kokko
 
-In English
+**In English**
 
 The fifth international improv festival Tilt is very proud to welcome
 improvisers from countries nearby and far away. Because these participants
@@ -22,7 +22,7 @@ a donation to the festival after the show!
 
 ### "Parallel". Instructor: Nick Byrne 
 
-In English
+**In English**
 
 The fifth international improv festival Tilt is very proud to welcome
 improvisers from countries nearby and far away. Because these participants

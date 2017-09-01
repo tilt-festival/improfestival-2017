@@ -1,6 +1,6 @@
 ### Improteater IMPEERIUM (EST) - "Tell us!"
 
-In Estonian
+**In Estonian**
 
 We all have had wonderful and surprising moments in our lives,
 we just have to listen to one another. Improv theater IMPEERIUM
@@ -33,7 +33,7 @@ is possible! The power of imagination is endless!
 
 ### Each Other (LAT/FRA) - “Say something”
 
-In English
+**In English**
 
 Coffee break with an old long-time-no-see friend. During a chat, they discover
 events that happened in each others lives with the help of letters sent by the

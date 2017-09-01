@@ -1,6 +1,6 @@
 ### Hall and the Bang (SWE/AUS) - “#Perfectmatch2K30”
 
-In English
+**In English**
  
 Downloading Love™ is easy. There is an app, an algorithm that enables
 any relationship; lust, sex, and love are not bound by money, time or place.
@@ -48,7 +48,7 @@ with no branding or instructions.
 
 ### imKubik (CHE) - “Without a word”
  
-In English
+**In English**
 
 "With(out) a word" - if we talk, it’s only “gibberish”
 

@@ -1,6 +1,6 @@
 ### Ruutu10 (EST) - “T&R”
 
-In Estonian
+**In Estonian**
 
 Rauno and Toivo will embark on a journey to
 discover how an idea inspires the action and how that
@@ -21,7 +21,7 @@ in between, sometimes one way, other times another way.“
 
 ### Moscow Improv Club (RUS) - “1, 2, 3 Poyekhali!”
 
-In English
+**In English**
 
 Yes, improv in Russia exists!
 Moscow Improv Club is made up of Dina, Yegor, Anna, Yura, and Josh,
@@ -33,7 +33,7 @@ anything! So are you ready for some Russian improv? Come and check them out!
 ---
 
 Moscow Improv Club (MIC) is the first and the only community in Moscow,
-Russia, that performs improv in English. Not only is it a troupe of
+Russia, that performs improv **In English**. Not only is it a troupe of
 improvisers who perform in the heart of Moscow on a weekly basis, but also
 an international community whose aim is to develop improv in Russia. Through
 staging shows, teaching classes, and leading workshops they are making improv

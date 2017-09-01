@@ -1,6 +1,6 @@
 ### Improteater IMPEERIUM (EST) - "Räägi meile!"
 
-Eesti keeles
+**Eesti keeles**
 
 Meie kõigi elu sisaldab vahvaid ja hämmastavaid seiku,
 peame lihtsalt oskama teisi kuulata. Improteater IMPEERIUM pakub
@@ -31,7 +31,7 @@ hakkab, kuid kõik on võimalik! Kujutluse võim on piiritu!
 
 ### Each Other (LAT/FRA) - “Ütle midagi”
  
-Inglise keeles
+**Inglise keeles**
 
 Meie silme ees avaneb pilt kahest vanast sõbrast kohvipausil,
 kes pole teineteist ammu näinud. Vestluse ajal avastavad nad teineteise
