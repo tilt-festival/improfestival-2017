@@ -4,11 +4,10 @@
     </div>
 </div>
 
-<div class="row row-equal-height">
+<div class="row">
 
-    <div class="col-lg-1 hidden-xs"></div>
     {% for sponsor in site.data.sponsors %}
-    <div class="col-xs-4 col-lg-3 vertical-center">
+    <div class="col-xs-6 col-lg-2 vertical-center">
         <a href="{{ sponsor.url }}" target="_blank">
             <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                  data-src="{{ sponsor.logo | asset_path }}"

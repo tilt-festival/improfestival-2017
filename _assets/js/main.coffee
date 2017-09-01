@@ -109,11 +109,15 @@ showModal = (url) ->
 getPageUrl = ->
   window.location.href.substr 0, window.location.href.indexOf('#')
 
+equalizeColumns = ->
+  # Non-flexbox hack to get Bootstrap columns to be of matching height
+  $('.row-equal-height [class^="col-"]').matchHeight()
+
 $ ->
 
   # Implement lazy loading of images
   new Blazy
-    offset: 300
+    offset: 800
 
   # Smooth out scrolling effect when clicking on a hash link
   $('a[href^="#"]').smoothScroll
@@ -136,8 +140,7 @@ $ ->
 
     $('#modal-details').find('.modal-content').html('').load url
 
-  # Non-flexbox hack to get Bootstrap columns to be of matching height
-  $('.row-equal-height [class^="col-"]').matchHeight()
+  equalizeColumns()
 
   # Hover effect for the schedule table:
   # Change the "featured" image source depending on
