@@ -14,8 +14,8 @@ Esinejad küsivad ühelt publiku liikmelt tema sünnipäeva ning seejärel otsiv
 Wikipediast, millised sündmused ajaloos sellel päeval aset leidnud on. Seejärel
 mängivad improtajad mõnede nende sündmuste põhjal stseene. 
 
-Mixer showdele on sissepääs tasuta, ent kui etendus meeldis, võid jätta
-annetuse festivali toetuseks!
+**Mixer showdele on sissepääs tasuta, ent kui etendus meeldis, võid jätta
+annetuse festivali toetuseks!**
 
 ### “Asukoht”. Juhendaja: Victoria Bang
 
@@ -36,5 +36,5 @@ kolmapäeva hommikul kell 5? Mis juhtus täpselt samas paigas viimasel kevadpäe
 vaadet esinejatele, kes avastavad poeetiliste ja dünaamiliste segude läbi
 inimsuhteid erinevates aegades ja kohtades.
 
-Mixer showdele on sissepääs tasuta, ent kui etendus meeldis, võid jätta
-annetuse festivali toetuseks!
+**Mixer showdele on sissepääs tasuta, ent kui etendus meeldis, võid jätta
+annetuse festivali toetuseks!**

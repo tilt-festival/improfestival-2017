@@ -16,8 +16,8 @@ terve maailm ning see viib näitlejaid läbi julge koostöö mitmete inspireeriv
 stseenideni. Tule ja sukeldu meiega koos jäneseurgu ning koge improteatri üht
 puhtamaid vorme. 
 
-Mixer showdele on sissepääs tasuta, ent kui etendus meeldis, võid
-jätta annetuse festivali toetuseks!
+**Mixer showdele on sissepääs tasuta, ent kui etendus meeldis, võid
+jätta annetuse festivali toetuseks!**
 
 ### "Paralleelne". Juhendaja: Nick Byrne
 
@@ -36,5 +36,5 @@ algab lihtsa orgaanilise liikumisega grupis, millest improviseerijad alustavad s
 isegi teadmata, et nad stseeni alustasid… Kuni hetkeni, mil nad kohale jõuavad. Samal
 ajal, kui osad näitlejad teevad stseeni, toetab ülejäänud grupp neid liikumises.
 
-Mixer showdele on sissepääs tasuta, ent kui etendus meeldis, võid
-jätta annetuse festivali toetuseks!
+**Mixer showdele on sissepääs tasuta, ent kui etendus meeldis, võid
+jätta annetuse festivali toetuseks!**

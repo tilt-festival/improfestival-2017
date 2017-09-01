@@ -15,8 +15,8 @@ The performers ask a member of the audience for his/her birthday and then search
 on Wikipedia for historical events that took place on that day throughout history.
 The group then plays scenes based on some of those events.
 
-Entrance to the mixer shows is FREE. If you liked what you saw you can leave
-a donation to the festival after the show!
+**Entrance to the mixer shows is FREE. If you liked what you saw you can leave
+a donation to the festival after the show!**
 
 ### “The Place”. Instructor: Victoria Bang
 
@@ -37,5 +37,5 @@ the last day of spring at the exact same spot? Make sure you get to ‘The Place
 you can be a voyeur, as the performers explore relationships through time and space in
 a poetic and dynamic mix, while you sit back and soak up the view.
 
-Entrance to the mixer shows is FREE. If you liked what you saw you can leave a donation
-to the festival after the show!
+**Entrance to the mixer shows is FREE. If you liked what you saw you can leave a donation
+to the festival after the show!**

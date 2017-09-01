@@ -16,5 +16,5 @@ suvaliselt 600 faili hulgast. Improtajad kasutavad kuuldut inspiratsiooniks,
 et valida stseenile asukoht, emotsioon, karakter või aeg. Iga stseen algab ning
 lõppeb heli või muusikaga. Iga stseen on eraldiseisev ning süžee ei ole seotud. 
 
-Mixer showdele on sissepääs tasuta, ent kui etendus meeldis, võid jätta annetuse
-festivali toetuseks!
+**Mixer showdele on sissepääs tasuta, ent kui etendus meeldis, võid jätta annetuse
+festivali toetuseks!**
