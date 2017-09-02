@@ -1,6 +1,6 @@
 ---
-start: 2017-09-23 20:45
-end: 2017-09-23 22:15
+start: 2017-09-23 21:15
+end: 2017-09-23 22:45
 name: The Moment (FIN/USA) & Rocky Amaretto (NLD)
 title: performances.titles.rocky_moment
 country: fin/usa/nld

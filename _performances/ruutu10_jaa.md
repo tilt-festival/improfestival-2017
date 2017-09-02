@@ -1,5 +1,5 @@
 ---
-start: 2017-09-22 19:00
+start: 2017-09-22 19:30
 end: 2017-09-22 21:00
 name: Ruutu10 (EST) & Jaa !mproteater (EST)
 title: performances.titles.ruutu10_jaa
