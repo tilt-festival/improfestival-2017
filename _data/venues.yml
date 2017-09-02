@@ -2,14 +2,7 @@ vene:
   address: Vene tn 6, Tallinn, Estonia
   name: Tallinna Rahvaülikooli Teatrikeskus
 
-soprus:
-  address: Vana-Posti 8, 10146 Tallinn, Estonia
-  name: Kino Sõprus
+catherine:
+  address: Vene 14a Tallinn, Estonia
+  name: Katariina Kirik
 
-kloostriait:
-  address: Vene 14, 10123 Tallinn, Estonia
-  name: Kloostriait
-
-house:
-  address: Raekoja Plats 14 10146 Tallinn, Estonia
-  name: Õpetajate Maja
