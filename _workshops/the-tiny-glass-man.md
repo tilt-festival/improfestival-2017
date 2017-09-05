@@ -6,7 +6,7 @@ title: workshops.titles.the_tiny_glass_man
 name: Feña Ortalli 
 country: esp 
 image: workshops/fena_ortalli.jpg
-sold_out: false
+sold_out: true
 venue: vene
 ticket_url: https://gateme.com/event/82201
 ---
