@@ -9,18 +9,18 @@
     <div class="row row-equal-height">
         {% assign performances = site.performances | sort: 'start' %}
         {% for performer in performances %}
-        {% capture index %}{% cycle 'one', 'two', 'three' %}{% endcapture %}
+        {% capture index %}{% cycle performances: 'one', 'two', 'three' %}{% endcapture %}
 
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-schedule">
             <h4 class="text-center">
                 <a href="{{ site.baseurl | append:performer.url }}" data-toggle="modal" data-target="#modal-details">
-                    {{ performer.name }}</a>
+                    {% t performer.name %}</a>
             </h4>
             <a href="{{ site.baseurl | append:performer.url }}" data-toggle="modal" data-target="#modal-details">
                 <div class="image-container">
                     <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                          data-src="{{ performer.image | asset_path }}"
-                         alt="{{ performer.name }}"
+                         alt="{% t performer.name %}"
                          class="b-lazy img-responsive center-block" />
 
                     {% if performer.sold_out %}

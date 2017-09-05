@@ -1,7 +1,7 @@
 ---
 start: 2017-09-23 19:30
 end: 2017-09-23 21:00
-name: Improteater IMPEERIUM (EST) & Each Other (LAT/FRA)
+name: performances.names.impeerium_each_other
 title: performances.titles.impeerium_each_other
 country: est/lat/fra
 language: mixed

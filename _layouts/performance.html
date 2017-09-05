@@ -4,26 +4,25 @@ layout: empty
 <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-label="{% t menu.close %}"><span
             aria-hidden="true">&times;</span></button>
-    <h3 class="modal-title" id="modal-details-title">{{ page.name }}</h3>
+    <h3 class="modal-title" id="modal-details-title">{% t page.name %}</h3>
 </div>
 <div class="modal-body">
 
+    {% if page.venue %}
     <div class="row">
         <div class="col-xs-12 col-lg-4">
-
         </div>
         <div class="col-xs-12 col-lg-8">
             {% assign month = page.start | date: '%B' | downcase | prepend: "month." %}
             {% assign venue = page.venue | prepend: "venues." %}
             <p class="lead time">{{ page.start | date: '%d' }} {% t month %} {% t content.at_oclock %}
                 {{ page.start | date: '%H:%M' }} {% t venue %}</p>
-
         </div>
     </div>
+    {% endif %}
 
     <div class="row">
         <div class="col-xs-12 col-lg-12">
-
                 {{ page.content }}
                 <hr />
         </div>

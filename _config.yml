@@ -40,11 +40,13 @@ defaults:
       type: workshops
     values:
       layout: workshop
+      show_in_schedule: true
   - scope:
       path: ""
       type: performances
     values:
       layout: performance
+      show_in_schedule: true
 
 collections:
   workshops:

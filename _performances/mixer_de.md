@@ -1,7 +1,7 @@
 ---
 start: 2017-09-23 18:15
 end: 2017-09-23 19:15
-name: Any Given Day & The Place
+name: performances.names.mixer_de
 title: performances.titles.mixer_de
 country: 
 language: eng

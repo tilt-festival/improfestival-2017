@@ -1,7 +1,7 @@
 ---
 start: 2017-09-21 20:45
 end: 2017-09-21 22:15
-name: Kokkoflava (FIN/FRA) & Nick Byrne (AUS)
+name: performances.names.kokkoflava_nick
 title: performances.titles.kokkoflava_nick
 country: fin/fra/aus
 language: eng

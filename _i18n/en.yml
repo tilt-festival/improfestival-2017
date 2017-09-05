@@ -66,6 +66,20 @@ performances:
     mixer_a: "Let the Music Play"
     mixer_bc: '"Courtesy Sleeve" & "Parallel"'
     mixer_de: '"Any Given Day" & "The Place"'
+    festival_pass: The Fifth Annual Tilt International Improv Festival - FESTIVAL PASS
+    supporter_pass: "The Fifth Annual Tilt International Improv Festival - SUPPORTER'S PASS"
+  names:
+    ruutu10_mic: Ruutu10 (EST) & Moscow Improv Club (RUS)
+    ruutu10_jaa: Ruutu10 (EST) & Jaa !mproteater (EST)
+    hallbang_imkubik: Hall and the Bang (SWE/AUS) & imKubik (CHE)
+    impeerium_each_other: Improteater IMPEERIUM (EST) & Each Other (LAT/FRA)
+    kokkoflava_nick: Kokkoflava (FIN/FRA) & Nick Byrne (AUS)
+    rocky_moment: The Moment (FIN/USA) & Rocky Amaretto (NLD)
+    mixer_a: "Let the Music Play"
+    mixer_bc: '"Courtesy Sleeve" & "Parallel"'
+    mixer_de: '"Any Given Day" & "The Place"'
+    festival_pass: The Fifth Annual Tilt International Improv Festival - FESTIVAL PASS
+    supporter_pass: "The Fifth Annual Tilt International Improv Festival - SUPPORTER'S PASS"
 
   ticket_links:
     ruutu10_mic: http://www.piletilevi.ee/eng/piletid/festival/teater/ruutu-10-est-t--r-mic-rus-123-laksime-224242/
@@ -79,7 +93,8 @@ performances:
     mixer_bc: https://
     mixer_de: https://
     day_tickets: https://
-    festival_pass: https://
+    festival_pass: http://www.piletilevi.ee/eng/piletid/festival/teater/viies-rahvusvaheline-improteatrite-festival-tilt-pass-224720/
+    supporter_pass: http://www.piletilevi.ee/eng/piletid/festival/teater/viies-rahvusvaheline-improteatrite-festival-tilt-toetajapass-224724/
   in_eng: in English
   in_est: in Estonian
   in_mixed: Mixed languages

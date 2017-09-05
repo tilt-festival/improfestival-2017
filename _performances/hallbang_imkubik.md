@@ -1,7 +1,7 @@
 ---
 start: 2017-09-22 21:15
 end: 2017-09-22 22:45
-name: Hall and the Bang (SWE/AUS) & imKubik (CHE)
+name: performances.names.hallbang_imkubik
 title: performances.titles.hallbang_imkubik
 country: swe/aus/che
 language: eng
