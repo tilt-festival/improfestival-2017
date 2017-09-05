@@ -66,8 +66,8 @@ performances:
     mixer_a: "Let the Music Play"
     mixer_bc: '"Courtesy Sleeve" & "Parallel"'
     mixer_de: '"Any Given Day" & "The Place"'
-    festival_pass: The Fifth Annual Tilt International Improv Festival - FESTIVAL PASS
-    supporter_pass: "The Fifth Annual Tilt International Improv Festival - SUPPORTER'S PASS"
+    festival_pass: FESTIVAL PASS
+    supporter_pass: SUPPORTER'S PASS
   names:
     ruutu10_mic: Ruutu10 (EST) & Moscow Improv Club (RUS)
     ruutu10_jaa: Ruutu10 (EST) & Jaa !mproteater (EST)
@@ -78,8 +78,8 @@ performances:
     mixer_a: "Let the Music Play"
     mixer_bc: '"Courtesy Sleeve" & "Parallel"'
     mixer_de: '"Any Given Day" & "The Place"'
-    festival_pass: The Fifth Annual Tilt International Improv Festival - FESTIVAL PASS
-    supporter_pass: "The Fifth Annual Tilt International Improv Festival - SUPPORTER'S PASS"
+    festival_pass: FESTIVAL PASS
+    supporter_pass: SUPPORTER'S PASS
 
   ticket_links:
     ruutu10_mic: http://www.piletilevi.ee/eng/piletid/festival/teater/ruutu-10-est-t--r-mic-rus-123-laksime-224242/
