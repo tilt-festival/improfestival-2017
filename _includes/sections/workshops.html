@@ -6,7 +6,8 @@
 
 {% if site.workshops.size > 0 %}
     <div class="row row-equal-height">
-        {% for workshop in site.workshops %}
+        {% assign workshops = site.workshops | sort: 'start' %}
+        {% for workshop in workshops %}
         {% capture index %}{% cycle workshops:'one', 'two', 'three' %}{% endcapture %}
 
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-schedule">
