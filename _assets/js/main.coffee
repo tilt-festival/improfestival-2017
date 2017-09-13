@@ -171,3 +171,10 @@ $ ->
   # This allows linking directly to some specific modals
   if window.location.hash
     showModal window.location.hash.replace('#','')
+
+  # Mouseflow; WICKED IS GOOD
+  window._mfq = window._mfq || [];
+  mf = document.createElement("script");
+  mf.type = "text/javascript"; mf.async = true;
+  mf.src = "//cdn.mouseflow.com/projects/0493ae46-6a27-4b76-9218-e1f83dc5b29a.js";
+  document.getElementsByTagName("head")[0].appendChild(mf);
