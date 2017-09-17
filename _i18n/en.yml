@@ -32,7 +32,9 @@ map:
   performance_venue: Performance Venue
   performance_venue_address: St. Catherine's Church, Vene 14a
   workshop_venue: Workshop Venue
-  workshop_venue_address: Tallinna Rahvaülikooli Teatrikeskus, Vene 6
+  workshop_venue_address: >
+    Tallinna Rahvaülikooli Teatrikeskus (Vene 6)
+    and Hopner's house (Raekoja plats 18)
 
 month:
   january: January

@@ -7,7 +7,7 @@ name: Severin Mahncke
 country: deu
 image: workshops/severin_mahncke.jpg
 sold_out: true
-venue: vene
+venue: hopner
 ticket_url: https://gateme.com/event/82200
 ---
 

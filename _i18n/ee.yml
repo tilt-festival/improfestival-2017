@@ -38,6 +38,7 @@ month:
 venues:
   catherine: 'Katariina Kirik'
   vene: 'Rahvaülikooli Teatrikeskus'
+  hopner: 'Hopneri maja'
 
 titles:
   days_count: 3 päeva
@@ -69,7 +70,9 @@ map:
   performance_venue: Etendused
   performance_venue_address: Katariina Kirik, Vene 14a
   workshop_venue: Töötoad
-  workshop_venue_address: Tallinna Rahvaülikooli Teatrikeskus, Vene 6
+  workshop_venue_address: >
+    Tallinna Rahvaülikooli Teatrikeskus (Vene 6)
+    ja Hopneri maja (Raekoja plats 18)
 
 workshops:
   titles:
