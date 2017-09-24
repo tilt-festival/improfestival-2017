@@ -6,9 +6,9 @@ title: workshops.titles.read_the_scene_dont_write_it
 name: Flavien Reppert
 country: fra
 image: workshops/flavien_reppert.jpg
-sold_out: true
+sold_out: false
 venue: vene
-ticket_url: https://gateme.com/event/82199
+ticket_url: https://
 ---
 
 People would tend to think improv is a blank page to be filled. To Flavien,

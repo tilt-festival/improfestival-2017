@@ -6,9 +6,9 @@ title: workshops.titles.peak_performance
 name: Nick Byrne
 country: aus
 image: workshops/nick_byrne.jpg
-sold_out: true
+sold_out: false
 venue: vene
-ticket_url: https://gateme.com/event/82187
+ticket_url: https://
 ---
 
 Can we perform at our best more often? Why does everyone warm-up differently,

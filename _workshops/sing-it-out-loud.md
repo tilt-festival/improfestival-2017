@@ -8,7 +8,7 @@ country: swe
 image: workshops/victoria_bang.jpg
 sold_out: false
 venue: vene
-ticket_url: https://gateme.com/event/82203
+ticket_url: https://
 ---
 
 You love to improvise - but want to take the next step? Sing about it!

@@ -6,9 +6,9 @@ title: workshops.titles.the_tiny_glass_man
 name: Feña Ortalli 
 country: esp 
 image: workshops/fena_ortalli.jpg
-sold_out: true
+sold_out: false
 venue: vene
-ticket_url: https://gateme.com/event/82201
+ticket_url: https://
 ---
 
 Based on Gianni Rodari's "Grammatica della fantasia" chapter where he explains

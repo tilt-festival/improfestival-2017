@@ -6,9 +6,9 @@ title: workshops.titles.talking_no_talking
 name: Severin Mahncke
 country: deu
 image: workshops/severin_mahncke.jpg
-sold_out: true
+sold_out: false
 venue: hopner
-ticket_url: https://gateme.com/event/82200
+ticket_url: https://
 ---
 
 Improv actors love talking. And they love to do it in the same sized portions.

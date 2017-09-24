@@ -8,7 +8,7 @@ country: fra
 image: workshops/flavien_reppert.jpg
 sold_out: false
 venue: vene
-ticket_url: https://gateme.com/event/83690
+ticket_url: https://
 ---
 
 This workshop aims at releasing your physical creative power.

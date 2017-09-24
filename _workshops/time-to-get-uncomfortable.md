@@ -6,9 +6,9 @@ title: workshops.titles.time_to_get_uncomfortable
 name: Glenn Hall
 country: aus
 image: workshops/glenn_hall.jpg
-sold_out: true
+sold_out: false
 venue: vene
-ticket_url: https://gateme.com/event/82202
+ticket_url: https://
 ---
 
 Improvisation is everything we have been, everything we are and everything
