@@ -10,7 +10,7 @@ node_js:
 before_install:
   - bundle install
   - npm install -g bower cli-real-favicon
-  - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
+  - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
   - bower install
 
 script:
