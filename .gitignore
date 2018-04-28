@@ -9,6 +9,6 @@ vendor/
 android-chrome-*.png
 browserconfig.xml
 favicon*
-manifest.json
+site.webmanifest
 mstile-*.png
 safari-pinned-tab.svg
