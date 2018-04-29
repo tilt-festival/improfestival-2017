@@ -22,9 +22,9 @@ script:
   - bundle exec scss-lint _assets/css
 
   - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH | tr / - ; fi`
-  - docker build -t improvjaa/improfestival-2017:$TAG .
-  - docker push improvjaa/improfestival-2017:$TAG
-  - docker rmi improvjaa/improfestival-2017:$TAG
+  - docker build -t tiltfestival/improfestival-2017:$TAG .
+  - docker push tiltfestival/improfestival-2017:$TAG
+  - docker rmi tiltfestival/improfestival-2017:$TAG
 
 after_script:
   - docker logout

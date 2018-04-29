@@ -1,10 +1,10 @@
 # Improfestival "Tilt" 2017 homepage
 
-[![Travis branch](https://img.shields.io/travis/improv-jaa/improfestival-2017/develop.svg?maxAge=2592000)](https://travis-ci.org/improv-jaa/improfestival-2017)
+[![Travis branch](https://img.shields.io/travis/tilt-festival/improfestival-2017/develop.svg?maxAge=2592000)](https://travis-ci.org/tilt-festival/improfestival-2017)
 [![
- branch](https://img.shields.io/scrutinizer/g/improv-jaa/improfestival-2017/develop.svg?maxAge=2592000)](https://scrutinizer-ci.com/g/improv-jaa/improfestival-2017/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/improvjaa/improfestival-2017.svg?maxAge=2592000)](https://hub.docker.com/r/improvjaa/improfestival-2017/)
-[![GitHub release](https://img.shields.io/github/release/improv-jaa/improfestival-2017.svg?maxAge=2592000)](https://github.com/improv-jaa/improfestival-2017/releases)
+ branch](https://img.shields.io/scrutinizer/g/tilt-festival/improfestival-2017/develop.svg?maxAge=2592000)](https://scrutinizer-ci.com/g/tilt-festival/improfestival-2017/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/tiltfestival/improfestival-2017.svg?maxAge=2592000)](https://hub.docker.com/r/tiltfestival/improfestival-2017/)
+[![GitHub release](https://img.shields.io/github/release/tilt-festival/improfestival-2017.svg?maxAge=2592000)](https://github.com/tilt-festival/improfestival-2017/releases)
 
 This is the homepage for the 4th [international improv festival Tilt](https://improfestival.ee) (2017).
 
@@ -17,11 +17,11 @@ For every change, a new "deployment" needs to happen before the changed content 
 
 To change something within the website:
 
-- Make the desired change on the [develop branch](https://github.com/improv-jaa/improfestival-2017/tree/develop) _(only for people who are members of the organization)_
+- Make the desired change on the [develop branch](https://github.com/tilt-festival/improfestival-2017/tree/develop) _(only for people who are members of the organization)_
 - Create a [pull request](https://guides.github.com/activities/hello-world/#pr) from `develop` to `master` branch
 - The change will automatically be deployed to the live environment [2017.improfestival.ee](https://2017.improfestival.ee) once the pull request is merged
 
-Each change automatically triggers a [Travis build](https://travis-ci.org/improv-jaa/improfestival-2017/builds), which will build a new version of the site's Docker image and checks for coding errors.
+Each change automatically triggers a [Travis build](https://travis-ci.org/tilt-festival/improfestival-2017/builds), which will build a new version of the site's Docker image and checks for coding errors.
 The build takes about ~2...5 minutes. If the build fails see Travis logs for an error and fix the problem.
 
 ### Folder Structure
@@ -115,7 +115,7 @@ Add an image to `_assets/img/` folder. Before adding the image, ensure that the 
 Run the image:
 
 ```
-docker run -p 80:80 improvjaa/improfestival-2017
+docker run -p 80:80 tiltfestival/improfestival-2017
 ```
 
 This will start a Nginx webserver image listening on port 80.
