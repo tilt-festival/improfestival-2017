@@ -1,0 +1,9 @@
+User-Agent: *
+Allow: /
+
+# These URL-s do not have a HTML layout, they are only partial HTMLa
+Disallow: */performances/
+Disallow: */workshops/
+Disallow: */team/
+
+Sitemap: https://improfestival.ee/sitemap.xml

@@ -1,6 +1,0 @@
-linters:
-  SelectorDepth:
-    max_depth: 4
-  NestingDepth:
-    max_depth: 5
-exclude: '_assets/css/_icons.scss'
